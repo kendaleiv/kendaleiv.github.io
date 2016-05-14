@@ -549,3 +549,15 @@ table tr th :last-child,
 table tr td :last-child {
   margin-bottom: 0;
 }
+
+/* --- speaking.html --- */
+
+.speaking-engagements td {
+  font-size: 15px;
+}
+.speaking-engagements td:first-child, .speaking-engagements td:nth-child(2) {
+  white-space: nowrap;
+}
+.speaking-engagements td:nth-child(3) {
+  word-break: keep-all;
+}
