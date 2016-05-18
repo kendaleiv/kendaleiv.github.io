@@ -555,9 +555,10 @@ table tr td :last-child {
 .speaking-engagements td {
   font-size: 15px;
 }
-.speaking-engagements td:first-child, .speaking-engagements td:nth-child(2) {
+.speaking-engagements td:first-child {
   white-space: nowrap;
 }
-.speaking-engagements td:nth-child(3) {
-  word-break: keep-all;
+.speaking-engagements .location {
+  font-size: 12px;
+  font-style: italic;
 }
