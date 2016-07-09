@@ -550,6 +550,29 @@ table tr td :last-child {
   margin-bottom: 0;
 }
 
+/* --- projects.html --- */
+
+.projects td {
+  font-size: 12px;
+}
+
+.projects td:first-child img {
+  width: 150px;
+}
+
+.projects td:last-child {
+  width: 150px;
+}
+
+.core-contributor td:first-child,
+.chocolatey-packages td:nth-child(2) {
+  font-size: 15px;
+}
+
+.chocolatey-packages td:first-child {
+  width: 75px;
+}
+
 /* --- speaking.html --- */
 
 .speaking-engagements td {
