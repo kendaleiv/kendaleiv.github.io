@@ -26,6 +26,7 @@ description: "Jesus follower, software developer, musician, speaker, my rice coo
 
 # List of links in the navigation bar
 navbar-links:
+  Blog: ""
   About Me: "about"
   Projects: "projects"
   Speaking: "speaking"
