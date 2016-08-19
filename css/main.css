@@ -564,6 +564,14 @@ table tr td :last-child {
   width: 150px;
 }
 
+.projects td:last-child a img {
+  margin-bottom: 5px;
+}
+
+.projects td:last-child a:last-of-type img {
+  margin-bottom: 0;
+}
+
 .core-contributor td:first-child,
 .chocolatey-packages td:nth-child(2) {
   font-size: 15px;
