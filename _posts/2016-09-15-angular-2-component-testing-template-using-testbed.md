@@ -4,10 +4,9 @@ title: Angular 2 Component Testing Template Using TestBed
 tags: angular2 testing
 ---
 
-`TestBed` was introduced by Angular 2 rc.5. Here's a template for using `TestBed` to test Angular 2 components:
+Below is a template for using `TestBed` to test Angular 2 components. Let me know in the comments if I've missed something noteworthy!
 
 ```typescript
-// import { provide } from '@angular/core';
 import { async, TestBed } from '@angular/core/testing';
 
 import { SomeComponent } from './some.component';
@@ -21,7 +20,7 @@ beforeEach(() => {
       // HttpModule, etc.
     ],
     providers: [
-      // provide(ServiceA, { useClass: TestServiceA })
+      // { provide: ServiceA, useClass: TestServiceA }
     ]
   });
 });
