@@ -52,3 +52,5 @@ it('should do something', async(() => {
   });
 }));
 ```
+
+For a template showing `MockBackend` usage while testing a service with `TestBed`, see [Angular 2 MockBackend Service Testing Template Using TestBed]({% post_url 2016-10-18-angular-2-mockbackend-service-testing-template-using-testbed %}).

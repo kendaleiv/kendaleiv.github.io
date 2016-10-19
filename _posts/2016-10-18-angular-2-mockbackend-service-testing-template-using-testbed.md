@@ -67,4 +67,4 @@ For a working example see [https://github.com/kendaleiv/angular2-testing/blob/ma
 
 --
 
-If you're interested, check out [Angular 2 Component Testing Template Using TestBed]({% post_url 2016-09-15-angular-2-component-testing-template-using-testbed %}).
+If you're interested, check out [Angular 2 Component Testing Template Using TestBed]({% post_url 2016-10-18-angular-2-component-testing-template-using-testbed %}).
