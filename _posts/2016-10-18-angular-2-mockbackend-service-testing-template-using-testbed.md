@@ -44,7 +44,7 @@ describe('SomeService (Mocked)', () => {
       color: 'blue'
     };
 
-    it('should parse response from endpoint', async(inject(
+    it('should parse response', async(inject(
       [SomeService, MockBackend], (service, mockBackend) => {
 
       mockBackend.connections.subscribe(conn => {
