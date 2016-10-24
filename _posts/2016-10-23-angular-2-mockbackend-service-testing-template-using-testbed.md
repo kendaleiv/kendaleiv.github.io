@@ -4,7 +4,9 @@ title: Angular 2 MockBackend Service Testing Template Using TestBed
 tags: angular2 testing
 ---
 
-Below is a template for using `TestBed` and `MockBackend` for mocking Angular 2 HTTP calls. Let me know in the comments if I've missed something noteworthy!
+Below is a template for using `TestBed` and `MockBackend` for mocking Angular 2 HTTP calls.
+
+If you want to make *actual* wire calls, see [Angular 2 Services Testing Template]({% post_url 2016-10-23-angular-2-services-testing-template %}) instead.
 
 ```typescript
 import { async, inject, TestBed } from '@angular/core/testing';
