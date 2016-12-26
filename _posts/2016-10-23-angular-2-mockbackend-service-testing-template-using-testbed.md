@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Angular 2 MockBackend Service Testing Template Using TestBed
-tags: angular2 testing
+tags: angular testing
 ---
 
 Below is a template for using `TestBed` and `MockBackend` for mocking Angular 2 HTTP calls.

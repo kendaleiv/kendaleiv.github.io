@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Angular 2 Component Testing Template Using TestBed
-tags: angular2 testing
+tags: angular testing
 ---
 
 Below is a template for using `TestBed` to test Angular 2 components. Let me know in the comments if I've missed something noteworthy!

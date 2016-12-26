@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Angular 2 Services Testing Template
-tags: angular2 testing
+tags: angular testing
 ---
 
 Here's a simple template for testing Angular 2 services.
