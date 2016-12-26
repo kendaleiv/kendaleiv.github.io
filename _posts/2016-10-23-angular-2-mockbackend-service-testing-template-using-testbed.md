@@ -65,7 +65,7 @@ describe('SomeService (Mocked)', () => {
 });
 ```
 
-For a working example see [https://github.com/kendaleiv/angular2-testing/blob/master/src/app/stock-retriever.service.spec.ts](https://github.com/kendaleiv/angular2-testing/blob/master/src/app/stock-retriever.service.spec.ts).
+For a working example see [https://github.com/kendaleiv/angular-testing/blob/master/src/app/stock-retriever.service.spec.ts](https://github.com/kendaleiv/angular-testing/blob/master/src/app/stock-retriever.service.spec.ts).
 
 --
 
