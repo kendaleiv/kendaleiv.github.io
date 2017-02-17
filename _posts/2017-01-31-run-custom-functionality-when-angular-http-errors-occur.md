@@ -13,7 +13,9 @@ You can achieve that by extending `Http`.
 ```typescript
 import { Injectable } from '@angular/core';
 import { ConnectionBackend, Http, Request, RequestOptions, RequestOptionsArgs, Response } from '@angular/http';
-import { Observable } from 'rxjs';
+import { Observable } from 'rxjs/Observable';
+
+import 'rxjs/add/operator/catch';
 
 @Injectable()
 export class CustomHttpService extends Http {

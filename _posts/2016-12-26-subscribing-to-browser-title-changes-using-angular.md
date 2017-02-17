@@ -15,7 +15,7 @@ If you like the pattern of subscribing to changes (as you might be, if you're us
 
 import { Injectable } from '@angular/core';
 import { Title } from '@angular/platform-browser';
-import { BehaviorSubject } from 'rxjs';
+import { BehaviorSubject } from 'rxjs/BehaviorSubject';
 
 @Injectable()
 export class SubscribableTitleService {
