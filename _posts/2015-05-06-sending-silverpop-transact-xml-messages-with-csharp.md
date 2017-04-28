@@ -4,7 +4,7 @@ title: 'Sending Silverpop Transact XML Messages with C#'
 tags: silverpop transact email csharp
 ---
 
-[Silverpop](http://www.silverpop.com/) is an marketing service that includes email marketing -- both for sending *normal* email campaign messages, as well as sending transactional emails. This transactional emailing is referred to as [Silverpop Transact](http://www.silverpop.com/Software/Engage-Apps/Apps/Transact/), which has an XML API available. These transactional messages could be sent as the result of a web application action, such as a new user registration.
+[Silverpop](https://www.silverpop.com/) is an marketing service that includes email marketing -- both for sending *normal* email campaign messages, as well as sending transactional emails. This transactional emailing is referred to as [Silverpop Transact](https://www.silverpop.com/Software/Engage-Apps/Apps/Transact/), which has an XML API available. These transactional messages could be sent as the result of a web application action, such as a new user registration.
 
 You can communicate directly with the XML API yourself. Alternatively, you can use the open source [Silverpop .NET API](https://github.com/ritterim/silverpop-dotnet-api) wrapper, which is demonstrated below.
 
@@ -34,8 +34,8 @@ Messages can also include personalization tags, for adding dynamic content to em
 
 ## In closing
 
-Using the [Silverpop .NET API](https://github.com/ritterim/silverpop-dotnet-api) should get you moving quickly, without having to understand the details of working with the [Silverpop Transact](http://www.silverpop.com/Software/Engage-Apps/Apps/Transact/) XML API. It's open source software, too!
+Using the [Silverpop .NET API](https://github.com/ritterim/silverpop-dotnet-api) should get you moving quickly, without having to understand the details of working with the [Silverpop Transact](https://www.silverpop.com/Software/Engage-Apps/Apps/Transact/) XML API. It's open source software, too!
 
-**Note:** The [Silverpop .NET API](https://github.com/ritterim/silverpop-dotnet-api) is not sponsored by or affiliated with [Silverpop](http://www.silverpop.com/).
+**Note:** The [Silverpop .NET API](https://github.com/ritterim/silverpop-dotnet-api) is not sponsored by or affiliated with [Silverpop](https://www.silverpop.com/).
 
 **Disclosure:** I'm a contributor for the [Silverpop .NET API](https://github.com/ritterim/silverpop-dotnet-api), developed for and to support [Ritter Insurance Marketing](https://www.ritterim.com/).
