@@ -28,7 +28,7 @@ Add the following to your settings, accessible by **File &rarr; Preferences &rar
 }
 ```
 
-With the activity bar hidden, toggle **Explorer** using <kbd>Ctrl + Alt + E</kbd> and **Search** using <kbd>Ctrl + Alt + F</kbd>.
+With the activity bar hidden, toggle **Explorer** using <kbd>Ctrl + Shift + E</kbd> and **Search** using <kbd>Ctrl + Shift + F</kbd>.
 
 Press <kbd>Alt</kbd> to reveal the menu bar.
 
