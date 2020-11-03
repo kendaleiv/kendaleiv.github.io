@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Trimming Down the Visual Studio 2013 UI
-tags: visual studio ui
+tags: visual-studio ui
 ---
 
 Here's Visual Studio Community 2013 General settings defaults:
