@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Rate Limiting Operations Per Second With SemaphoreSlim Using C#
+title: Limiting Concurrent Operations With SemaphoreSlim Using C#
 tags: dotnet
 ---
 
-If you're looking to limit the number of operations per second but maintain as high throughput as possible [`SemaphoreSlim`](https://docs.microsoft.com/en-us/dotnet/api/system.threading.semaphoreslim) can help! For instance, this could help maintain a consistent flow of HTTP requests to an external API during a bulk processing operation -- respecting the limits of the external API to not potentially overwhelm it with too many concurrent requests.
+If you're looking to limit the number of concurrent operations but maintain as high throughput as possible [`SemaphoreSlim`](https://docs.microsoft.com/en-us/dotnet/api/system.threading.semaphoreslim) can help! For instance, this could help maintain a consistent flow of HTTP requests to an external API during a bulk processing operation -- respecting the limits of the external API to not potentially overwhelm it with too many concurrent requests.
 
 ## Example
 
@@ -16,11 +16,11 @@ namespace MyApp
 {
     public class MyService
     {
-        private const int MaximumTransactionsPerSecond = 10;
+        private const int MaximumConcurrentOperations = 10;
 
         private static readonly SemaphoreSlim RateLimit = new SemaphoreSlim(
-            initialCount: MaximumTransactionsPerSecond,
-            maxCount: MaximumTransactionsPerSecond);
+            initialCount: MaximumConcurrentOperations,
+            maxCount: MaximumConcurrentOperations);
 
         public async Task Process()
         {
@@ -113,4 +113,4 @@ However, if the `SemaphoreSlim` is changed to `new SemaphoreSlim(initialCount: 1
 
 ## Summary
 
-Rate limiting using `SemaphoreSlim` can help avoid overwhelming external services with too many concurrent requests while maintaining high throughput and staying within allowable operations per second.
+Rate limiting using `SemaphoreSlim` can help avoid overwhelming external services with too many concurrent requests while maintaining high throughput.
