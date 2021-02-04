@@ -15,14 +15,14 @@ using System;
 
 public class Program
 {
-	public static void Main()
-	{
+    public static void Main()
+    {
         // Uses LazyThreadSafetyMode.ExecutionAndPublication
         // See https://github.com/dotnet/corefx/blob/b8b81a66738bb10ef0790023598396861d92b2c4/src/Common/src/CoreLib/System/Lazy.cs#L240
-		var lazyString = new Lazy<string>(() => "abc");
+        var lazyString = new Lazy<string>(() => "abc");
 
-		Console.WriteLine(lazyString.Value); // abc
-	}
+        Console.WriteLine(lazyString.Value); // abc
+    }
 }
 ```
 
