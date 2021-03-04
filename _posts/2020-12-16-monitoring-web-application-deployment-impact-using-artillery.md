@@ -36,4 +36,4 @@ If any non-success status codes were returned, like 500, they'd show up here. Th
 
 ## Global install
 
-If you're frequently running Artillery you may want to globally install it via `npm install -g artillery`, rather than use `npx` each time. After it's globally installed you can omit the `npx` from the above commands.
+If you're frequently running Artillery you may want to globally install it via `npm install -g artillery`, rather than use `npx` each time. After it's globally installed you can omit `npx` from the above command.
