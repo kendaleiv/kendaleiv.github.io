@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Prevent Duplicate Invocations of Durable Functions Using Azure Functions With C#
-tags: dotnet
+tags: azure-functions durable-functions dotnet
 ---
 
 [Durable Functions](https://docs.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-overview) is an extension for [Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-overview) to help write stateful services in a stateless environment. **When starting a new process, you may want to verify it isn't already running by checking the list of in-flight Durable Functions with some custom logic.**
