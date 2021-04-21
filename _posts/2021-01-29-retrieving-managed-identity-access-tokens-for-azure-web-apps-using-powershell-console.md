@@ -12,14 +12,14 @@ This is adapted from [https://techcommunity.microsoft.com/t5/azure-developer-com
 
 ## Code
 
-Update the resource url from `https://example.org/` to your resource below and paste this into a PowerShell prompt:
+Update the resource of `https://management.azure.com/` as needed for your use case and paste into a PowerShell prompt:
 
 ```powershell
 $ProgressPreference="SilentlyContinue"
 $secret = (get-item env:MSI_SECRET).value
 $endpoint = (get-item env:MSI_ENDPOINT).value
 $headers = @{Secret = "$($secret)"}
-$req=Invoke-WebRequest -UseBasicParsing -Uri "$($endpoint)?api-version=2017-09-01&resource=https://example.org/" -Headers $headers|ConvertFrom-JSON
+$req=Invoke-WebRequest -UseBasicParsing -Uri "$($endpoint)?api-version=2017-09-01&resource=https://management.azure.com/" -Headers $headers|ConvertFrom-JSON
 $req
 $req.access_token
 ```
