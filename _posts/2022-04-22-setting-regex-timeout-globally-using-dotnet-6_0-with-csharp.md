@@ -4,16 +4,16 @@ title: Setting Regex Timeout Globally Using .NET 6.0 With C#
 tags: dotnet
 ---
 
-.NET 6.0 allows the global regular expression (regex) timeout to be configured. By default, the global timeout is [`Regex.InfiniteMatchTimeout`](https://docs.microsoft.com/en-us/dotnet/api/system.text.regularexpressions.regex.infinitematchtimeout?view=net-6.0) and regex operations will run until completion.
+.NET 6.0 allows the global regular expression (regex) timeout to be configured. By default, the global timeout is [`Regex.InfiniteMatchTimeout`](https://learn.microsoft.com/en-us/dotnet/api/system.text.regularexpressions.regex.infinitematchtimeout?view=net-6.0) and regex operations will run until completion.
 
-If a timeout is exceeded [`System.Text.RegularExpressions.RegexMatchTimeoutException`](https://docs.microsoft.com/en-us/dotnet/api/system.text.regularexpressions.regexmatchtimeoutexception?view=net-6.0) will be thrown.
+If a timeout is exceeded [`System.Text.RegularExpressions.RegexMatchTimeoutException`](https://learn.microsoft.com/en-us/dotnet/api/system.text.regularexpressions.regexmatchtimeoutexception?view=net-6.0) will be thrown.
 
 ## Setting the global regex timeout
 
 This will set the default regex timeout to 2 seconds:
 
 ```csharp
-// https://docs.microsoft.com/en-us/dotnet/api/system.text.regularexpressions.regex.matchtimeout?view=net-6.0#remarks
+// https://learn.microsoft.com/en-us/dotnet/api/system.text.regularexpressions.regex.matchtimeout?view=net-6.0#remarks
 AppDomain.CurrentDomain.SetData("REGEX_DEFAULT_MATCH_TIMEOUT", TimeSpan.FromSeconds(2));
 ```
 

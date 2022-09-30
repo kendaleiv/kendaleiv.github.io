@@ -4,11 +4,11 @@ title: Retrieving ObjectIds In An Azure Active Directory Group Using Azure CLI
 tags: azure azure-cli
 ---
 
-Using [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/) we can retrieve a list of objectIds in a Azure Active Directory group.
+Using [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/) we can retrieve a list of objectIds in a Azure Active Directory group.
 
 ## Setup
 
-[Install the Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli) if it's not already installed.
+[Install the Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli) if it's not already installed.
 
 If you aren't currently logged in with Azure CLI run:
 

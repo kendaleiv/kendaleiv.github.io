@@ -29,7 +29,7 @@ new URLSearchParams(`https://example.com?q=${encodeURIComponent('peas&carrots')}
 
 The `&` was transformed to `%26`, making it safe for a url.
 
-For non-JavaScript cases follow the guidance of your specific use case. For example, with ASP.NET (both .NET Framework and .NET Core) you can use [`WebUtility.UrlEncode(string)`](https://docs.microsoft.com/en-us/dotnet/api/system.net.webutility.urlencode).
+For non-JavaScript cases follow the guidance of your specific use case. For example, with ASP.NET (both .NET Framework and .NET Core) you can use [`WebUtility.UrlEncode(string)`](https://learn.microsoft.com/en-us/dotnet/api/system.net.webutility.urlencode).
 
 ## Note
 

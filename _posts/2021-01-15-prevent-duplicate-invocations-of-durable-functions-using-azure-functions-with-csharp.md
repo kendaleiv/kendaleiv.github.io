@@ -4,9 +4,9 @@ title: Prevent Duplicate Invocations of Durable Functions Using Azure Functions 
 tags: azure-functions durable-functions dotnet
 ---
 
-[Durable Functions](https://docs.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-overview) is an extension for [Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-overview) to help write stateful services in a stateless environment. **When starting a new process, you may want to verify it isn't already running by checking the list of in-flight Durable Functions with some custom logic.**
+[Durable Functions](https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-overview) is an extension for [Azure Functions](https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview) to help write stateful services in a stateless environment. **When starting a new process, you may want to verify it isn't already running by checking the list of in-flight Durable Functions with some custom logic.**
 
-Durable Functions includes functionality to [Query all instances](https://docs.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-instance-management?tabs=csharp#query-all-instances) which can help us.
+Durable Functions includes functionality to [Query all instances](https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-instance-management?tabs=csharp#query-all-instances) which can help us.
 
 **Note:** With many in-flight Durable Functions this approach could be problematic by needing to query many pages of results.
 

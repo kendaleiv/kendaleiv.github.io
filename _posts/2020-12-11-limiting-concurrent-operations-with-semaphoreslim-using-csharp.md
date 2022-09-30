@@ -4,7 +4,7 @@ title: Limiting Concurrent Operations With SemaphoreSlim Using C#
 tags: dotnet
 ---
 
-If you're looking to limit the number of concurrent operations but maintain as high throughput as possible [`SemaphoreSlim`](https://docs.microsoft.com/en-us/dotnet/api/system.threading.semaphoreslim) can help! For instance, this could help maintain a consistent flow of HTTP requests to an external API during a bulk processing operation -- respecting the limits of the external API to not potentially overwhelm it with too many concurrent requests.
+If you're looking to limit the number of concurrent operations but maintain as high throughput as possible [`SemaphoreSlim`](https://learn.microsoft.com/en-us/dotnet/api/system.threading.semaphoreslim) can help! For instance, this could help maintain a consistent flow of HTTP requests to an external API during a bulk processing operation -- respecting the limits of the external API to not potentially overwhelm it with too many concurrent requests.
 
 ## Example
 

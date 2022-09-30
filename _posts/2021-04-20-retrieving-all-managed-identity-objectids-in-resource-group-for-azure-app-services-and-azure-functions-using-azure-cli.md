@@ -4,11 +4,11 @@ title: Retrieving All Managed Identity ObjectIds In Resource Group For Azure App
 tags: azure azure-cli
 ---
 
-If you're working with Azure App Services, Azure Functions, or perhaps another Azure service that implements [managed identity](https://docs.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/) in the same way it can be useful to get a list of the object ids for an entire resource group. **One way we can accomplish this is using the [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/).**
+If you're working with Azure App Services, Azure Functions, or perhaps another Azure service that implements [managed identity](https://learn.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/) in the same way it can be useful to get a list of the object ids for an entire resource group. **One way we can accomplish this is using the [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/).**
 
 ## Setup
 
-[Install the Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli) if it's not already installed.
+[Install the Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli) if it's not already installed.
 
 If you aren't currently logged in with Azure CLI run:
 

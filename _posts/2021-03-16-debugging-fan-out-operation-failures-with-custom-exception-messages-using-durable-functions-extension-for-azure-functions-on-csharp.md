@@ -4,7 +4,7 @@ title: Debugging Fan-Out Operation Failures With Custom Exception Messages Using
 tags: azure-functions durable-functions
 ---
 
-[Durable Functions](https://docs.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-overview) is an extension for [Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-overview) to help write stateful services in a stateless environment. There's an orchestration pattern named [Fan out/fan in](https://docs.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-overview?tabs=csharp#fan-in-out) that can be helpful for contacting a number of external services and waiting for their replies. **When one or more of these services throws an exception (for instance, calling `EnsureSuccessStatusCode()` on the response) it can be difficult to determine which service or services are having problems.**
+[Durable Functions](https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-overview) is an extension for [Azure Functions](https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview) to help write stateful services in a stateless environment. There's an orchestration pattern named [Fan out/fan in](https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-overview?tabs=csharp#fan-in-out) that can be helpful for contacting a number of external services and waiting for their replies. **When one or more of these services throws an exception (for instance, calling `EnsureSuccessStatusCode()` on the response) it can be difficult to determine which service or services are having problems.**
 
 See the following:
 
