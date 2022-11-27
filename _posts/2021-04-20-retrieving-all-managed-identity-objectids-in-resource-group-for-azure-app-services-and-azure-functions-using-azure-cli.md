@@ -13,13 +13,13 @@ If you're working with Azure App Services, Azure Functions, or perhaps another A
 If you aren't currently logged in with Azure CLI run:
 
 ```
-> az login
+az login
 ```
 
 Next, switch to the subscription you want to target. Alternatively, pass the `--subscription` parameter as needed when retrieving objectIds.
 
 ```
-> az account set --subscription name_or_id_of_subscription
+az account set --subscription name_or_id_of_subscription
 ```
 
 ## Retrieving ObjectIds
@@ -27,7 +27,7 @@ Next, switch to the subscription you want to target. Alternatively, pass the `--
 Now, you're ready to get the objectIds!
 
 ```
-> az resource list -g myresourcegroup --query "[?identity!=null].{name: name, objectIds: identity.principalId}" --output table
+az resource list -g myresourcegroup --query "[?identity!=null].{name: name, objectIds: identity.principalId}" --output table
 Name                      ObjectIds
 ------------------------  ------------------------------------
 myservice-eastus          00000000-0000-0000-0000-000000000001
@@ -39,7 +39,7 @@ myservice-westus/staging  00000000-0000-0000-0000-000000000004
 If you're looking for a comma separated value:
 
 ```
-> az resource list -g myresourcegroup --query "[?identity!=null].identity.principalId | {objectIds: join(',', @)}"
+az resource list -g myresourcegroup --query "[?identity!=null].identity.principalId | {objectIds: join(',', @)}"
 {
   "objectIds": "00000000-0000-0000-0000-000000000001,00000000-0000-0000-0000-000000000003,00000000-0000-0000-0000-000000000002,00000000-0000-0000-0000-000000000004"
 }

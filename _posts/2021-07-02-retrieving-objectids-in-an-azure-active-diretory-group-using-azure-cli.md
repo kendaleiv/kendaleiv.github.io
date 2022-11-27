@@ -13,7 +13,7 @@ Using [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/) we can retrieve 
 If you aren't currently logged in with Azure CLI run:
 
 ```
-> az login
+az login
 ```
 
 ## Retrieving ObjectIds
@@ -21,7 +21,7 @@ If you aren't currently logged in with Azure CLI run:
 Now, you're ready to get the objectIds!
 
 ```
-> az ad group member list --group "GROUP_NAME_HERE" --query "[].{displayName: displayName, userPrincipalName: userPrincipalName, objectId: objectId}" --output table
+az ad group member list --group "GROUP_NAME_HERE" --query "[].{displayName: displayName, userPrincipalName: userPrincipalName, objectId: objectId}" --output table
 DisplayName  UserPrincipalName  ObjectId
 -----------  -----------------  ------------------------------------
 Test User 1  test1@example.com  00000000-0000-0000-0000-000000000001
@@ -31,7 +31,7 @@ Test User 2  test2@example.com  00000000-0000-0000-0000-000000000002
 If you're looking for a comma separated value:
 
 ```
-> az ad group member list --group "GROUP_NAME_HERE" --query "[].objectId | {objectIds: join(',', @)}"
+az ad group member list --group "GROUP_NAME_HERE" --query "[].objectId | {objectIds: join(',', @)}"
 {
   "objectIds": "00000000-0000-0000-0000-000000000001,00000000-0000-0000-0000-000000000002"
 }

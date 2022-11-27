@@ -11,16 +11,16 @@ Pull request contributions are awesome. But, sometimes prior to merge there's a 
 Here's a few commands to get you on your way. Note that `REMOTE_NAME` refers to the name of the new remote being added. This can be anything. You may want to make it their GitHub username, or something else.
 
 ```
-> git remote add REMOTE_NAME CONTRIBUTOR_REPOSITORY_URL
-> git fetch REMOTE_NAME
-> git checkout -b REMOTE_NAME-the-pull-request-branch REMOTE_NAME/the-pull-request-branch
-> git checkout -b suggestions-for-the-pull-request
+git remote add REMOTE_NAME CONTRIBUTOR_REPOSITORY_URL
+git fetch REMOTE_NAME
+git checkout -b REMOTE_NAME-the-pull-request-branch REMOTE_NAME/the-pull-request-branch
+git checkout -b suggestions-for-the-pull-request
 ```
 
 Make and commit any changes, then:
 
 ```
-> git push origin suggestions-for-the-pull-request
+git push origin suggestions-for-the-pull-request
 ```
 
 Now, create a pull request on GitHub, targeting the fork and branch the contributor made their pull request from.

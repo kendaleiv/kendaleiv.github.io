@@ -7,7 +7,7 @@ tags: azure powershell
 ## Quick summary
 
 ```powershell
-> Get-AzureADObjectByObjectId -ObjectIds 00000000-0000-0000-0000-000000000000
+Get-AzureADObjectByObjectId -ObjectIds 00000000-0000-0000-0000-000000000000
 ```
 
 Comma delimit for multiples.

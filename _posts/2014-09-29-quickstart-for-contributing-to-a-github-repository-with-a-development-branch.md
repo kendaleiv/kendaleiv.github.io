@@ -13,9 +13,9 @@ First, fork the [kendaleiv/development-branch-master-as-default](https://github.
 Next, run the following:
 
 ```
-> git clone git@github.com:your-username-here/development-branch-master-as-default.git
-> cd .\development-branch-master-as-default
-> git branch
+git clone git@github.com:your-username-here/development-branch-master-as-default.git
+cd .\development-branch-master-as-default
+git branch
 ```
 
 Git will only setup the GitHub defined default branch locally during the clone process. If `git branch` reports your current branch is *development* (the starred branch is the current branch), you're good to start committing against *development*. If that is the case, you may want to set the *upstream* remote at this time, too.
@@ -23,9 +23,9 @@ Git will only setup the GitHub defined default branch locally during the clone p
 If your current branch is *master*, run the following:
 
 ```
-> git remote add upstream git@github.com:kendaleiv/development-branch-development-as-default.git
-> git fetch upstream
-> git checkout -b development upstream/development
+git remote add upstream git@github.com:kendaleiv/development-branch-development-as-default.git
+git fetch upstream
+git checkout -b development upstream/development
 ```
 
 You should now be on the *development* branch locally.

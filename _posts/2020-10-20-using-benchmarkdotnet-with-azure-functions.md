@@ -86,8 +86,8 @@ namespace FunctionAppBenchmark
 Build and run the **Release** build:
 
 ```
-> dotnet build -c Release
-> dotnet .\tests\FunctionAppBenchmark\bin\Release\netcoreapp3.1\FunctionAppBenchmark.dll
+dotnet build -c Release
+dotnet .\tests\FunctionAppBenchmark\bin\Release\netcoreapp3.1\FunctionAppBenchmark.dll
 ```
 
 which produces the following:
