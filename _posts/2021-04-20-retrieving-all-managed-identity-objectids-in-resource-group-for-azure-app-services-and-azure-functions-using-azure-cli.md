@@ -28,6 +28,9 @@ Now, you're ready to get the objectIds!
 
 ```
 az resource list -g myresourcegroup --query "[?identity!=null].{name: name, objectIds: identity.principalId}" --output table
+```
+
+```
 Name                      ObjectIds
 ------------------------  ------------------------------------
 myservice-eastus          00000000-0000-0000-0000-000000000001
@@ -40,6 +43,9 @@ If you're looking for a comma separated value:
 
 ```
 az resource list -g myresourcegroup --query "[?identity!=null].identity.principalId | {objectIds: join(',', @)}"
+```
+
+```
 {
   "objectIds": "00000000-0000-0000-0000-000000000001,00000000-0000-0000-0000-000000000003,00000000-0000-0000-0000-000000000002,00000000-0000-0000-0000-000000000004"
 }
