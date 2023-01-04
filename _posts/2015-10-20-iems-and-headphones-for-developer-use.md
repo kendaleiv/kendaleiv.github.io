@@ -15,15 +15,7 @@ Some important factors I see for developers choosing IEMs (in-ears monitors) or 
 
 ## Isolation
 
-If your primary goal is blocking outside noise, you'll want to examine the isolation capabilities of your device.
-
-Check out this graph courtesy of [http://www.headphone.com/pages/build-a-graph](http://www.headphone.com/pages/build-a-graph):
-
-!["Isolation Response with Pink Noise Input to Monitor" comparison image](http://graphs.headphone.com/graphCompare.php?graphType=6&graphID[]=1273&graphID[]=533&graphID[]=3421&graphID[]=3121&scale=30)
-
-Look at the dramatic difference between different devices -- **a 3dB decrease is a halving of volume!**
-
-The **Etymotic hf5** is an IEM. The **Sennheiser HD280 Pro** and **Bose QC3** are headphones, with the latter having active noise cancellation . The **Apple Stock Bud New** is included for comparison.
+If your primary goal is blocking outside noise, you'll want to examine the isolation capabilities of your device. **A 3dB decrease of ambient noise is a halving of volume!**
 
 This might be obvious, but too much isolation *could* be a problem, if you want to hear certain things *(teammates chatting, alarms, etc.)*.
 
