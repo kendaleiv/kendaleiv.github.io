@@ -4,7 +4,7 @@ title: Angular 2 Component Testing Template Using TestBed
 tags: angular testing
 ---
 
-Below is a template for using `TestBed` to test Angular 2 components. Let me know in the comments if I've missed something noteworthy!
+Below is a template for using `TestBed` to test Angular 2 components.
 
 ```typescript
 import { async, TestBed } from '@angular/core/testing';

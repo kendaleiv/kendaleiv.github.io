@@ -34,6 +34,4 @@ Press <kbd>Alt</kbd> to reveal the menu bar.
 
 Note that this specifies the **Default Light+** color theme, which you can omit or change.
 
-Let me know in the comments if you have any suggestions for improvements!
-
 **Note:** This is targeting Visual Studio Code version `1.14.2`.

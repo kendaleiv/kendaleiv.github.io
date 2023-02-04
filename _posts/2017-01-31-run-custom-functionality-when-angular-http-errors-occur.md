@@ -72,5 +72,3 @@ export function customHttpFactory(backend: XHRBackend, options: RequestOptions) 
 })
 export class AppModule { }
 ```
-
-Let me know in the comments what you build with this!

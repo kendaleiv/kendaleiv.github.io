@@ -83,7 +83,3 @@ console.log(person.name); // John Doe
 ```
 
 Alternatively, the constructor could accept and work with an object instead, as suggested in [https://github.com/Microsoft/TypeScript/issues/3895#issuecomment-122046396](https://github.com/Microsoft/TypeScript/issues/3895#issuecomment-122046396).
-
----
-
-If you've got a better idea *(that's preferably still lightweight)* let me know in the comments!

@@ -49,5 +49,3 @@ console.log(testClass.name);    // Compiler error: Property 'name' does not exis
 console.log(testClass.address); // Compiler error: 'address' is private and only accessible within class 'TestClass'.
 console.log(testClass.city);
 ```
-
-Love this shortcut? Not a fan? Let me know in the comments!
