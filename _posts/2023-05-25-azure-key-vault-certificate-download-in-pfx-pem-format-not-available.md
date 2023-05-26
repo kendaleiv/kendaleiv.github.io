@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Azure Key Vault: Certificate \"Download in PFX/PEM format\" not available"
+title: "Azure Key Vault: Certificate \"Download in PFX/PEM format\" Not Available"
 tags: azure
 ---
 
