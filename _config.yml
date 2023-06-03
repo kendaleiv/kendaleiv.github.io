@@ -21,10 +21,10 @@ timezone: America/New_York
 
 title: Ken Dale # the main title
 
-tagline: Jesus follower, husband, father, cat dad, software engineer. # it will display as the sub-title
+tagline: Jesus follower, husband, father, software engineer. # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  Jesus follower, husband, father, cat dad, software engineer.
+  Jesus follower, husband, father, software engineer.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: "https://kendaleiv.com"
