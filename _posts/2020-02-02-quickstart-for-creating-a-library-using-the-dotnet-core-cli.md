@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Quickstart for Creating a Library Using the .NET Core CLI
-tags: dotnet dotnetcore
+title: Quickstart for Creating a Library Using the .NET CLI
+tags: dotnet
 ---
 
-The .NET Core CLI enables quickly scaffolding a new library. Here's a quickstart of commands to use, substituting `My.Sample.Project` for your own new project:
+The .NET CLI enables quickly scaffolding a new library. Here's a quickstart of commands to use, substituting `My.Sample.Project` for your own new project:
 
 ```
 dotnet new --update-apply

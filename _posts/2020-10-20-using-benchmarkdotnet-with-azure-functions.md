@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Using BenchmarkDotNet with Azure Functions
-tags: dotnetcore
+tags: dotnet
 ---
 
 [BenchmarkDotNet](https://benchmarkdotnet.org/) is a tool for benchmarking .NET applications. [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) is a serverless web application offering. You can put these together to benchmark your Azure Functions applications.

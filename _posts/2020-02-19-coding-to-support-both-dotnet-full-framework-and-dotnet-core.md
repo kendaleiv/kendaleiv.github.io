@@ -1,16 +1,16 @@
 ---
 layout: post
-title: Coding To Support Both .NET Full Framework and .NET Core
-tags: dotnet dotnetcore
+title: Coding To Support Both .NET Full Framework and Modern .NET
+tags: dotnet
 ---
 
-Sometimes when writing .NET libraries we want to support .NET Full Framework, as well as .NET Core. In many cases the functionality is the same, but sometimes it is different.
+Sometimes when writing .NET libraries we want to support .NET Full Framework, as well as modern .NET. In many cases the functionality is the same, but sometimes it is different.
 
 For the cases where functionality needs to be different there's two main concerns:
 
 ## Different code paths
 
-In many cases the code between .NET Full Framework and .NET Core can be the same for both target frameworks. But, for the cases it needs to be different we can use `#if` / `#endif` preprocessor directives to specify when code should be used.
+In many cases the code between .NET Full Framework and modern .NET can be the same for both target frameworks. But, for the cases it needs to be different we can use `#if` / `#endif` preprocessor directives to specify when code should be used.
 
 ```csharp
 using System;
@@ -60,11 +60,11 @@ See example **MyPackage.csproj**:
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Something.For.Both.Full.Framework.And.DotnetCore" Version="1.0.0" />
+    <PackageReference Include="Something.For.Both.Full.Framework.And.NetStandard" Version="1.0.0" />
   </ItemGroup>
 
   <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
-    <PackageReference Include="Something.For.DotNetCore.Only" Version="1.0.0" />
+    <PackageReference Include="Something.For.NetStandard.Only" Version="1.0.0" />
   </ItemGroup>
 
   <ItemGroup Condition="'$(TargetFramework)' == 'net462'">
@@ -76,4 +76,4 @@ See example **MyPackage.csproj**:
 
 ## Summary
 
-Writing code to support .NET Full Framework and .NET Core can bring about some extra work, but in cases where you need or want to support both this can help!
+Writing code to support .NET Full Framework and modern .NET can bring about some extra work, but in cases where you need or want to support both this can help!
