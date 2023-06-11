@@ -1,20 +1,51 @@
 ---
 layout: post
 title: Leniently Parse Comma Separated Configuration Values Using C#
-tags: dotnet dotnetcore
+tags: csharp dotnet
 ---
 
-Whether you're running .NET full framework or .NET Core sometimes you may want to read configuration values at runtime. Sometimes the value might look like `"a,b,c"`, which some might write as `"a, b, c"`. **When configuration values are comma separated or delimited in some manner it's a good idea to be forgiving when reading the input**.
+Whether you're using .NET you may want to read configuration values at runtime. Sometimes the value might look like `"a,b,c"`, which some might write as `"a, b, c"`. **When configuration values are comma separated or delimited in some manner it's a good idea to be forgiving when reading the input**.
+
+## .NET 5 and later
+
+```csharp
+var values = stringValue
+  ?.Split(",", StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries)
+  ?? Array.Empty<string>();
+```
+
+Extension methods:
+
+```csharp
+public static class StringExtensions
+{
+    public static IEnumerable<string> LenientlyParseDelimited(this string str)
+    {
+        return LenientlyParseDelimited(str, new[] { "," });
+    }
+
+    public static IEnumerable<string> LenientlyParseDelimited(this string str, params string[] delimiters)
+    {
+        if (delimiters == null) throw new ArgumentNullException(nameof(delimiters));
+
+        return str
+            ?.Split(delimiters, StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries)
+            ?? Array.Empty<string>();
+    }
+}
+```
+
+## Earlier .NET versions
 
 ```csharp
 var values = stringValue
     ?.Split(new[] { "," }, StringSplitOptions.RemoveEmptyEntries)
     .Select(x => x?.Trim())
     .Where(x => !string.IsNullOrWhiteSpace(x))
-    ?? new List<string>();
+    ?? Array.Empty<string>();
 ```
 
-Or, as extension methods:
+Extension methods:
 
 ```csharp
 public static class StringExtensions
@@ -32,7 +63,7 @@ public static class StringExtensions
             ?.Split(delimiters, StringSplitOptions.RemoveEmptyEntries)
             .Select(x => x?.Trim())
             .Where(x => !string.IsNullOrWhiteSpace(x))
-            ?? new List<string>();
+            ?? Array.Empty<string>();
     }
 }
 ```
