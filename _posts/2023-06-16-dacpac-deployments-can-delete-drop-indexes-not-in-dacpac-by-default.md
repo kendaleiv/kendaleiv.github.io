@@ -83,4 +83,4 @@ public async Task DacServicesDoesNotDeleteExistingIndexWhenDropIndexesNotInSourc
 
 ## Demo
 
-A demo is available at [https://github.com/kendaleiv/dacpac-testing](https://github.com/kendaleiv/dacpac-testing).
+These tests are available at [https://github.com/kendaleiv/dacpac-playground/blob/main/tests/TestDatabase.Tests/IndexTests.cs](https://github.com/kendaleiv/dacpac-playground/blob/main/tests/TestDatabase.Tests/IndexTests.cs).
