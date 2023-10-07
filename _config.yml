@@ -13,7 +13,7 @@ baseurl: ""
 lang: en
 
 
-# Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
+# Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
 timezone: America/New_York
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
@@ -178,14 +178,13 @@ compress_html:
 exclude:
   - "*.gem"
   - "*.gemspec"
-  - tools
   - docs
+  - tools
   - README.md
   - CHANGELOG.md
   - LICENSE
   - rollup.config.js
-  - node_modules
-  - package.json
+  - package*.json
 
 jekyll-archives:
   enabled: [categories, tags]
