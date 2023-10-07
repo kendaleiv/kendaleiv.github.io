@@ -6,8 +6,8 @@ tags: iem headphones
 
 You may have seen this before:
 
-<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">This is why you shouldn&#39;t interrupt a programmer: <a href="http://t.co/K2dNXKzjem">http://t.co/K2dNXKzjem</a></p>&mdash; Jason Heeris (@detly) <a href="https://twitter.com/detly/status/394755439314755584">October 28, 2013</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">This is why you shouldn&#39;t interrupt a programmer: <a href="https://t.co/K2dNXKzjem">https://t.co/K2dNXKzjem</a></p>&mdash; Jason Heeris (@detly) <a href="https://twitter.com/detly/status/394755439314755584">October 28, 2013</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Flow state is important for developers -- possibly more important for some individuals than others. If nothing else, sometimes it's nice to block out random noises of the day.
 

@@ -14,7 +14,7 @@ However, for various reasons, sometimes issues don't get worked on and completed
 
 I suggest manually (or, automatically) closing issues for inactivity. If it hasn't been important enough to be completed in a short amount of time -- perhaps it's not important enough to *ever* be completed.
 
-For a business environment, this is probably best done manually. You may need to constantly reevaluate the situation and be honest: If you can't see the issue being completed, maybe it should be closed. I believe [Khalid Abuhakmeh](http://www.khalidabuhakmeh.com/) has mentioned something like *if it's important enough, it'll come back up again* aloud previously. And, it makes sense. You'll probably continue to remember an overdue oil change until you take care of it -- even if you don't write it down or plan it out.
+For a business environment, this is probably best done manually. You may need to constantly reevaluate the situation and be honest: If you can't see the issue being completed, maybe it should be closed. I believe [Khalid Abuhakmeh](https://khalidabuhakmeh.com/) has mentioned something like *if it's important enough, it'll come back up again* aloud previously. And, it makes sense. You'll probably continue to remember an overdue oil change until you take care of it -- even if you don't write it down or plan it out.
 
 For an open source project *(especially a popular one)*, automatically closing issues waiting too long for the issue reporter to reply using a bot or similar may be a great course to take. I don't have current experience here, but it seems like [https://github.com/twbs/no-carrier](https://github.com/twbs/no-carrier) might be something to evaluate.
 

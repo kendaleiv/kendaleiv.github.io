@@ -26,4 +26,4 @@ Downloading all tickets using the Zendesk API is non-trivial, as you need to mak
 
 ## Acknowledgement
 
-Special thanks to [Ritter Insurance Marketing](http://www.ritterim.com/) for supporting open source software and giving me the opportunity to begin construction of this tool!
+Special thanks to [Ritter Insurance Marketing](https://www.ritterim.com/) for supporting open source software and giving me the opportunity to begin construction of this tool!

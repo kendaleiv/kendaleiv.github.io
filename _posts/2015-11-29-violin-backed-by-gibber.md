@@ -31,8 +31,8 @@ d.amp = .5
 
 ## In closing
 
-Give **Gibber** a try at [http://gibber.mat.ucsb.edu/](http://gibber.mat.ucsb.edu/).
+Give **Gibber** a try at [https://gibber.cc/](https://gibber.cc/).
 
-If you're wondering what **Gibber** is check out [http://charlie-roberts.com/gibber/about-gibber](http://charlie-roberts.com/gibber/about-gibber).
+If you're wondering what **Gibber** is check out [https://charlie-roberts.com/gibber/about-gibber](https://charlie-roberts.com/gibber/about-gibber).
 
 **Note:** As of the date of this blog post, **Gibber** doesn't play audio for me using Chrome 46 _(64-bit)_ on Windows 10. It does work for me using Firefox 42 _(32-bit, I assume, it's installed in my **Program Files (x86)** folder)_ on Windows 10, though.

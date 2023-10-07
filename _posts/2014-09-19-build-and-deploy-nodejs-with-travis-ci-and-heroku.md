@@ -4,7 +4,7 @@ title: Build and Deploy Node.js With Travis CI and Heroku
 tags: nodejs travis-ci heroku continuous-integration deployment
 ---
 
-[Travis CI](https://travis-ci.org/) is a cloud hosted continuous integration service that works with GitHub repositories for [supported languages](http://docs.travis-ci.com/user/getting-started/#Travis-CI-Overview). [Heroku](https://www.heroku.com/) is a cloud hosted platform as a service, enabling you to deploy applications without creating or maintaining server infrastructure for [supported languages](https://devcenter.heroku.com/categories/language-support).
+[Travis CI](https://travis-ci.org/) is a cloud hosted continuous integration service that works with GitHub repositories for [supported languages](https://docs.travis-ci.com/user/getting-started/#Travis-CI-Overview). [Heroku](https://www.heroku.com/) is a cloud hosted platform as a service, enabling you to deploy applications without creating or maintaining server infrastructure for [supported languages](https://devcenter.heroku.com/categories/language-support).
 
 If you have an application you wish to use for this exercise already in a GitHub repository, skip ahead to the Travis CI section. You may need to do some adjustments to your code to meet with Heroku expectations (specifically, using the requested port number from `process.env.PORT`).
 
@@ -14,9 +14,9 @@ If you don't have an existing Node.js application, and instead want to deploy a 
 
 Browse to [https://travis-ci.org/](https://travis-ci.org/) and flip the appropriate toggle switch, instructing Travis CI which GitHub repository to build. You'll need to authorize Travis CI to interact with your GitHub account if you haven't done so already.
 
-Travis CI uses a `.travis.yml` configuration file in the root of your repository. You'll want to create this file before moving on. Here's an [example `.travis.yml` you can use](http://docs.travis-ci.com/user/languages/javascript-with-nodejs/), which will initiate a separate build for each of the specified versions of Node.js.
+Travis CI uses a `.travis.yml` configuration file in the root of your repository. You'll want to create this file before moving on. Here's an [example `.travis.yml` you can use](https://docs.travis-ci.com/user/languages/javascript-with-nodejs/), which will initiate a separate build for each of the specified versions of Node.js.
 
-Anytime you modify the `.travis.yml` file, you may wish to run it through a linter to verify its validity before you commit it. Travis CI has a [web linter](http://lint.travis-ci.org/) you can use.
+Anytime you modify the `.travis.yml` file, you may wish to run it through a linter to verify its validity before you commit it.
 
 Now is a good time to ensure Travis CI builds. Push your code to the GitHub repo to get this process started. Then, navigate to Travis CI in a web browser and ensure everything looks good. Also, if you have automated tests, you may want to get these working now -- but I'll leave that to you.
 

@@ -4,7 +4,7 @@ title: We Replaced a Multi-Application Home-Grown Authentication System
 tags: authentication
 ---
 
-On June 9, 2016 I had an amazing opportunity to deliver a talk bearing the name of this post title at [NDC Oslo](http://ndcoslo.com/). An embed of the video is at the end of this post.
+On June 9, 2016 I had an amazing opportunity to deliver a talk bearing the name of this post title at [NDC Oslo](https://ndcoslo.com/). An embed of the video is at the end of this post.
 
 Here's a write-up:
 
@@ -93,7 +93,7 @@ If you're logging unhandled exceptions or other events, consider filtering or re
 
 ## Impersonation
 
-I took a deep dive into impersonation in terms of demo'ing [Stuntman](http://rimdev.io/stuntman), an open source ASP.NET library for runtime user impersonation/selection. Here's what Stuntman can do for you in a browser:
+I took a deep dive into impersonation in terms of demo'ing [Stuntman](https://rimdev.io/stuntman), an open source ASP.NET library for runtime user impersonation/selection. Here's what Stuntman can do for you in a browser:
 
 ![https://cloud.githubusercontent.com/assets/1012917/10737939/5154bbdc-7beb-11e5-87dd-979c4e8cb3c0.gif](https://cloud.githubusercontent.com/assets/1012917/10737939/5154bbdc-7beb-11e5-87dd-979c4e8cb3c0.gif)
 

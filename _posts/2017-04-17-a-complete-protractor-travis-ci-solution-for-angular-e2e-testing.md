@@ -8,7 +8,7 @@ tags: angular
 
 ---
 
-[Angular](https://angular.io) uses [Protractor](http://www.protractortest.org) for end-to-end (e2e) testing. Protractor performs browser automation tasks using a running copy of your Angular application.
+[Angular](https://angular.io) uses [Protractor](https://www.protractortest.org) for end-to-end (e2e) testing. Protractor performs browser automation tasks using a running copy of your Angular application.
 
 ## Configure the project
 

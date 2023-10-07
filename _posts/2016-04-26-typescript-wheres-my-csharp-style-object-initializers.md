@@ -52,7 +52,7 @@ console.log(person.name); // John Doe
 Or, you can try something like this:
 
 ```typescript
-// Attribution: This idea is from http://stackoverflow.com/a/14142198/941536
+// Attribution: This idea is from https://stackoverflow.com/a/14142198/941536
 interface Person {
   givenName: string;
   familyName: string;
@@ -69,7 +69,7 @@ Note that the previous code example requires that `givenName` and `familyName` *
 But, if `Person` is a `class` instead and you need *getters* or other functionality to work, and you're able to modify this `class`, it might make sense to use the constructor:
 
 ```typescript
-// Attribution: This idea is from http://stackoverflow.com/a/14226836/941536
+// Attribution: This idea is from https://stackoverflow.com/a/14226836/941536
 class Person {
   constructor(public givenName: string, public familyName: string) {
   }

@@ -24,11 +24,4 @@ Here's a comparison of the dark chocolate Lindt EXCELLENCE bars that have a mini
 | -  **Sugars**           | **12g** | **5g** | **3g** | **1g**      |
 | Protein                 | 3g      | 5g     | 4g     | 5g          |
 
-Links:
-
-- Lindt 70% Cocoa EXCELLENCE Bar [http://www.lindtusa.com/shop/70-cocoa-excellence-bar](http://www.lindtusa.com/shop/70-cocoa-excellence-bar)
-- Lindt 85% Cocoa EXCELLENCE Bar [http://www.lindtusa.com/shop/85-cocoa-excellence-bar](http://www.lindtusa.com/shop/85-cocoa-excellence-bar)
-- Lindt 90% Cocoa EXCELLENCE Bar [http://www.lindtusa.com/shop/90-cocoa-excellence-bar](http://www.lindtusa.com/shop/90-cocoa-excellence-bar)
-- Lindt 99% Cocoa EXCELLENCE Bar [http://www.lindtusa.com/shop/99-cocoa-excellence-bar-391872-p](http://www.lindtusa.com/shop/99-cocoa-excellence-bar-391872-p)
-
 If anything here changes in the future, let me know!
