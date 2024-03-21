@@ -10,7 +10,7 @@ If you're looking to monitor the state of your web application during a deployme
 
 Artillery can be configured via test scripts, but it can also use command line arguments for simple scenarios. You'll need [Node.js](https://nodejs.org/) installed to run Artillery. From the command line you can test the endpoint for **10 requests per second (rate) for 10 minutes (duration in seconds)**:
 
-`npx artillery quick --rate=10 --duration=600 https://example.org/health`
+`npx artillery@1 quick --rate=10 --duration=600 https://example.org/health`
 
 Artillery provides an update every 10 seconds, and provides a summary at the end like this:
 
