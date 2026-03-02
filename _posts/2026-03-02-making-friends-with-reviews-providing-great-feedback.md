@@ -59,9 +59,9 @@ Put yourself in the other person's shoes. If someone is new to your team, imagin
 
 For everything else, if the pull request looks great aside from a small spelling error in a readme, you can approve with suggestions. If someone's rushing to meet a deadline and the issues are minor formatting things, maybe we just don't worry about it this time. Code can be changed at any time for any reason.
 
-### Prefix small things with "nit"
+### Prefix small things with "nit: "
 
-If you see spelling, grammar, or formatting issues, they're still worth mentioning. But, prefixing with **nit** signals it's a nitpick -- a small thing, not a big deal. It goes a long way to making feedback feel less like you're being beaten up over minor things. It's also a great opportunity to use the suggestion feature, so the author can simply click to accept your fix.
+If you see spelling, grammar, or formatting issues, they're still worth mentioning. But, prefixing with **"nit: "** signals it's a nitpick -- a small thing, not a big deal. It goes a long way to making feedback feel less like you're being beaten up over minor things. It's also a great opportunity to use the suggestion feature, so the author can simply click to accept your fix.
 
 ## Review strategies
 
