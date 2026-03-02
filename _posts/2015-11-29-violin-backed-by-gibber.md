@@ -6,7 +6,7 @@ tags: music violin gibber
 
 As a developer, do you frequently find yourself longing for a backup band to your melodic instrument? If this sounds like you *(or, even if it doesn't)*, check this out:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zZLAGBgGQhA" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" style="max-width: 100%; height: auto; aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/zZLAGBgGQhA" frameborder="0" allowfullscreen></iframe>
 
 ## The Gibber code
 
