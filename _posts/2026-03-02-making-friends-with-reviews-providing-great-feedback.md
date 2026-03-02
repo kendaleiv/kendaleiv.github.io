@@ -4,6 +4,10 @@ title: "Making Friends with Reviews: Providing Great Feedback"
 tags: code-review
 ---
 
+*This is an AI generated summary of a talk I gave. You can watch it here:*
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9s5Mr73hc3Q?si=ikOGpjij0ea7jxBp" title="Making Friends with Reviews: Providing Great Feedback - Conference Talk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 The title of this post has two meanings. First, you're doing a great job with reviews -- reviewing code, making necessary changes, and asking necessary questions. But, there's also the relationship side: forming positive bonds with the people you work with.
 
 ## Why reviews matter
