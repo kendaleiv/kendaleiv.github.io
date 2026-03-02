@@ -24,7 +24,7 @@ Don't stamp disingenuous positive comments on every PR. But, if you genuinely se
 
 ### Comment on research you did
 
-If you fire up a quick console app or [.NET Fiddle](https://dotnetfiddle.net/) to confirm something is working the way you think it does, leave a comment! It's positive feedback for the author, and it signals to other reviewers that you've verified the behavior.
+If you fire up a quick console app or [.NET Fiddle](https://dotnetfiddle.net/) to confirm something is working the way you think it does, leave a comment! It's positive feedback for the author, and it signals to other reviewers that you've verified the behavior. This also applies when confirming the author did something right -- if you looked up documentation and confirmed their approach is correct, say so. It's a great opportunity for positive feedback paired with the research you did.
 
 ### Ask questions using approachable language
 
@@ -37,6 +37,8 @@ Try to avoid phrases like "you should" or "you must" that sound instructive rath
 
 **If you take one thing away from this post, try substituting "you" for "we" in your review comments.** Using "we" signals collective ownership. Using "you" can feel accusatory.
 
+When suggesting an alternative approach, don't assume the author simply missed it. They may have already considered and rejected it for reasons you're not aware of. Frame suggestions with that possibility in mind -- "we could use X here, but you may have already considered that" invites dialogue rather than implying an oversight.
+
 ### Be kind and offer to help
 
 Code needs to be technically accurate, but you can communicate technical feedback in a kind way. **One way to do this is to do the work for the person.** GitHub and Azure DevOps both have the triple backtick suggestion feature, enabling you to comment on a line and suggest an edit. Rather than simply commenting that something isn't right, you can provide a fix the author can accept with a click.
@@ -45,11 +47,13 @@ For larger changes, you can even [submit a pull request to a pull request branch
 
 ### Have empathy
 
-Put yourself in the other person's shoes. If someone is new to your team, imagine what it's like to just arrive and not know how things are done. Personally, if I want to build empathy I think about reviewing code in a language I'm not familiar with -- for me that's Python. It helps me approach reviews with more patience and curiosity.
+Put yourself in the other person's shoes. If someone is new to your team, imagine what it's like to just arrive and not know how things are done. Meet people where they're at -- if someone is brilliant in the front end but just switched to C#, they may not be as versed in the language yet, the same way you might not write fluent TypeScript. Personally, if I want to build empathy I think about reviewing code in a language I'm not familiar with -- for me that's Python. It helps me approach reviews with more patience and curiosity.
 
 ### Be pragmatic
 
-**Look for ways to approve a pull request, not ways to shoot it down.** If there's a security issue or a major logic flaw, absolutely don't approve it. But, if everything looks great aside from a small spelling error in a readme, you can approve with suggestions. If someone's rushing to meet a deadline and the issues are minor formatting things, maybe we just don't worry about it this time. Code can be changed at any time for any reason.
+**Look for ways to approve a pull request, not ways to shoot it down.** If there's a security issue or a major logic flaw, absolutely don't approve it. But, you can still be kind about it -- provide guidance on how to fix the problem, suggest resources the author can reference, and offer potential solutions while inviting their input. Something like "do you think X would work, or is there a different approach we could implement?" goes a long way. You're being firm about what needs to change while signaling that you're willing to work through it together.
+
+For everything else, if the pull request looks great aside from a small spelling error in a readme, you can approve with suggestions. If someone's rushing to meet a deadline and the issues are minor formatting things, maybe we just don't worry about it this time. Code can be changed at any time for any reason.
 
 ### Prefix small things with "nit"
 
