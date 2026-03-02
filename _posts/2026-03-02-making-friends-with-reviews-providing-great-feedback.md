@@ -10,4 +10,4 @@ Slides: [https://github.com/kendaleiv/reviews-talk](https://github.com/kendaleiv
 
 ## Video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9s5Mr73hc3Q" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9s5Mr73hc3Q" title="Making Friends with Reviews: Providing Great Feedback" frameborder="0" allowfullscreen></iframe>
