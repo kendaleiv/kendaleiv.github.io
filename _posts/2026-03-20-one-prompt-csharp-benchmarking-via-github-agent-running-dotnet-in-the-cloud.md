@@ -4,25 +4,11 @@ title: "One Prompt C# Benchmarking Via GitHub Agent Running .NET In The Cloud"
 tags: csharp dotnet github
 ---
 
-Using a single prompt I used a [GitHub Copilot coding agent](https://docs.github.com/en/copilot/using-github-copilot/using-copilot-coding-agent) to create a C# [BenchmarkDotNet](https://benchmarkdotnet.org/) project comparing [Mapperly](https://mapperly.riok.app/) (a source generator for object mapping) vs serialization/deserialization vs manual mapping -- including running the benchmarks in the cloud.
+When creating a new repository on GitHub you can provide instructions for a [GitHub Copilot coding agent](https://docs.github.com/en/copilot/using-github-copilot/using-copilot-coding-agent) to execute. The agent picks up those instructions, does the work in the cloud, and opens a pull request with the results -- all from a single prompt at repository creation time.
 
-## Results
+I used this to create a C# [BenchmarkDotNet](https://benchmarkdotnet.org/) project comparing [Mapperly](https://mapperly.riok.app/) vs serialization/deserialization vs manual mapping. The prompt included the models to create, the specific benchmarks to run, instructions for a release build, and directions to include results and caveats in the README. The agent created the project, installed dependencies, built in release mode, ran the benchmarks in the cloud, and opened a PR -- all without any additional input from me.
 
-The agent created and ran the benchmarks in a cloud environment. Here are the results:
-
-| Method                                       | Mean        | Allocated |
-|--------------------------------------------- |------------:|----------:|
-| Mapperly                                     |    36.38 ns |      96 B |
-| MapperlyDeepCloning                          |   291.30 ns |     616 B |
-| SerializeDeserializeJsonSerialize            | 7,584.22 ns |  12,864 B |
-| SerializeDeserializeJsonSerializeToUtf8Bytes | 7,025.71 ns |  10,608 B |
-| ManualMapping                                |    36.52 ns |      96 B |
-
-Mapperly (default/shallow) is effectively indistinguishable from manual mapping in both speed and allocations. Serialization round-trips using `System.Text.Json` are ~200× slower and allocate ~130× more memory.
-
-## The Prompt
-
-The prompt I used included instructions for creating models with 5 string properties and 5 string arrays, configuring the specific Mapperly, serialization/deserialization, and manual mapping benchmarks, running in a release build, including results and caveats in the README, and more. You can view the full prompt at the repository linked below.
+This is a useful technique when you want to quickly scaffold a project, prototype an idea, or generate something self-contained. Writing a detailed prompt upfront means the agent can work autonomously and deliver a complete, reviewable result.
 
 ## Repository
 
