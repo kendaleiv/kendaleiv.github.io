@@ -14,7 +14,7 @@ This is a useful technique for benchmarking -- you describe the scenarios, model
 
 Here's the prompt I used, updated to remove the specific benchmarking code so you can substitute your own:
 
-```
+````
 Create a C# BenchmarkDotNet project comparing <your scenarios here>.
 
 ## Setup
@@ -44,14 +44,26 @@ Create a C# BenchmarkDotNet project comparing <your scenarios here>.
 
 ## Benchmark: <Name>
 
-<Describe the setup and benchmark code for your first scenario>
+```csharp
+// Setup
+<your setup code>
+
+// Benchmark
+<your benchmark code>
+```
 
 ## Benchmark: <Name>
 
-<Describe the setup and benchmark code for your next scenario>
+```csharp
+// Setup
+<your setup code>
+
+// Benchmark
+<your benchmark code>
+```
 
 (repeat for each scenario you want to benchmark)
-```
+````
 
 ## Repository
 
