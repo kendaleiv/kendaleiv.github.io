@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "One Prompt C# Benchmarking Via GitHub Agent Running .NET In The Cloud"
+title: "One Prompt C# Benchmarking Using GitHub Agent Running .NET In The Cloud"
 tags: csharp dotnet github
 ---
 
