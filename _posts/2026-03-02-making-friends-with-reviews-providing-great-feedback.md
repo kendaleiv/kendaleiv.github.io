@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Making Friends with Reviews: Providing Great Feedback"
-tags: code-review
+tags: code-review ai-generated
 ---
 
 <iframe style="max-width: 100%; height: auto; aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/9s5Mr73hc3Q?si=ikOGpjij0ea7jxBp" title="Making Friends with Reviews: Providing Great Feedback - Conference Talk" frameborder="0" allowfullscreen></iframe>
