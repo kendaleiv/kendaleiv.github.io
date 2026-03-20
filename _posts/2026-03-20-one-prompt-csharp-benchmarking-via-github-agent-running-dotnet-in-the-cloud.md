@@ -8,7 +8,7 @@ When creating a new repository on GitHub you can provide instructions for a [Git
 
 I used this to create a C# [BenchmarkDotNet](https://benchmarkdotnet.org/) project comparing [Mapperly](https://mapperly.riok.app/) vs serialization/deserialization vs manual mapping. The prompt included the models to create, the specific benchmarks to run, instructions for a release build, and directions to include results and caveats in the README. The agent created the project, installed dependencies, built in release mode, ran the benchmarks in the cloud, and opened a PR -- all without any additional input from me.
 
-This is a useful technique when you want to quickly scaffold a project, prototype an idea, or generate something self-contained. Writing a detailed prompt upfront means the agent can work autonomously and deliver a complete, reviewable result.
+This is a useful technique for benchmarking -- you describe the scenarios, models, and configuration upfront, and the agent handles project creation, dependency installation, building in release mode, and running the benchmarks. Writing a detailed prompt means you get benchmark results and a reviewable project without any manual setup.
 
 ## Repository
 
