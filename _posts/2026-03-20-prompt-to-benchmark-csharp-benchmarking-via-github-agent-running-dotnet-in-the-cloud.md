@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Prompt To Benchmark: C# Benchmarking Via GitHub Agent Running .NET In The Cloud"
-tags: csharp dotnet github
+tags: ai-generated csharp dotnet github
 ---
 
 When creating a new repository on GitHub you can provide instructions for a [GitHub Copilot coding agent](https://docs.github.com/en/copilot/using-github-copilot/using-copilot-coding-agent) to execute. The agent picks up those instructions, does the work in the cloud, and opens a pull request with the results -- all from a single prompt at repository creation time.
