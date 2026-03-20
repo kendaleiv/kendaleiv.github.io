@@ -6,13 +6,13 @@ tags: csharp dotnet github
 
 When creating a new repository on GitHub you can provide instructions for a [GitHub Copilot coding agent](https://docs.github.com/en/copilot/using-github-copilot/using-copilot-coding-agent) to execute. The agent picks up those instructions, does the work in the cloud, and opens a pull request with the results -- all from a single prompt at repository creation time.
 
-You can use this to create a C# [BenchmarkDotNet](https://benchmarkdotnet.org/) project. The prompt includes the specific benchmarks to run and instructions for a release build. The agent creates the project, installs dependencies, builds in release mode, runs the benchmarks in the cloud, and opens a pull request.
+You can use this to create a C# [BenchmarkDotNet](https://benchmarkdotnet.org/) project. The prompt can include the specific benchmarks to run, instructions for a release build, and everything needed to get benchmark results in a pull request. The agent creates the project, installs dependencies, builds in release mode, runs the benchmarks in the cloud, and opens a pull request.
 
-This is a useful technique for benchmarking -- you describe the scenarios, models, and configuration upfront, and the agent handles project creation, dependency installation, building in release mode, and running the benchmarks. Writing a detailed prompt means you get benchmark results and a reviewable project without any manual setup.
+This is a useful technique for benchmarking -- you describe the scenarios and configuration upfront, and the agent handles project creation, dependency installation, building in release mode, and running the benchmarks. Writing a detailed prompt means you get benchmark results and a reviewable project without any manual setup.
 
 ## Prompt
 
-Here's a prompt to use:
+Here's a prompt to use as a starting point:
 
 ````
 Create a C# BenchmarkDotNet project comparing <your scenarios here>.
