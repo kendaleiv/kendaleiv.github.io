@@ -19,11 +19,7 @@ Create a C# BenchmarkDotNet project comparing <your scenarios here>.
 
 ## Setup
 
-- Create 2 test classes, SourceModel and DestinationModel, to use when mapping data.
-- The test classes must contain the same exact properties.
-- Use 5 string properties and 5 arrays of strings. Each array should contain 10 string items.
-- All string values, including array items, should be assigned GUID values.
-- Ensure only the actual mapping calls are included in the benchmark -- perform all necessary setup before the benchmark itself begins.
+- <provide any specific instructions needed for setup>
 
 ## Benchmark building instructions
 
