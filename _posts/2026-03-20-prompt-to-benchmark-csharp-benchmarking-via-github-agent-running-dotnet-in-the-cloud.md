@@ -38,7 +38,7 @@ Create a C# BenchmarkDotNet project comparing <your scenarios here>.
 
 - Include benchmarking results as markdown in README.md.
 - Include any caveats to benchmarking in the cloud agent in README.md.
-- Include this entire exact prompt in README.md as a code block, make it somewhere below the benchmarking results and any caveats.
+- Include this entire exact prompt in README.md as a code block, make it somewhere below the benchmarking results and any caveats. Use quadruple backticks on the outermost code block since this prompt contains triple backtick code blocks.
 - Update the README.md title to be "<your title here>".
 - Include basic repository license information at the end of README.md.
 
