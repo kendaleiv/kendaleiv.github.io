@@ -8,7 +8,7 @@ When creating a new repository on GitHub you can provide instructions for a [Git
 
 You can use this to create a C# [BenchmarkDotNet](https://benchmarkdotnet.org/) project. The prompt can include the specific benchmarks to run and everything needed to get benchmark results in a pull request. The agent creates the project, builds in release mode, runs the benchmarks in the cloud, and opens a pull request.
 
-This is a useful technique for benchmarking -- you describe the scenarios and configuration upfront, and the agent handles project creation, dependency installation, building in release mode, and running the benchmarks. Writing a detailed prompt means you get benchmark results and a reviewable project without any manual setup.
+This is a useful technique for benchmarking -- you describe the scenarios and configuration upfront, and the agent handles project creation, building in release mode, and running the benchmarks. Writing a detailed prompt means you get benchmark results and a reviewable project without any manual setup.
 
 ## Prompt
 
