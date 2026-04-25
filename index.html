@@ -2,3 +2,119 @@
 layout: home
 # Index page
 ---
+
+<div class="talk-videos mb-4">
+  <h2 class="talk-videos-heading">
+    <i class="fas fa-video me-1"></i> Talks
+  </h2>
+  <div class="talk-videos-grid">
+    <div class="talk-video-thumb" data-src="https://www.youtube.com/embed/9s5Mr73hc3Q?autoplay=1">
+      <img src="https://img.youtube.com/vi/9s5Mr73hc3Q/mqdefault.jpg" alt="Talk video" loading="lazy">
+      <button class="play-btn" aria-label="Play video"><svg viewBox="0 0 68 48"><path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.64 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.64-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="red"/><path d="M45 24 27 14v20" fill="white"/></svg></button>
+    </div>
+    <div class="talk-video-thumb" data-src="https://www.youtube.com/embed/aLN_YbmwJcA?autoplay=1">
+      <img src="https://img.youtube.com/vi/aLN_YbmwJcA/mqdefault.jpg" alt="Talk video" loading="lazy">
+      <button class="play-btn" aria-label="Play video"><svg viewBox="0 0 68 48"><path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.64 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.64-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="red"/><path d="M45 24 27 14v20" fill="white"/></svg></button>
+    </div>
+    <div class="talk-video-thumb" data-src="https://av.tib.eu/player/51855">
+      <img src="https://img.youtube.com/vi/default/mqdefault.jpg" alt="Talk video" loading="lazy" style="background:#1a1a2e;" onerror="this.style.display='none'">
+      <div class="tib-placeholder"><i class="fas fa-play-circle"></i></div>
+      <button class="play-btn" aria-label="Play video"><svg viewBox="0 0 68 48"><path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.64 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.64-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="red"/><path d="M45 24 27 14v20" fill="white"/></svg></button>
+    </div>
+    <div class="talk-video-thumb" data-src="https://www.youtube.com/embed/lN00kSYPp0E?autoplay=1">
+      <img src="https://img.youtube.com/vi/lN00kSYPp0E/mqdefault.jpg" alt="Talk video" loading="lazy">
+      <button class="play-btn" aria-label="Play video"><svg viewBox="0 0 68 48"><path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.64 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.64-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="red"/><path d="M45 24 27 14v20" fill="white"/></svg></button>
+    </div>
+  </div>
+</div>
+
+<style>
+  .talk-videos-heading {
+    font-size: 1.2rem;
+    margin-bottom: 0.75rem;
+    font-weight: 600;
+  }
+  .talk-videos-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.75rem;
+  }
+  @media (max-width: 768px) {
+    .talk-videos-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  .talk-video-thumb {
+    position: relative;
+    cursor: pointer;
+    border-radius: 8px;
+    overflow: hidden;
+    aspect-ratio: 16 / 9;
+    background: #0d1117;
+  }
+  .talk-video-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .talk-video-thumb .tib-placeholder {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 2rem;
+    background: #1a1a2e;
+    z-index: 0;
+  }
+  .talk-video-thumb .play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    z-index: 1;
+    opacity: 0.85;
+    transition: opacity 0.2s;
+  }
+  .talk-video-thumb:hover .play-btn {
+    opacity: 1;
+  }
+  .talk-video-thumb .play-btn svg {
+    width: 48px;
+    height: 34px;
+  }
+  @media (max-width: 768px) {
+    .talk-video-thumb .play-btn svg {
+      width: 36px;
+      height: 25px;
+    }
+  }
+  .talk-video-thumb iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    inset: 0;
+    border: 0;
+  }
+</style>
+
+<script>
+  document.querySelectorAll('.talk-video-thumb').forEach(function (thumb) {
+    thumb.addEventListener('click', function () {
+      var iframe = document.createElement('iframe');
+      iframe.src = this.dataset.src;
+      iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+      iframe.allowFullscreen = true;
+      iframe.title = 'Talk video';
+      this.textContent = '';
+      this.style.cursor = 'default';
+      this.appendChild(iframe);
+    });
+  });
+</script>
