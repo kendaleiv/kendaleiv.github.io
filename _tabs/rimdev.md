@@ -24,9 +24,6 @@ Blog posts written for [rimdev.io](https://rimdev.io):
 | 2019-10-16 | [Upcoming Google Chrome SameSite Change Breaks Our IdentityServer3 Azure Active Directory Login (and, how to fix it!)](https://rimdev.io/blog/upcoming-google-chrome-samesite-change-breaks-our-identityserver3-azure-active-directory-login-and-how-to-fix-it) |
 | 2019-10-15 | [A Case Of Newtonsoft.Json, TypeNameHandling.All, And JsonSerializationException](https://rimdev.io/blog/a-case-of-newtonsoft-json-typenamehandling-all-and-jsonserializationexception) |
 | 2019-09-09 | [Caching Git LFS in AppVeyor to Avoid Large GitHub LFS Bills](https://rimdev.io/blog/caching-git-lfs-in-appveyor-to-avoid-large-github-lfs-bills) |
-| 2019-08-30 | [ChatOps at RIMDev Using Probot](https://rimdev.io/blog/chatops-at-rimdev) *(with Thomas Sobieck)* |
-| 2019-08-29 | [Working At Work: This And Other Thoughts On High Availability](https://rimdev.io/blog/working-at-work-this-and-other-thouhgts-on-high-availability) *(with Thomas Sobieck)* |
-| 2019-08-28 | [Our DevOps Journey: Release Branches, Highly Available Azure Web Apps, and Terraform](https://rimdev.io/blog/our-devops-journey-release-branches-highly-available-azure-web-apps-and-terraform) *(with Thomas Sobieck)* |
 | 2019-08-26 | [Retry Transient Failures Using SqlClient / ADO.NET With Polly](https://rimdev.io/blog/retry-transient-failures-using-sqlclient-adonet-with-polly) |
 | 2019-08-09 | [Redact Elasticsearch Passwords from Microsoft Azure Application Insights Using C#](https://rimdev.io/blog/redact-elasticsearch-passwords-from-microsoft-azure-application-insights-using-csharp) |
 | 2019-07-31 | [Filter Hangfire Requests from Microsoft Azure Application Insights](https://rimdev.io/blog/filter-hangfire-requests-from-microsoft-azure-application-insights) |
@@ -51,14 +48,10 @@ Blog posts written for [rimdev.io](https://rimdev.io):
 | 2017-04-10 | [A Double-Click Experience for Running Jekyll on Windows](https://rimdev.io/blog/a-double-click-experience-for-running-jekyll-on-windows) |
 | 2017-02-28 | [Publishing to npm Using AppVeyor](https://rimdev.io/blog/publishing-to-npm-using-appveyor) |
 | 2017-02-08 | [Creating SQL Server Express LocalDb v11, v12, v13, and MSSQLLocalDb Instances](https://rimdev.io/blog/creating-sql-server-express-localdb-v11-v12-and-v13-instances) |
-| 2016-12-30 | [A Year of Open Source (2016)](https://rimdev.io/blog/a-year-of-open-source-2016) *(with Khalid Abuhakmeh)* |
 | 2016-11-29 | [Combining Age and Date of Birth in Web Applications Using Age Picker](https://rimdev.io/blog/combining-age-and-date-of-birth-in-web-applications-using-age-picker) |
 | 2016-08-26 | [Publishing npm Packages From TeamCity](https://rimdev.io/blog/publishing-npm-packages-from-teamcity) |
 | 2016-06-02 | [The story of our OpenID Connect implementation, live at NDC Oslo 2016!](https://rimdev.io/blog/the-story-of-our-openid-connect-implementation-live-at-ndc-oslo-2016) |
 | 2016-04-14 | [Postman: Effectively Storing and Using Tests in a Git Repository](https://rimdev.io/blog/2016-04-14-postman-effectively-storing-and-using-tests-in-a-git-repository) |
-| 2016-03-30 | [Using Stuntman in Multi-Application Scenarios](https://rimdev.io/blog/using-stuntman-in-multi-application-scenarios) *(with Khalid Abuhakmeh)* |
 | 2016-03-16 | [build.cmd: Our Consistent Build Script for Continuous Integration Using TeamCity](https://rimdev.io/blog/build-cmd-our-consistent-build-script-for-continuous-integration-using-teamcity) |
 | 2016-02-25 | [Jekyll on Windows: A Quickstart Guide](https://rimdev.io/blog/jekyll-on-windows-a-quickstart-guide) |
-| 2016-01-28 | [Slack, Hubot, and Webhooks: Custom Notifications Using All Three](https://rimdev.io/blog/slack-hubot-and-webhooks-custom-notifications-using-all-three) *(with Khalid Abuhakmeh)* |
-| 2016-01-16 | [Windows Azure, IdentityServer3, and Valid Issuers](https://rimdev.io/blog/windows-azure-identityserver3-and-valid-issuers) *(with Khalid Abuhakmeh, Bill Boga)* |
 | 2016-01-12 | [Copying App Settings and Connection Strings Between Azure Web Apps](https://rimdev.io/blog/copying-app-settings-and-connection-strings-between-azure-web-apps) |
