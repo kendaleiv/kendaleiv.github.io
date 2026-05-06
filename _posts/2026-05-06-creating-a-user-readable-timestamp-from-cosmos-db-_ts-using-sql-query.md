@@ -24,9 +24,9 @@ Example output:
         "doc": {
             "id": "1",
             "name": "Example Document",
-            "_ts": 1714000000
+            "_ts": 1778025600
         },
-        "friendly_ts": "2024-04-25T04:26:40.000Z"
+        "friendly_ts": "2026-05-06T00:00:00.000Z"
     }
 ]
 ```
