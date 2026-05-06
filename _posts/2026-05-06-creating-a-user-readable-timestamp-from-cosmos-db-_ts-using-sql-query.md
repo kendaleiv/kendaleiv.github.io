@@ -16,6 +16,21 @@ SELECT VALUE {
 FROM c
 ```
 
-This returns each document alongside a `friendly_ts` value like `"2024-04-25T04:26:40.000Z"` -- much easier to read than a raw epoch number.
+Example output:
+
+```json
+[
+    {
+        "doc": {
+            "id": "1",
+            "name": "Example Document",
+            "_ts": 1714000000
+        },
+        "friendly_ts": "2024-04-25T04:26:40.000Z"
+    }
+]
+```
+
+The `friendly_ts` value is much easier to read than a raw epoch number.
 
 This is useful for quickly inspecting documents in the Azure portal's Data Explorer or any Cosmos DB query tool without needing to manually convert `_ts` values.
