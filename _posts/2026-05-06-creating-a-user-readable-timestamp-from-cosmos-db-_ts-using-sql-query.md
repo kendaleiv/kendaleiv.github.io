@@ -11,7 +11,7 @@ You can convert `_ts` to a user readable date and time using the [`TIMESTAMPTODA
 ```sql
 SELECT VALUE {
     "doc": c,
-    "friendly_ts": TIMESTAMPTODATETIME(c._ts * 1000)
+    "datetime_ts": TIMESTAMPTODATETIME(c._ts * 1000)
 }
 FROM c
 ```
@@ -26,11 +26,11 @@ Example output:
             "name": "Example Document",
             "_ts": 1778025600
         },
-        "friendly_ts": "2026-05-06T00:00:00.000Z"
+        "datetime_ts": "2026-05-06T00:00:00.000Z"
     }
 ]
 ```
 
-The `friendly_ts` value is much easier to read than a raw epoch number.
+The `datetime_ts` value is much easier to read than a raw epoch number.
 
 This is useful for quickly inspecting documents in the Azure portal's Data Explorer or any Cosmos DB query tool without needing to manually convert `_ts` values.
