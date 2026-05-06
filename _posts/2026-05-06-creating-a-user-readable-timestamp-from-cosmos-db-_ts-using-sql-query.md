@@ -31,6 +31,6 @@ Example output:
 ]
 ```
 
-The `datetime_ts` value is much easier to read than a raw epoch number.
+While the epoch number in `_ts` is useful for machines, the `datetime_ts` value provides a human readable representation.
 
 This is useful for quickly inspecting documents in the Azure portal's Data Explorer or any Cosmos DB query tool without needing to manually convert `_ts` values.
