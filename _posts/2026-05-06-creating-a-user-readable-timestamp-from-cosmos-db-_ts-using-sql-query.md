@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "Creating A User Readable Timestamp From Cosmos DB _ts Using SQL Query"
-tags: azure cosmosdb
+tags: ai-generated azure cosmosdb
 ---
 
 Azure Cosmos DB documents include a `_ts` property that represents the last modified timestamp as a Unix epoch value in seconds. This isn't particularly human readable -- it's a number like `1714000000`.
 
-You can convert `_ts` to a user readable date and time using the `TimestampToDateTime` built-in function in a Cosmos DB SQL query. Since `TimestampToDateTime` expects milliseconds and `_ts` is in seconds, multiply `_ts` by `1000`:
+You can convert `_ts` to a user readable date and time using the [`TimestampToDateTime`](https://learn.microsoft.com/en-us/azure/cosmos-db/nosql/query/timestamptodatetime) built-in function in a Cosmos DB SQL query. Since `TimestampToDateTime` expects milliseconds and `_ts` is in seconds, multiply `_ts` by `1000`:
 
 ```sql
 SELECT VALUE {
