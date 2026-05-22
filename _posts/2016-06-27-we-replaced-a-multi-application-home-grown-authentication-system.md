@@ -103,4 +103,4 @@ I also demo'ed usage of an access token configured for a user in Stuntman with F
 
 And, here's the video:
 
-<iframe style="max-width: 100%; height: auto; aspect-ratio: 16 / 9;" src="https://av.tib.eu/player/51855" frameborder="0" allowfullscreen></iframe>
+{% include video-embed.html src="https://av.tib.eu/player/51855" title="We Replaced a Multi-Application Home-Grown Authentication System" %}
