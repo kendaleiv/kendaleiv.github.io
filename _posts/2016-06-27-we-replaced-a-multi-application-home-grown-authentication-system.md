@@ -103,4 +103,9 @@ I also demo'ed usage of an access token configured for a user in Stuntman with F
 
 And, here's the video:
 
-{% include video-embed.html src="https://av.tib.eu/player/51855" title="We Replaced a Multi-Application Home-Grown Authentication System" %}
+<div role="button" tabindex="0" aria-label="Play: We Replaced a Multi-Application Home-Grown Authentication System" style="position: relative; max-width: 100%; aspect-ratio: 16 / 9; background: #000; cursor: pointer;" onclick="this.innerHTML='<iframe style=&quot;width:100%;height:100%;border:none;&quot; src=&quot;https://av.tib.eu/player/51855&quot; title=&quot;We Replaced a Multi-Application Home-Grown Authentication System&quot; allowfullscreen></iframe>'" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();this.click();}">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 68 48" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 68px; height: 48px;">
+    <path d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.64 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.64-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z" fill="red"/>
+    <path d="M45 24L27 14v20" fill="#fff"/>
+  </svg>
+</div>
