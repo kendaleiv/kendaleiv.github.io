@@ -103,4 +103,4 @@ I also demo'ed usage of an access token configured for a user in Stuntman with F
 
 And, here's the video:
 
-<iframe src="https://player.vimeo.com/video/171704608" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe style="max-width: 100%; height: auto; aspect-ratio: 16 / 9;" src="https://av.tib.eu/player/51855" frameborder="0" allowfullscreen></iframe>
