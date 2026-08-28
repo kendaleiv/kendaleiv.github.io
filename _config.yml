@@ -103,8 +103,7 @@ avatar: "https://www.gravatar.com/avatar/19c1d76389b58d1b972fc2be013bcc73.png?s=
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
-# Candidates for review live in `assets/img/social-preview/`.
-social_preview_image: "/assets/img/social-preview/social-preview-01.png" # string, local or CORS resources
+social_preview_image: "/assets/img/social-preview.png" # string, local or CORS resources
 
 # boolean type, the global switch for TOC in posts.
 toc: true
