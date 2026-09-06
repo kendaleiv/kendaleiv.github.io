@@ -60,6 +60,8 @@
     }
 
     table {
+      @apply block w-max max-w-full min-w-full overflow-x-auto;
+
       th,
       td {
         @apply border-border border p-2;
@@ -67,6 +69,21 @@
 
       th {
         @apply py-1.5;
+      }
+
+      th[align="center"],
+      td[align="center"] {
+        text-align: center;
+      }
+
+      th[align="right"],
+      td[align="right"] {
+        text-align: right;
+      }
+
+      th[align="left"],
+      td[align="left"] {
+        text-align: left;
       }
     }
 
