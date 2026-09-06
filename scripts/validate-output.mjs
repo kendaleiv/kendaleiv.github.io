@@ -56,7 +56,10 @@ for (const profile of [
   "https://www.linkedin.com/in/kendaleiv/",
   "https://bsky.app/profile/kendaleiv.com",
 ]) {
-  check(home?.links.some(link => link.href === profile), `Missing profile: ${profile}`);
+  check(
+    home?.links.some(link => link.href === profile),
+    `Missing profile: ${profile}`
+  );
 }
 check(
   !home?.links.some(link => link.href?.startsWith("https://x.com/")),
@@ -235,7 +238,9 @@ for (const file of sources) {
   check(
     doc.links.some(link => {
       if (!link.href?.startsWith("https://t.me/share/url?url=")) return false;
-      return new URL(link.href).searchParams.get("url") === `${site}${pathname}`;
+      return (
+        new URL(link.href).searchParams.get("url") === `${site}${pathname}`
+      );
     }),
     `${pathname}: incorrect sharing URL`
   );
