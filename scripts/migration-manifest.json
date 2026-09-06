@@ -907,7 +907,7 @@
     {
       "source": "_posts/2024-03-06-csharp-list-t-add-method-missing-items-when-count-inspected-when-adding-items-in-an-async-task.md",
       "path": "/csharp-list-t-add-method-missing-items-when-count-inspected-when-adding-items-in-an-async-task/",
-      "title": "C# List&lt;T&gt; Add Method Missing Items When Count Inspected When Adding Items In An Async Task",
+      "title": "C# List<T> Add Method Missing Items When Count Inspected When Adding Items In An Async Task",
       "date": "2024-03-06T00:00:00-05:00",
       "tags": ["csharp", "dotnet"],
       "codeBlocks": [
@@ -919,7 +919,7 @@
     {
       "source": "_posts/2024-03-06-csharp-tasks-unexpectedly-running-more-than-once-async-lambda-ienumerable-task-with-foreach-loop.md",
       "path": "/csharp-tasks-unexpectedly-running-more-than-once-async-lambda-ienumerable-task-with-foreach-loop/",
-      "title": "C# Tasks Unexpectedly Running More Than Once (Async Lambda IEnumerable&lt;Task&gt; With foreach Loop)",
+      "title": "C# Tasks Unexpectedly Running More Than Once (Async Lambda IEnumerable<Task> With foreach Loop)",
       "date": "2024-03-06T00:00:00-05:00",
       "tags": ["csharp", "dotnet"],
       "codeBlocks": [

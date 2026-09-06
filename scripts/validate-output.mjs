@@ -65,6 +65,13 @@ check(
   !home?.links.some(link => link.href?.startsWith("https://x.com/")),
   "X profile present"
 );
+check(
+  home?.links
+    .find(link => link.href === "https://mastodon.social/@kendaleiv")
+    ?.rel?.split(/\s+/)
+    .includes("me"),
+  "Mastodon profile verification missing"
+);
 const checkPng = pathname => {
   const file = outputPath(pathname);
   check(existsSync(file), `Missing social image: ${pathname}`);
