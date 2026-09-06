@@ -141,6 +141,11 @@ for (const [file, doc] of documents) {
 }
 
 const sources = files("src/content/posts").filter(file => /\.mdx?$/.test(file));
+const scheduledPostMargin = 15 * 60 * 1000;
+const isPublished = data =>
+  !data.draft &&
+  Date.now() > new Date(data.pubDatetime).getTime() - scheduledPostMargin;
+const sourcePaths = new Set();
 const postPaths = new Set();
 for (const file of sources) {
   const source = read(file);
@@ -152,8 +157,8 @@ for (const file of sources) {
     -extname(file).length
   );
   const pathname = `/${postId.split(sep).join("/")}/`;
-  check(!postPaths.has(pathname), `Duplicate post route: ${pathname}`);
-  postPaths.add(pathname);
+  check(!sourcePaths.has(pathname), `Duplicate post route: ${pathname}`);
+  sourcePaths.add(pathname);
   check(
     typeof data.description === "string" &&
       data.description.length >= 20 &&
@@ -185,6 +190,8 @@ for (const file of sources) {
       `${pathname}: authored code changed`
     );
   }
+  if (!isPublished(data)) continue;
+  postPaths.add(pathname);
   const doc = documents.get(outputPath(pathname));
   check(doc, `Post route missing: ${pathname}`);
   if (!doc) continue;
@@ -283,7 +290,7 @@ assert.equal(
   "Historical post baseline must remain 78"
 );
 for (const post of manifest.posts) {
-  check(postPaths.has(post.path), `Original post missing: ${post.path}`);
+  check(sourcePaths.has(post.path), `Original post missing: ${post.path}`);
 }
 for (const asset of manifest.assets) {
   const file = outputPath(asset.path);
