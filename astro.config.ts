@@ -19,16 +19,6 @@ import {
 import { transformerFileName } from "./src/utils/transformers/fileName";
 import config from "./astro-paper.config";
 
-const fontVariants = [300, 400, 500, 600, 700].flatMap(weight =>
-  (["normal", "italic"] as const).map(style => ({
-    weight,
-    style,
-    src: [
-      `@fontsource/google-sans-code/files/google-sans-code-latin-${weight}-${style}.woff`,
-    ] as [string],
-  }))
-);
-
 export default defineConfig({
   site: config.site.url,
   trailingSlash: "always",
@@ -73,10 +63,7 @@ export default defineConfig({
     {
       name: "Google Sans Code",
       cssVariable: "--font-google-sans-code",
-      provider: fontProviders.local(),
-      options: {
-        variants: [fontVariants[0], ...fontVariants.slice(1)],
-      },
+      provider: fontProviders.google(),
       fallbacks: ["monospace"],
       weights: [300, 400, 500, 600, 700],
       styles: ["normal", "italic"],
