@@ -22,7 +22,7 @@ pnpm validate
 pnpm preview
 ```
 
-`build` checks Astro/TypeScript, builds static pages and default dynamic social images, then runs Pagefind. Build once before using search locally. AstroPaper's default Google Sans Code font is loaded through Astro's Google font provider. Google Analytics runs only in production and records client-side page navigation.
+`build` checks Astro/TypeScript, builds static pages and default dynamic social images, then runs Pagefind. Build once before using search locally. AstroPaper's default Google Sans Code font is supplied by the pinned Fontsource npm package through Astro's font provider because builds cannot depend on Google Fonts network availability. Google Analytics runs only in production and records client-side page navigation.
 
 ## Content and routes
 
