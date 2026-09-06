@@ -19,5 +19,6 @@
 # Ignore MDX files
 *.mdx
 
+src/content/posts/
 public/assets/
 public/pagefind/
