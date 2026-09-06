@@ -9,8 +9,8 @@ trim_trailing_whitespace = true
 end_of_line = lf
 insert_final_newline = true
 
-[*.{js,css,scss}]
-quote_type = single
+[*.{js,ts,css}]
+quote_type = double
 
 [*.{yml,yaml}]
 quote_type = double

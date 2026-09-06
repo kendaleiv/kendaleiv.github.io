@@ -1,0 +1,45 @@
+---
+title: "Microsoft Windows: Update Chocolatey, Atom, npm, and RubyGems packages cmd Script"
+slug: microsoft-windows-update-chocolatey-atom-npm-and-rubygems-packages-cmd-script
+pubDatetime: 2015-11-11T00:00:00-05:00
+description: "A Windows command script to update Chocolatey, Atom, npm, and RubyGems packages."
+tags: ["windows", "update", "packages"]
+---
+
+Looking for a way to update various packages in your Windows environment? Use the script below running as Administrator _(Administrator is needed for Chocolatey, at least)_, editing as necessary for your needs.
+
+**Note:** This cmd script is unprompted with no opportunity for review.
+
+## update-packages.cmd
+
+```
+@echo off
+
+echo.
+echo ## Chocolatey packages
+echo.
+
+call choco upgrade all -y
+
+echo.
+echo ## Atom packages
+echo.
+
+call apm upgrade --no-confirm
+
+echo.
+echo ## npm packages
+echo.
+
+call npm update -g
+
+echo.
+echo ## RubyGems
+echo.
+
+call gem update
+```
+
+This will handle updates for Chocolatey, Atom, npm, and RubyGems packages.
+
+Feel free to use and adapt this cmd script for your needs. Happy updating!

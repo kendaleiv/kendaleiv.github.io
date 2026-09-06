@@ -1,5 +1,47 @@
-# Copyright / License
+# Ken Dale
+
+[kendaleiv.com](https://kendaleiv.com/) uses [AstroPaper v6.1.0](https://github.com/satnaing/astro-paper/releases/tag/v6.1.0), the latest stable upstream release as of September 6, 2026 (commit `4c33a60529f9c443145a89fe526ff231c009272d`).
+
+## Development
+
+Use Node.js 24 LTS and pnpm 11.11.0 (pinned in `package.json`):
+
+```sh
+npm install --global pnpm@11.11.0
+pnpm install --frozen-lockfile
+pnpm dev
+```
+
+```sh
+pnpm format
+pnpm format:check
+pnpm lint
+pnpm check
+pnpm build
+pnpm validate
+pnpm preview
+```
+
+`build` checks Astro/TypeScript, builds static pages and default dynamic social images, then runs Pagefind. Build once before using search locally. AstroPaper's default Google Sans Code font is supplied by the pinned Fontsource npm package through Astro's font provider and served locally; builds do not depend on Google Fonts network access. Google Analytics runs only in production and records client-side page navigation.
+
+## Content and routes
+
+Posts live in `src/content/posts/`; standalone content lives in `src/content/pages/`. Posts require `title`, `description`, `pubDatetime`, and a tags array. Use an explicit `slug` to keep the public URL stable. Publication timestamps retain midnight in `America/New_York`, including the historical daylight-saving offset.
+
+The only post-routing changes from AstroPaper are moving its post detail/image routes to `src/pages/[...slug]/` and removing the `posts/` prefix in `getPostUrl`. Existing post URLs remain `/:title/`, including underscores. Listings, tags, archives, pagination, search, sharing, RSS, styles, typography, and social-card rendering follow upstream conventions. `/feed.xml` remains available for existing RSS subscribers.
+
+About includes a link to `/rimdev/`. Original media and downloads retain their `/assets/` paths. Old favicon assets remain downloadable, but the site uses AstroPaper's default SVG favicon. Without upstream's demo social image, the homepage uses AstroPaper's own generated `/og.png`.
+
+`scripts/migration-manifest.json` records the 78 original URLs, metadata, code-block fingerprints, embeds, and asset hashes. `pnpm validate` checks the generated site against this baseline and checks local links, fragments, assets, feeds, sitemap, Pagefind, social metadata, and standalone pages. Keep the historical baseline when adding new posts.
+
+Astro and related integrations, Sharp, pnpm, and vulnerable transitive dependencies have security updates beyond the template's dependency pins; the template remains v6.1.0. Additional compatibility fixes resolve public assets as URLs, emit a single article Open Graph type, encode sharing URLs, and reload the preserved Twitter embed after client-side navigation.
+
+## Deployment
+
+GitHub Actions validates pull requests and deploys `main` to GitHub Pages using the frozen pnpm lockfile. In repository **Settings → Pages**, select **GitHub Actions** as the source and retain the custom domain `kendaleiv.com` with HTTPS enabled. `public/CNAME` preserves the domain in the artifact. DNS remains managed outside this repository.
+
+## Copyright / License
 
 Content: All content copyright &copy; Ken Dale 2026 under the [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.
 
-Theme: [Chirpy Jekyll Theme](https://github.com/cotes2020/jekyll-theme-chirpy) | MIT License | Copyright (c) 2021 Cotes Chung
+Theme: [AstroPaper](https://github.com/satnaing/astro-paper) | MIT License | Copyright (c) 2023 Sat Naing
