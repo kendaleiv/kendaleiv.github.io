@@ -33,8 +33,11 @@ const structuredData = {
 };
 ---
 
-<Layout {title} {description} {ogImage} {canonicalURL} ogType="article">
+<Layout {title} {description} {ogImage} {canonicalURL}>
   <Fragment slot="head">
+    <!-- Override og:type for article pages -->
+    <meta property="og:type" content="article" />
+
     {
       pubDatetime && (
         <meta

@@ -1021,26 +1021,6 @@
     {
       "path": "/assets/content/2017-07-23-a-minimal-ui-visual-studio-code-configuration/2.png",
       "sha256": "0ef331a5d44b2c0a336cbb8bea2dee00f3f3167ab717801fcc02917ec06e5bad"
-    },
-    {
-      "path": "/assets/img/favicons/apple-touch-icon.png",
-      "sha256": "6290e69b059e8fca31e8ea3b29641c88576e9522120b05cdca878adbd1656f68"
-    },
-    {
-      "path": "/assets/img/favicons/favicon-96x96.png",
-      "sha256": "6a52d14b87e978916f8e4cdeb7e231d5a472aa763a4d76b945634855b75ecce5"
-    },
-    {
-      "path": "/assets/img/favicons/favicon.ico",
-      "sha256": "31e253ff06498a368405cafd3d5a7d06501d8f9777e87bba7ddc01c77c99858b"
-    },
-    {
-      "path": "/assets/img/favicons/favicon.svg",
-      "sha256": "00c1cf2f9a64f3b27b863991f34cdf5d8c5ccc6f928df9b49ea85e07463021d1"
-    },
-    {
-      "path": "/icon.pdn",
-      "sha256": "a50db8c62179ab0a88eb6fce163633c85d98483dceb4107228e8b9d0d283adc0"
     }
   ],
   "pages": [

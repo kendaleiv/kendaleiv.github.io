@@ -22,7 +22,7 @@ pnpm validate
 pnpm preview
 ```
 
-`build` checks Astro/TypeScript, builds static pages and default dynamic social images, then runs Pagefind. Build once before using search locally. AstroPaper's default Google Sans Code font is supplied by the pinned Fontsource npm package through Astro's font provider and served locally; builds do not depend on Google Fonts network access. Google Analytics runs only in production and records client-side page navigation.
+`build` checks Astro/TypeScript, builds static pages and default dynamic social images, then runs Pagefind. Build once before using search locally. AstroPaper's default Google Sans Code font is loaded through Astro's Google font provider. Google Analytics runs only in production and records client-side page navigation.
 
 ## Content and routes
 
@@ -30,11 +30,11 @@ Posts live in `src/content/posts/`; standalone content lives in `src/content/pag
 
 The only post-routing changes from AstroPaper are moving its post detail/image routes to `src/pages/[...slug]/` and removing the `posts/` prefix in `getPostUrl`. Existing post URLs remain `/:title/`, including underscores. Listings, tags, archives, pagination, search, sharing, RSS, styles, typography, and social-card rendering follow upstream conventions. `/feed.xml` remains available for existing RSS subscribers.
 
-About includes a link to `/rimdev/`. Original media and downloads retain their `/assets/` paths. Old favicon assets remain downloadable, but the site uses AstroPaper's default SVG favicon. Without upstream's demo social image, the homepage uses AstroPaper's own generated `/og.png`.
+About includes a link to `/rimdev/`. Original article media and downloads retain their `/assets/` paths. The site uses AstroPaper's default SVG favicon and, without upstream's demo social image, AstroPaper's generated `/og.png`.
 
 `scripts/migration-manifest.json` records the 78 original URLs, metadata, code-block fingerprints, embeds, and asset hashes. `pnpm validate` checks the generated site against this baseline and checks local links, fragments, assets, feeds, sitemap, Pagefind, social metadata, and standalone pages. Keep the historical baseline when adding new posts.
 
-Astro and related integrations, Sharp, pnpm, and vulnerable transitive dependencies have security updates beyond the template's dependency pins; the template remains v6.1.0. Additional compatibility fixes resolve public assets as URLs, emit a single article Open Graph type, encode sharing URLs, and reload the preserved Twitter embed after client-side navigation.
+Astro and related integrations, Sharp, pnpm, and vulnerable transitive dependencies have security updates beyond the template's dependency pins; the template remains v6.1.0. Compatibility fixes resolve public assets as URLs, encode sharing URLs, and reload the preserved Twitter embed after client-side navigation.
 
 ## Deployment
 
