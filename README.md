@@ -30,7 +30,7 @@ Posts live in `src/content/posts/`; standalone content lives in `src/content/pag
 
 The only post-routing changes from AstroPaper are moving its post detail/image routes to `src/pages/[...slug]/` and removing the `posts/` prefix in `getPostUrl`. Existing post URLs remain `/:title/`, including underscores. Listings, tags, archives, pagination, search, sharing, RSS, styles, typography, and social-card rendering follow upstream conventions. `/feed.xml` remains available for existing RSS subscribers.
 
-About includes a link to `/rimdev/`. Original article media and downloads retain their `/assets/` paths. The site uses AstroPaper's default SVG favicon and, without upstream's demo social image, AstroPaper's generated `/og.png`.
+About includes a link to `/rimdev/`. Original article media and downloads retain their `/assets/` paths. The site retains the original KD favicon and, without upstream's demo social image, uses AstroPaper's generated `/og.png`.
 
 `scripts/migration-manifest.json` records the 78 original URLs, metadata, code-block fingerprints, embeds, and asset hashes. `pnpm validate` checks the generated site against this baseline and checks local links, fragments, assets, feeds, sitemap, Pagefind, social metadata, and standalone pages. Keep the historical baseline when adding new posts.
 

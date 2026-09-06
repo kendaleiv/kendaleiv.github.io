@@ -94,10 +94,17 @@ for (const [file, doc] of documents) {
     attrs(canonical(doc) ?? {}).href === base.href,
     `${route}: canonical does not match public route`
   );
-  check(
-    doc.nodes.some(node => attrs(node).href === "/favicon.svg"),
-    `${route}: default favicon missing`
-  );
+  for (const favicon of [
+    "/favicon.svg",
+    "/favicon-96x96.png",
+    "/favicon.ico",
+    "/apple-touch-icon.png",
+  ]) {
+    check(
+      doc.nodes.some(node => attrs(node).href === favicon),
+      `${route}: custom favicon missing: ${favicon}`
+    );
+  }
   check(
     doc.nodes.some(node =>
       attrs(node).src?.includes("gtag/js?id=G-72NVH76BJC")
