@@ -371,17 +371,16 @@ for (const match of sitemap.matchAll(/<loc>(.*?)<\/loc>/g)) {
     `Invalid sitemap URL ${url}`
   );
 }
-for (const filename of ["rss.xml", "feed.xml"]) {
-  const rss = read(`dist/${filename}`);
-  const items = [...rss.matchAll(/<item>(.*?)<\/item>/gs)];
-  check(items.length === postPaths.size, `${filename}: wrong post count`);
-  for (const post of manifest.posts) {
-    check(
-      rss.includes(`<link>${site}${post.path}</link>`),
-      `${filename}: missing ${post.path}`
-    );
-  }
+const rss = read("dist/rss.xml");
+const items = [...rss.matchAll(/<item>(.*?)<\/item>/gs)];
+check(items.length === postPaths.size, "rss.xml: wrong post count");
+for (const post of manifest.posts) {
+  check(
+    rss.includes(`<link>${site}${post.path}</link>`),
+    `rss.xml: missing ${post.path}`
+  );
 }
+check(!existsSync("dist/feed.xml"), "Legacy feed.xml route still exists");
 for (const pathname of [
   "/",
   "/posts/",
