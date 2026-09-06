@@ -1,6 +1,5 @@
 ---
 title: "Run Custom Functionality When Angular Http Errors Occur"
-slug: run-custom-functionality-when-angular-http-errors-occur
 pubDatetime: 2017-01-31T00:00:00-05:00
 description: "Extend Angular Http to run custom functionality when HTTP requests fail."
 tags: ["angular"]

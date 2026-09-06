@@ -1,6 +1,5 @@
 ---
 title: "Thoughts On Debugging Durable Functions Extension Orchestrations For Azure Functions Backed By Azure Table Storage"
-slug: thoughts-on-debugging-durable-functions-extension-orchestrations-for-azure-functions-backed-by-azure-table-storage
 pubDatetime: 2021-03-31T00:00:00-04:00
 description: "Debug Durable Functions orchestrations backed by Azure Table Storage using instance IDs, tooling, and logging."
 tags: ["azure-functions", "durable-functions"]

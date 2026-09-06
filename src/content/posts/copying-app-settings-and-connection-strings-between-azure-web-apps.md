@@ -1,6 +1,5 @@
 ---
 title: "Copying App Settings and Connection Strings Between Azure Web Apps"
-slug: copying-app-settings-and-connection-strings-between-azure-web-apps
 pubDatetime: 2016-01-12T00:00:00-05:00
 description: "Copy Azure Web App settings and connection strings with the Azure Web App Configuration Copier."
 tags: ["azure", "configuration"]

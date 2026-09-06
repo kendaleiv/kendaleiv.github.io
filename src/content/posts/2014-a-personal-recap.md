@@ -1,6 +1,5 @@
 ---
 title: "2014: A Personal Recap"
-slug: 2014-a-personal-recap
 pubDatetime: 2014-12-31T00:00:00-05:00
 description: "Personal highlights from 2014, including public speaking, blogging, and open source contributions."
 tags: ["2014", "recap"]

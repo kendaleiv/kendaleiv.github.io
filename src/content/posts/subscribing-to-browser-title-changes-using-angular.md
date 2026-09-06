@@ -1,6 +1,5 @@
 ---
 title: "Subscribing to Browser Title Changes Using Angular"
-slug: subscribing-to-browser-title-changes-using-angular
 pubDatetime: 2016-12-26T00:00:00-05:00
 description: "Create a subscribable Angular title service to keep an in-page heading in sync with the browser title."
 tags: ["angular"]

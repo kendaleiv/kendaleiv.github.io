@@ -1,6 +1,5 @@
 ---
 title: "IEMs and Headphones for Developer Use"
-slug: iems-and-headphones-for-developer-use
 pubDatetime: 2015-10-20T00:00:00-04:00
 description: "Consider isolation, comfort, convenience, safety, and sound quality when choosing headphones for development."
 tags: ["iem", "headphones"]

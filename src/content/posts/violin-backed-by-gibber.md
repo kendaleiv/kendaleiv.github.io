@@ -1,6 +1,5 @@
 ---
 title: "Violin Backed by Gibber"
-slug: violin-backed-by-gibber
 pubDatetime: 2015-11-29T00:00:00-05:00
 description: "Create a live-coded backing track with Gibber for a violin performance, with video and JavaScript code."
 tags: ["music", "violin", "gibber"]

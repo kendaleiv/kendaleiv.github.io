@@ -1,6 +1,5 @@
 ---
 title: "Troubleshooting Private NuGet Packages With dotnet CLI"
-slug: troubleshooting-private-nuget-packages-with-dotnet-cli
 pubDatetime: 2020-11-10T00:00:00-05:00
 description: "Troubleshoot private NuGet package sources and credentials when using the dotnet CLI."
 tags: ["dotnet"]

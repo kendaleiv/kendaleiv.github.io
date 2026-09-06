@@ -1,6 +1,5 @@
 ---
 title: "Angular 2 Component Testing Template Using TestBed"
-slug: angular-2-component-testing-template-using-testbed
 pubDatetime: 2016-10-18T00:00:00-04:00
 description: "A reusable TestBed template for testing Angular 2 components."
 tags: ["angular", "testing"]

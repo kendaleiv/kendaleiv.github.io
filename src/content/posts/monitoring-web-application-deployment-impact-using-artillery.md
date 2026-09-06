@@ -1,6 +1,5 @@
 ---
 title: "Monitoring Web Application Deployment Impact Using Artillery"
-slug: monitoring-web-application-deployment-impact-using-artillery
 pubDatetime: 2020-12-16T00:00:00-05:00
 description: "Use Artillery to send requests during a web application deployment and observe its impact."
 tags: ["web"]

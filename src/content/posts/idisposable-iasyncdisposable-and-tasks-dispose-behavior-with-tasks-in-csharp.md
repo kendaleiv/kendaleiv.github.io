@@ -1,6 +1,5 @@
 ---
 title: "IDisposable, IAsyncDisposable, and Tasks: Dispose Behavior With Tasks In C#"
-slug: idisposable-iasyncdisposable-and-tasks-dispose-behavior-with-tasks-in-csharp
 pubDatetime: 2021-02-10T00:00:00-05:00
 description: "Explore IDisposable and IAsyncDisposable behavior when working with tasks in C#."
 tags: ["dotnet"]

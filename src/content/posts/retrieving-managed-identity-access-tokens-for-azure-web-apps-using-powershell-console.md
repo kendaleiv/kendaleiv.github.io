@@ -1,6 +1,5 @@
 ---
 title: "Retrieving Managed Identity Access Tokens For Azure Web Apps Using PowerShell Console"
-slug: retrieving-managed-identity-access-tokens-for-azure-web-apps-using-powershell-console
 pubDatetime: 2021-01-29T00:00:00-05:00
 description: "Retrieve a managed identity access token from an Azure Web App's PowerShell console."
 tags: ["azure", "powershell"]

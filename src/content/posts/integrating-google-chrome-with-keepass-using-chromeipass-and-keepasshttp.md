@@ -1,6 +1,5 @@
 ---
 title: "Integrating Google Chrome With KeePass Using chromeIPass and KeePassHttp"
-slug: integrating-google-chrome-with-keepass-using-chromeipass-and-keepasshttp
 pubDatetime: 2015-10-14T00:00:00-04:00
 description: "Connect Google Chrome to KeePass using KeePassHttp and chromeIPass."
 tags: ["chrome", "keepass", "chromeipass", "keepasshttp"]

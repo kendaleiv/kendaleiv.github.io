@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import { createHash } from "node:crypto";
 import { existsSync, readFileSync, readdirSync, statSync } from "node:fs";
-import { join, resolve } from "node:path";
+import { extname, join, relative, resolve, sep } from "node:path";
 import { parse } from "parse5";
 import { parse as parseYaml } from "yaml";
 
@@ -140,7 +140,11 @@ for (const file of sources) {
   const match = source.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
   assert(match, `Invalid front matter: ${file}`);
   const data = parseYaml(match[1]);
-  const pathname = `/${data.slug}/`;
+  const postId = relative("src/content/posts", file).slice(
+    0,
+    -extname(file).length
+  );
+  const pathname = `/${postId.split(sep).join("/")}/`;
   check(!postPaths.has(pathname), `Duplicate post route: ${pathname}`);
   postPaths.add(pathname);
   check(

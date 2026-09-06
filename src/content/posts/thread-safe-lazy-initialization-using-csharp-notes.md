@@ -1,6 +1,5 @@
 ---
 title: "Thread Safe Lazy Initialization Using C# Notes"
-slug: thread-safe-lazy-initialization-using-csharp-notes
 pubDatetime: 2020-11-23T00:00:00-05:00
 description: "Notes on Lazy<T>, thread-safety modes, and exception behavior in C#."
 tags: ["dotnet"]

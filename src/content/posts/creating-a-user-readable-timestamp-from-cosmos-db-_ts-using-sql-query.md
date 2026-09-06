@@ -1,6 +1,5 @@
 ---
 title: "Creating A User Readable Timestamp From Cosmos DB _ts Using SQL Query"
-slug: creating-a-user-readable-timestamp-from-cosmos-db-_ts-using-sql-query
 pubDatetime: 2026-05-06T00:00:00-04:00
 description: "Convert Cosmos DB's Unix _ts timestamp into a readable date and time using a SQL query."
 tags: ["ai-generated", "azure", "cosmosdb"]

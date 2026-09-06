@@ -1,6 +1,5 @@
 ---
 title: "Refactor and Test jQuery/JS Code"
-slug: refactor-and-test-jquery-js-code
 pubDatetime: 2014-08-27T00:00:00-04:00
 description: "Refactor unstructured jQuery code into testable JavaScript with a clear separation of responsibilities."
 tags: ["jquery", "javascript", "refactoring", "testing"]

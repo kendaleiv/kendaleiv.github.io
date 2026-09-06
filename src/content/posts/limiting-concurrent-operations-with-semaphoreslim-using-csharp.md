@@ -1,6 +1,5 @@
 ---
 title: "Limiting Concurrent Operations With SemaphoreSlim Using C#"
-slug: limiting-concurrent-operations-with-semaphoreslim-using-csharp
 pubDatetime: 2020-12-11T00:00:00-05:00
 description: "Limit concurrent operations with SemaphoreSlim while maintaining throughput in C#."
 tags: ["dotnet"]

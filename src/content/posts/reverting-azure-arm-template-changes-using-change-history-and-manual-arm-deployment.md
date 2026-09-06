@@ -1,6 +1,5 @@
 ---
 title: "Reverting Azure ARM Template Changes Using Change History And Manual ARM Deployment"
-slug: reverting-azure-arm-template-changes-using-change-history-and-manual-arm-deployment
 pubDatetime: 2021-01-05T00:00:00-05:00
 description: "Recover an earlier Azure resource configuration using change history and a manual ARM deployment."
 tags: ["azure"]

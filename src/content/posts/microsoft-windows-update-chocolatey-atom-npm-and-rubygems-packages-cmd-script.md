@@ -1,6 +1,5 @@
 ---
 title: "Microsoft Windows: Update Chocolatey, Atom, npm, and RubyGems packages cmd Script"
-slug: microsoft-windows-update-chocolatey-atom-npm-and-rubygems-packages-cmd-script
 pubDatetime: 2015-11-11T00:00:00-05:00
 description: "A Windows command script to update Chocolatey, Atom, npm, and RubyGems packages."
 tags: ["windows", "update", "packages"]

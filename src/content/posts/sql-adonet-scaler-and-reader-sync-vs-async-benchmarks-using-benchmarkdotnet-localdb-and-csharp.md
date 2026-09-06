@@ -1,6 +1,5 @@
 ---
 title: "SQL ADO.NET Scaler And Reader Sync vs Async Benchmarks Using BenchmarkDotNet, LocalDB, And C#"
-slug: sql-adonet-scaler-and-reader-sync-vs-async-benchmarks-using-benchmarkdotnet-localdb-and-csharp
 pubDatetime: 2020-12-18T00:00:00-05:00
 description: "Compare synchronous and asynchronous ADO.NET scalar and reader operations with BenchmarkDotNet and LocalDB."
 tags: ["dotnet"]

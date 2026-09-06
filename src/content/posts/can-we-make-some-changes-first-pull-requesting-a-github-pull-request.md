@@ -1,6 +1,5 @@
 ---
 title: "Can We Make Some Changes First? Pull Requesting a GitHub Pull Request"
-slug: can-we-make-some-changes-first-pull-requesting-a-github-pull-request
 pubDatetime: 2016-02-16T00:00:00-05:00
 description: "Help a contributor by submitting a pull request to their pull request branch before merging."
 tags: ["github"]

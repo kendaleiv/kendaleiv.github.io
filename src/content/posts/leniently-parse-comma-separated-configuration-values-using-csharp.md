@@ -1,6 +1,5 @@
 ---
 title: "Leniently Parse Comma Separated Configuration Values Using C#"
-slug: leniently-parse-comma-separated-configuration-values-using-csharp
 pubDatetime: 2023-06-11T00:00:00-04:00
 description: "Parse comma-separated configuration values while tolerating spaces, empty entries, and missing values in C#."
 tags: ["csharp", "dotnet"]

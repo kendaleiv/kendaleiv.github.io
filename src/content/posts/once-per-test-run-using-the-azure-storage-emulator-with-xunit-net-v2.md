@@ -1,6 +1,5 @@
 ---
 title: "Once Per Test Run: Using the Azure Storage Emulator with xUnit.net v2"
-slug: once-per-test-run-using-the-azure-storage-emulator-with-xunit-net-v2
 pubDatetime: 2015-10-07T00:00:00-04:00
 description: "Use xUnit.net v2 collection fixtures to start and stop the Azure Storage Emulator once per test run."
 tags: ["csharp", "xunit", "azure", "storage", "emulator"]

@@ -1,6 +1,5 @@
 ---
 title: "Using BenchmarkDotNet with Azure Functions"
-slug: using-benchmarkdotnet-with-azure-functions
 pubDatetime: 2020-10-20T00:00:00-04:00
 description: "Set up BenchmarkDotNet to benchmark an Azure Functions application."
 tags: ["dotnet"]

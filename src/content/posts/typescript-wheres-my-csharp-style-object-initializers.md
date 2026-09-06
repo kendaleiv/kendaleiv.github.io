@@ -1,6 +1,5 @@
 ---
 title: "TypeScript: Where's My C# Style Object Initializers?"
-slug: typescript-wheres-my-csharp-style-object-initializers
 pubDatetime: 2016-04-26T00:00:00-04:00
 description: "Explore object initialization in TypeScript compared with C# object initializers."
 tags: ["typescript"]

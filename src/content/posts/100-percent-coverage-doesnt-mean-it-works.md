@@ -1,6 +1,5 @@
 ---
 title: "100% Code Coverage Doesn't Mean It Works"
-slug: 100-percent-coverage-doesnt-mean-it-works
 pubDatetime: 2016-07-07T00:00:00-04:00
 description: "Why executing every line of code is not the same as testing that the code works correctly."
 tags: ["tests", "coverage"]

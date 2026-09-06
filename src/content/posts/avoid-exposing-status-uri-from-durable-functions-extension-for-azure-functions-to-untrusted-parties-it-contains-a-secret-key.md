@@ -1,6 +1,5 @@
 ---
 title: "Avoid Exposing Status Uri From Durable Functions Extension For Azure Functions To Untrusted Parties (It Contains A Secret Key!)"
-slug: avoid-exposing-status-uri-from-durable-functions-extension-for-azure-functions-to-untrusted-parties-it-contains-a-secret-key
 pubDatetime: 2021-03-15T00:00:00-04:00
 description: "Avoid exposing Durable Functions status URLs containing secret keys, and rotate keys if they are exposed."
 tags: ["azure-functions", "durable-functions"]

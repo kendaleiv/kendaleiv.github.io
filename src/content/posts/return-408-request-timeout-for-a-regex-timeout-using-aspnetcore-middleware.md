@@ -1,6 +1,5 @@
 ---
 title: "Return 408 Request Timeout For a Regex Timeout Using ASP.NET Core Middleware"
-slug: return-408-request-timeout-for-a-regex-timeout-using-aspnetcore-middleware
 pubDatetime: 2025-03-13T00:00:00-04:00
 description: "Return HTTP 408 for regular expression timeouts using ASP.NET Core middleware."
 tags: ["aspnetcore"]

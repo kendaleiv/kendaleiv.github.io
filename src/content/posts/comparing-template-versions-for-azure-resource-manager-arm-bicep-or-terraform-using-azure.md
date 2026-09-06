@@ -1,6 +1,5 @@
 ---
 title: "Comparing Template Versions For Azure Resource Manager (ARM), Bicep, or Terraform Using Azure"
-slug: comparing-template-versions-for-azure-resource-manager-arm-bicep-or-terraform-using-azure
 pubDatetime: 2024-04-04T00:00:00-04:00
 description: "Compare Azure resource schemas when updating API versions in ARM, Bicep, or Terraform configurations."
 tags: ["azure", "arm", "bicep", "terraform"]

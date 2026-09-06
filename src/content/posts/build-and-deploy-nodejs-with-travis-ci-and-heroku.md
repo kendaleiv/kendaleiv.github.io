@@ -1,6 +1,5 @@
 ---
 title: "Build and Deploy Node.js With Travis CI and Heroku"
-slug: build-and-deploy-nodejs-with-travis-ci-and-heroku
 pubDatetime: 2014-09-19T00:00:00-04:00
 description: "Configure Travis CI to build a Node.js application and deploy successful builds to Heroku."
 tags: ["nodejs", "travis-ci", "heroku", "continuous-integration", "deployment"]

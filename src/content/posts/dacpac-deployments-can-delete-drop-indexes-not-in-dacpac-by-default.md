@@ -1,6 +1,5 @@
 ---
 title: "DACPAC Deployments Can Delete/Drop Indexes Not In DACPAC By Default"
-slug: dacpac-deployments-can-delete-drop-indexes-not-in-dacpac-by-default
 pubDatetime: 2023-06-16T00:00:00-04:00
 description: "Understand how DACPAC deployment defaults can drop indexes that are not included in the DACPAC."
 tags: ["dacpac"]

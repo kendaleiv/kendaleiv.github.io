@@ -1,6 +1,5 @@
 ---
 title: "Using Different Email Addresses For Git Commits For Azure DevOps And GitHub"
-slug: using-different-email-addresses-for-git-commits-for-azure-devops-and-github
 pubDatetime: 2023-01-27T00:00:00-05:00
 description: "Automatically choose Git commit email addresses for Azure DevOps and GitHub using conditional configuration."
 tags: ["git"]

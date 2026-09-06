@@ -1,6 +1,5 @@
 ---
 title: "Coding To Support Both .NET Full Framework and Modern .NET"
-slug: coding-to-support-both-dotnet-full-framework-and-dotnet-core
 pubDatetime: 2020-02-19T00:00:00-05:00
 description: "Support .NET Full Framework and modern .NET with conditional code paths and package references."
 tags: ["dotnet"]

@@ -1,6 +1,5 @@
 ---
 title: "Starting, Stopping, and Clearing the Azure Storage Emulator in C#"
-slug: starting-stopping-and-clearing-the-azure-storage-emulator-in-csharp
 pubDatetime: 2015-10-01T00:00:00-04:00
 description: "Control the Azure Storage Emulator from C# for local development with blobs, tables, and queues."
 tags: ["csharp", "integration", "tests", "azure", "storage", "emulator"]

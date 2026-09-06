@@ -1,6 +1,5 @@
 ---
 title: "Exporting All Tickets from Zendesk"
-slug: exporting-all-tickets-from-zendesk
 pubDatetime: 2014-12-11T00:00:00-05:00
 description: "Export all Zendesk tickets, including archived tickets, for historical reporting."
 tags: ["zendesk"]

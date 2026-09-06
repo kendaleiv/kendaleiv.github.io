@@ -1,6 +1,5 @@
 ---
 title: "Lessons Learned Implementing a Must Succeed Durable Functions Workflow"
-slug: lessons-learned-implementing-a-must-succeed-durable-functions-workflow
 pubDatetime: 2022-08-09T00:00:00-04:00
 description: "Lessons on failure handling, recovery, and instrumentation for a must-succeed Durable Functions workflow."
 tags: ["azure-functions", "durable-functions"]

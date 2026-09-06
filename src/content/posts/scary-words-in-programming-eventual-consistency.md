@@ -1,6 +1,5 @@
 ---
 title: "Scary Words in Programming: Eventual Consistency"
-slug: scary-words-in-programming-eventual-consistency
 pubDatetime: 2014-10-31T00:00:00-04:00
 description: "An introduction to eventual consistency and what it means for distributed applications."
 tags: ["eventual", "consistency"]

@@ -1,6 +1,5 @@
 ---
 title: "Angular 2 Services Testing Template"
-slug: angular-2-services-testing-template
 pubDatetime: 2016-10-23T00:00:00-04:00
 description: "A simple template for testing Angular 2 services, with optional real HTTP calls."
 tags: ["angular", "testing"]

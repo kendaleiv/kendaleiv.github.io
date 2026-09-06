@@ -1,6 +1,5 @@
 ---
 title: "TypeScript: Missing Properties When Using Type Assertions"
-slug: typescript-missing-properties-when-using-type-assertions
 pubDatetime: 2016-04-19T00:00:00-04:00
 description: "Why TypeScript type assertions do not create missing properties or behave like C# casts."
 tags: ["typescript"]

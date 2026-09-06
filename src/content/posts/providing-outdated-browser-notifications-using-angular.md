@@ -1,6 +1,5 @@
 ---
 title: "Providing Outdated Browser Notifications Using Angular"
-slug: providing-outdated-browser-notifications-using-angular
 pubDatetime: 2017-04-08T00:00:00-04:00
 description: "Notify users of outdated browsers without depending on an Angular application successfully loading."
 tags: ["angular"]

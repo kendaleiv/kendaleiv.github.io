@@ -1,6 +1,5 @@
 ---
 title: "Using JavaScript Promises And async/await Together"
-slug: using-javascript-promises-and-async-await-together
 pubDatetime: 2017-09-16T00:00:00-04:00
 description: "Examples of using JavaScript promises and async/await interchangeably."
 tags: ["javascript"]

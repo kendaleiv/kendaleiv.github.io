@@ -1,6 +1,5 @@
 ---
 title: "Retrieving ObjectIds In An Azure Active Directory Group Using Azure CLI"
-slug: retrieving-objectids-in-an-azure-active-diretory-group-using-azure-cli
 pubDatetime: 2021-07-02T00:00:00-04:00
 description: "Retrieve the object IDs of Azure Active Directory group members using Azure CLI."
 tags: ["azure", "azure-cli"]

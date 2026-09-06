@@ -1,6 +1,5 @@
 ---
 title: "Quickstart for Contributing to a GitHub Repository with a Development Branch"
-slug: quickstart-for-contributing-to-a-github-repository-with-a-development-branch
 pubDatetime: 2014-09-29T00:00:00-04:00
 description: "Fork, clone, and contribute to a GitHub repository that uses a development branch instead of its default branch."
 tags: ["git", "github"]

@@ -1,6 +1,5 @@
 ---
 title: "Tips for the Aspiring or First Time Technical Speaker"
-slug: tips-for-the-aspiring-or-first-time-technical-speaker
 pubDatetime: 2014-10-02T00:00:00-04:00
 description: "Practical advice on rehearsing, demos, equipment, and enjoying your first technical speaking engagement."
 tags: ["speaking", "presenting"]

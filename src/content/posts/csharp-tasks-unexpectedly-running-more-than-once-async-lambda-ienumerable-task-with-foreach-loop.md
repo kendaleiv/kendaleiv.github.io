@@ -1,6 +1,5 @@
 ---
 title: "C# Tasks Unexpectedly Running More Than Once (Async Lambda IEnumerable<Task> With foreach Loop)"
-slug: csharp-tasks-unexpectedly-running-more-than-once-async-lambda-ienumerable-task-with-foreach-loop
 pubDatetime: 2024-03-06T00:00:00-05:00
 description: "Why enumerating a deferred IEnumerable<Task> more than once can unexpectedly run asynchronous work again."
 tags: ["csharp", "dotnet"]

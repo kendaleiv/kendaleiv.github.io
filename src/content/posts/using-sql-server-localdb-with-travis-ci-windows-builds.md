@@ -1,6 +1,5 @@
 ---
 title: "Using SQL Server LocalDB with Travis CI Windows Builds"
-slug: using-sql-server-localdb-with-travis-ci-windows-builds
 pubDatetime: 2019-01-05T00:00:00-05:00
 description: "Install SQL Server LocalDB with Chocolatey for Travis CI Windows builds."
 tags: ["travis-ci", "continuous-integration"]

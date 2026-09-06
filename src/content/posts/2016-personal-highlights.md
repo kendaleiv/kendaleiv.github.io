@@ -1,6 +1,5 @@
 ---
 title: "2016: Personal Highlights"
-slug: 2016-personal-highlights
 pubDatetime: 2016-12-31T00:00:00-05:00
 description: "Highlights from 2016, including a Microsoft MVP award and speaking at NDC Oslo."
 tags: ["2016", "highlights"]

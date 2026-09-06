@@ -1,6 +1,5 @@
 ---
 title: "TypeScript Constructor Assignment: public and private Keywords"
-slug: typescript-constructor-assignment-public-and-private-keywords
 pubDatetime: 2017-02-04T00:00:00-05:00
 description: "Use TypeScript constructor parameter properties to declare and assign public or private fields concisely."
 tags: ["typescript"]

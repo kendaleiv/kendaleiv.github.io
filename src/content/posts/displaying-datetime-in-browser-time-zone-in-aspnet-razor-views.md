@@ -1,6 +1,5 @@
 ---
 title: "Displaying DateTime in Browser Time Zone in ASP.NET Razor Views"
-slug: displaying-datetime-in-browser-time-zone-in-aspnet-razor-views
 pubDatetime: 2015-09-03T00:00:00-04:00
 description: "Display dates in the browser's time zone in ASP.NET Razor views using RimDev.AspNetBrowserLocale."
 tags: ["aspnet", "razor", "datetime", "browser", "time", "zone"]

@@ -1,6 +1,5 @@
 ---
 title: "Running Code On Local Computer / Localhost Only Using Azure Functions With C#"
-slug: running-code-on-local-computer-localhost-only-using-azure-functions-with-csharp
 pubDatetime: 2021-03-19T00:00:00-04:00
 description: "Use AZURE_FUNCTIONS_ENVIRONMENT to run development-only code in Azure Functions with C#."
 tags: ["azure-functions", "csharp"]

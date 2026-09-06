@@ -1,6 +1,5 @@
 ---
 title: "Lindt Dark Chocolate Percentage EXCELLENCE Bars: Nutrition Comparison"
-slug: lindt-dark-chocolate-percentage-excellence-bars-nutrition-comparison
 pubDatetime: 2016-04-05T00:00:00-04:00
 description: "Compare the nutrition of Lindt EXCELLENCE dark chocolate bars with 70%, 85%, 90%, and 99% cocoa."
 tags: ["chocolate"]

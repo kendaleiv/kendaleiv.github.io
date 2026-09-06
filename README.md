@@ -26,7 +26,7 @@ pnpm preview
 
 ## Content and routes
 
-Posts live in `src/content/posts/`; standalone content lives in `src/content/pages/`. Posts require `title`, `description`, `pubDatetime`, and a tags array. Use an explicit `slug` to keep the public URL stable. Publication timestamps retain midnight in `America/New_York`, including the historical daylight-saving offset.
+Posts live in `src/content/posts/`; standalone content lives in `src/content/pages/`. Posts require `title`, `description`, `pubDatetime`, and a tags array. A post's filename determines its public URL, so preserve the filename to keep the URL stable. Publication timestamps retain midnight in `America/New_York`, including the historical daylight-saving offset.
 
 The only post-routing changes from AstroPaper are moving its post detail/image routes to `src/pages/[...slug]/` and removing the `posts/` prefix in `getPostUrl`. Existing post URLs remain `/:title/`, including underscores. Listings, tags, archives, pagination, search, sharing, RSS, styles, typography, and social-card rendering follow upstream conventions. `/feed.xml` remains available for existing RSS subscribers.
 

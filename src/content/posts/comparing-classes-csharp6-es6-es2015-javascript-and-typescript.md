@@ -1,6 +1,5 @@
 ---
 title: "Comparing Classes: C# 6, ES6/ES2015 JavaScript, and TypeScript"
-slug: comparing-classes-csharp6-es6-es2015-javascript-and-typescript
 pubDatetime: 2016-07-05T00:00:00-04:00
 description: "Compare class syntax and behavior in C# 6, ES6 JavaScript, and TypeScript."
 tags: ["csharp", "javascript", "typescript"]

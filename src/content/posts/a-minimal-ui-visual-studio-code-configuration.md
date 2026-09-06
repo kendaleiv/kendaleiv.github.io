@@ -1,6 +1,5 @@
 ---
 title: "A Minimal UI Visual Studio Code Configuration"
-slug: a-minimal-ui-visual-studio-code-configuration
 pubDatetime: 2017-07-23T00:00:00-04:00
 description: "Reduce Visual Studio Code interface distractions with a minimal settings configuration."
 tags: ["vscode"]

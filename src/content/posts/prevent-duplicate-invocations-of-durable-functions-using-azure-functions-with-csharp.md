@@ -1,6 +1,5 @@
 ---
 title: "Prevent Duplicate Invocations of Durable Functions Using Azure Functions With C#"
-slug: prevent-duplicate-invocations-of-durable-functions-using-azure-functions-with-csharp
 pubDatetime: 2021-01-15T00:00:00-05:00
 description: "Check in-flight Durable Functions orchestrations before starting a potentially duplicate operation."
 tags: ["azure-functions", "durable-functions", "dotnet"]

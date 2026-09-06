@@ -1,6 +1,5 @@
 ---
 title: "Comparing Angular NgModule and TestBed Side by Side"
-slug: comparing-angular-ngmodule-and-testbed-side-by-side
 pubDatetime: 2017-01-17T00:00:00-05:00
 description: "Compare Angular NgModule configuration with TestBed.configureTestingModule side by side."
 tags: ["angular"]

@@ -1,6 +1,5 @@
 ---
 title: "Debugging Fan-Out Operation Failures With Custom Exception Messages Using Durable Functions Extension For Azure Functions On C#"
-slug: debugging-fan-out-operation-failures-with-custom-exception-messages-using-durable-functions-extension-for-azure-functions-on-csharp
 pubDatetime: 2021-03-16T00:00:00-04:00
 description: "Improve Durable Functions fan-out debugging with exception messages that identify failing HTTP operations."
 tags: ["azure-functions", "durable-functions"]

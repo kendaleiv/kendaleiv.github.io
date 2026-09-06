@@ -1,6 +1,5 @@
 ---
 title: "Setting Regex Timeout Globally Using .NET 6.0 With C#"
-slug: setting-regex-timeout-globally-using-dotnet-6_0-with-csharp
 pubDatetime: 2022-04-22T00:00:00-04:00
 description: "Set a global regular expression timeout in .NET 6.0 and understand its scope and behavior."
 tags: ["dotnet"]

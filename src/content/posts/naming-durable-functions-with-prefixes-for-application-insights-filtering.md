@@ -1,6 +1,5 @@
 ---
 title: "Naming Durable Functions With Prefixes For Application Insights Filtering"
-slug: naming-durable-functions-with-prefixes-for-application-insights-filtering
 pubDatetime: 2021-04-23T00:00:00-04:00
 description: "Prefix Durable Functions names to filter orchestration telemetry in Application Insights."
 tags: ["azure-functions", "durable-functions"]

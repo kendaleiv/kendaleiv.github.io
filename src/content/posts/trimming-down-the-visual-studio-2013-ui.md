@@ -1,6 +1,5 @@
 ---
 title: "Trimming Down the Visual Studio 2013 UI"
-slug: trimming-down-the-visual-studio-2013-ui
 pubDatetime: 2015-04-21T00:00:00-04:00
 description: "Simplify the Visual Studio 2013 interface with settings changes and a downloadable editor configuration."
 tags: ["visual-studio", "ui"]

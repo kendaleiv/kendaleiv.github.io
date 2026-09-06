@@ -1,6 +1,5 @@
 ---
 title: "C# List<T> Add Method Missing Items When Count Inspected When Adding Items In An Async Task"
-slug: csharp-list-t-add-method-missing-items-when-count-inspected-when-adding-items-in-an-async-task
 pubDatetime: 2024-03-06T00:00:00-05:00
 description: "Why concurrent List<T>.Add calls can lose items, and when a concurrent collection can help."
 tags: ["csharp", "dotnet"]

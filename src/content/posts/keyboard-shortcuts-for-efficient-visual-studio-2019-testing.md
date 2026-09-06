@@ -1,6 +1,5 @@
 ---
 title: "Keyboard Shortcuts For Efficient Visual Studio 2019 Testing"
-slug: keyboard-shortcuts-for-efficient-visual-studio-2019-testing
 pubDatetime: 2020-11-03T00:00:00-05:00
 description: "Use Visual Studio 2019 keyboard shortcuts to run and debug tests more efficiently."
 tags: ["visual-studio"]

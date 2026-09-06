@@ -1,6 +1,5 @@
 ---
 title: "Dynamic Parameterized SQL Using ADO.NET With C#"
-slug: dynamic-parameterized-sql-using-adonet-with-csharp
 pubDatetime: 2020-12-15T00:00:00-05:00
 description: "Build dynamic parameterized SQL queries using ADO.NET and C#, including a complete SQLite example."
 tags: ["dotnet"]

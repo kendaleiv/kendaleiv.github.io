@@ -1,6 +1,5 @@
 ---
 title: "2015: A Personal Recap"
-slug: 2015-a-personal-recap
 pubDatetime: 2015-12-31T00:00:00-05:00
 description: "A look back at 2015, including conference speaking, music, and personal accomplishments."
 tags: ["2015", "recap"]

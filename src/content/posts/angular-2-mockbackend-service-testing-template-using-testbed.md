@@ -1,6 +1,5 @@
 ---
 title: "Angular 2 MockBackend Service Testing Template Using TestBed"
-slug: angular-2-mockbackend-service-testing-template-using-testbed
 pubDatetime: 2016-10-23T00:00:00-04:00
 description: "Test Angular 2 services with TestBed and MockBackend without making real HTTP requests."
 tags: ["angular", "testing"]

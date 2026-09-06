@@ -1,6 +1,5 @@
 ---
 title: "Get Basic Information For Azure AD Object Ids Using PowerShell"
-slug: get-basic-information-for-azure-ad-object-ids-using-powershell
 pubDatetime: 2021-01-07T00:00:00-05:00
 description: "Retrieve basic information about one or more Azure AD object IDs using PowerShell."
 tags: ["azure", "powershell"]

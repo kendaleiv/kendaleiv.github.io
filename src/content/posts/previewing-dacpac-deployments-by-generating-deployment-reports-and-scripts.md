@@ -1,6 +1,5 @@
 ---
 title: "Previewing DACPAC Deployments By Generating Deployment Reports And Scripts"
-slug: previewing-dacpac-deployments-by-generating-deployment-reports-and-scripts
 pubDatetime: 2023-06-19T00:00:00-04:00
 description: "Preview DACPAC changes by generating deployment reports and SQL scripts before deploying."
 tags: ["dacpac"]

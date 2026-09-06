@@ -1,6 +1,5 @@
 ---
 title: 'Azure Key Vault: Certificate "Download in PFX/PEM format" Not Available'
-slug: azure-key-vault-certificate-download-in-pfx-pem-format-not-available
 pubDatetime: 2023-05-25T00:00:00-04:00
 description: "Enable Azure Key Vault certificate downloads in PFX/PEM format with the necessary secret permissions."
 tags: ["azure"]

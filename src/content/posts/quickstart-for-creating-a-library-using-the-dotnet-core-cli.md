@@ -1,6 +1,5 @@
 ---
 title: "Quickstart for Creating a Library Using the .NET CLI"
-slug: quickstart-for-creating-a-library-using-the-dotnet-core-cli
 pubDatetime: 2020-02-02T00:00:00-05:00
 description: "Scaffold a .NET library, solution, and xUnit test project using the dotnet CLI."
 tags: ["dotnet"]

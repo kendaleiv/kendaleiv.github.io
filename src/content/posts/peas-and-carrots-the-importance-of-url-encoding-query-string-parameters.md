@@ -1,6 +1,5 @@
 ---
 title: "Peas&Carrots: The Importance Of Url Encoding Query String Parameters"
-slug: peas-and-carrots-the-importance-of-url-encoding-query-string-parameters
 pubDatetime: 2020-05-26T00:00:00-04:00
 description: "Avoid broken query strings by URL-encoding parameter values containing characters such as ampersands."
 tags: ["web"]
