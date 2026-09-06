@@ -44,4 +44,4 @@ GitHub Actions validates pull requests and deploys `main` to GitHub Pages using 
 
 Content: All content copyright &copy; Ken Dale 2026 under the [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.
 
-Theme: [AstroPaper](https://github.com/satnaing/astro-paper) | MIT License | Copyright (c) 2023 Sat Naing
+Theme: [AstroPaper](https://github.com/satnaing/astro-paper) | MIT License | Copyright (c) 2026 Sat Naing

@@ -1,6 +1,6 @@
 ---
 title: About
-description: About Ken Dale, software engineer and technical speaker.
+description: Ken Dale is a Senior Software Engineer at Microsoft.
 ---
 
 <p>
