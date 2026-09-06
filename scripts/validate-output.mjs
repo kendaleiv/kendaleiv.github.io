@@ -49,6 +49,19 @@ const meta = (doc, key) =>
   doc.metas.find(item => item.name === key || item.property === key)?.content;
 const canonical = doc =>
   doc.nodes.find(node => attrs(node).rel === "canonical");
+const home = documents.get(outputPath("/"));
+for (const profile of [
+  "https://github.com/kendaleiv",
+  "https://mastodon.social/@kendaleiv",
+  "https://www.linkedin.com/in/kendaleiv/",
+  "https://bsky.app/profile/kendaleiv.com",
+]) {
+  check(home?.links.some(link => link.href === profile), `Missing profile: ${profile}`);
+}
+check(
+  !home?.links.some(link => link.href?.startsWith("https://x.com/")),
+  "X profile present"
+);
 const checkPng = pathname => {
   const file = outputPath(pathname);
   check(existsSync(file), `Missing social image: ${pathname}`);
@@ -214,11 +227,16 @@ for (const file of sources) {
     `${pathname}: search body missing`
   );
   check(
-    doc.links.some(
-      link =>
-        link.href?.startsWith("https://x.com/intent/post?url=") &&
-        new URL(link.href).searchParams.get("url") === `${site}${pathname}`
+    !doc.links.some(link =>
+      link.href?.startsWith("https://x.com/intent/post?")
     ),
+    `${pathname}: X sharing link present`
+  );
+  check(
+    doc.links.some(link => {
+      if (!link.href?.startsWith("https://t.me/share/url?url=")) return false;
+      return new URL(link.href).searchParams.get("url") === `${site}${pathname}`;
+    }),
     `${pathname}: incorrect sharing URL`
   );
 }
