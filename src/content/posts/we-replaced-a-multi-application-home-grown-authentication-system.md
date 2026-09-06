@@ -26,13 +26,13 @@ Our main goals included supporting new scenarios and using a modern specificatio
 
 Our desired immediate and future login possibilities included Active Directory logins, social logins, as well as a login story for SPA and other applications.
 
-In terms of following a specification, we chose [OpenID Connect](https://openid.net/connect/).
+In terms of following a specification, we chose [OpenID Connect](https://openid.net/connect/). 
 
 ## Exploring choices
 
 We explored different choices for implementing our desired feature set. It ultimately boiled down to choosing from the following:
 
-- ~~Write it yourself~~ _(not an actual solution for many developers and teams...)_
+- ~~Write it yourself~~ *(not an actual solution for many developers and teams...)*
 - Find a good and reliable open source implementation
 - Use an online service
 
@@ -40,11 +40,11 @@ We chose to cloud host an open source implementation using [IdentityServer3](htt
 
 ## Implementation
 
-Now that a decision has been made, it's time to get moving. I'll caution you: **It's going to look easy.** Diagrams like this one can lure you into a false sense of _you-think-you-know-what-you're-doing_:
+Now that a decision has been made, it's time to get moving. I'll caution you: **It's going to look easy.** Diagrams like this one can lure you into a false sense of *you-think-you-know-what-you're-doing*:
 
 ![https://identityserver.github.io/Documentation/assets/images/terminology.png](https://identityserver.github.io/Documentation/assets/images/terminology.png)
 
-**Diagram:** _[https://identityserver.github.io/Documentation/assets/images/terminology.png](https://identityserver.github.io/Documentation/assets/images/terminology.png) on [https://identityserver.github.io/Documentation/docsv2/overview/terminology.html](https://identityserver.github.io/Documentation/docsv2/overview/terminology.html)_
+**Diagram:** *[https://identityserver.github.io/Documentation/assets/images/terminology.png](https://identityserver.github.io/Documentation/assets/images/terminology.png) on [https://identityserver.github.io/Documentation/docsv2/overview/terminology.html](https://identityserver.github.io/Documentation/docsv2/overview/terminology.html)*
 
 Now, start thinking and implementing. You may realize you don't know what to do, or even where to begin. If that's the case -- it's totally OK. These diagrams are great for a high-level understanding, but you'll need a much deeper understanding to be able to implement this.
 
@@ -52,7 +52,7 @@ As for us, we got expert help: An on-site consultant for one week to rocket the 
 
 ### Making it easy: Abstraction(s)
 
-You'll likely want to create an abstraction or abstractions for use in applications as a _standard_ way to wire up the authentication/authorization solution. A consistent, easy to use abstraction can be useful!
+You'll likely want to create an abstraction or abstractions for use in applications as a *standard* way to wire up the authentication/authorization solution. A consistent, easy to use abstraction can be useful!
 
 **You choose the abstraction(s)!** And, how to distribute them.
 
@@ -76,7 +76,7 @@ public class Startup
 
 ### Unfriendly by design
 
-Authentication and authorization is unfriendly by design. No _hints_ are given if 15 characters of a 16 character password or correct. It's just _nope_. Having logging in place to help you as a developer or sysadmin discover the _real_ underlying problems (scope problems, etc.) could go a long way.
+Authentication and authorization is unfriendly by design. No *hints* are given if 15 characters of a 16 character password or correct. It's just *nope*. Having logging in place to help you as a developer or sysadmin discover the *real* underlying problems (scope problems, etc.) could go a long way.
 
 ### Configuration, configuration, configuration
 
@@ -90,7 +90,7 @@ Limit visiblity of secrets to those who should be able to access them. If a team
 
 Logging can be helpful if things don't go as planned. If there's an issue in production, having more information at hand may help you discover the root problem more quickly. Ideally, any logging strategy makes it easy to find what you're looking for, without having to sift through a bunch of non-applicable items.
 
-If you're logging unhandled exceptions or other events, consider filtering or removing items that aren't _real_ problems. A user providing bad input and other errors-that-aren't-necessarily-errors can dilute your error logs if left unchecked.
+If you're logging unhandled exceptions or other events, consider filtering or removing items that aren't *real* problems. A user providing bad input and other errors-that-aren't-necessarily-errors can dilute your error logs if left unchecked.
 
 ## Impersonation
 
@@ -104,4 +104,4 @@ I also demo'ed usage of an access token configured for a user in Stuntman with F
 
 And, here's the video:
 
-<iframe title="Conference talk recording" style="max-width: 100%; height: auto; aspect-ratio: 16 / 9;" src="https://av.tib.eu/player/51855" frameborder="0" allowfullscreen></iframe>
+<iframe style="max-width: 100%; height: auto; aspect-ratio: 16 / 9;" src="https://av.tib.eu/player/51855" frameborder="0" allowfullscreen></iframe>

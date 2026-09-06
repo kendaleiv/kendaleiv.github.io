@@ -264,6 +264,19 @@ for (const file of sources) {
   );
 }
 
+for (const [postId, title] of [
+  ["violin-backed-by-gibber", "Violin backed by Gibber"],
+  [
+    "we-replaced-a-multi-application-home-grown-authentication-system",
+    "Conference talk recording",
+  ],
+]) {
+  check(
+    !read(`src/content/posts/${postId}.md`).includes(`title="${title}"`),
+    `/${postId}/: migration-added iframe title present`
+  );
+}
+
 assert.equal(
   manifest.posts.length,
   78,
@@ -303,10 +316,6 @@ for (const page of manifest.pages) {
 }
 for (const [file, doc] of documents) {
   for (const node of doc.nodes.filter(node => node.tagName === "iframe")) {
-    check(
-      attrs(node).title?.length > 0,
-      `${file}: iframe needs an accessible title`
-    );
     check(attrs(node).src.startsWith("https://"), `${file}: insecure iframe`);
   }
 }

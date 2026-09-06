@@ -5,7 +5,7 @@ description: "Lessons on failure handling, recovery, and instrumentation for a m
 tags: ["azure-functions", "durable-functions"]
 ---
 
-[Durable Functions](https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-overview) is an extension for [Azure Functions](https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview) to help write stateful services in a stateless environment. **Here's a few thoughts for a successful production implementation of a must succeed workflow.** (and by _must succeed_, I mean a workflow where failure results in a broken state)
+[Durable Functions](https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-overview) is an extension for [Azure Functions](https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview) to help write stateful services in a stateless environment. **Here's a few thoughts for a successful production implementation of a must succeed workflow.** (and by *must succeed*, I mean a workflow where failure results in a broken state)
 
 ## Consider Failures And How To Mitigate Them
 
@@ -57,4 +57,4 @@ It can be helpful to view information about the state of each workflow item. Whe
 
 For debugging: [Thoughts On Debugging Durable Functions Extension Orchestrations For Azure Functions Backed By Azure Table Storage](/thoughts-on-debugging-durable-functions-extension-orchestrations-for-azure-functions-backed-by-azure-table-storage/)
 
-If you're building a fan-out operation you may find this post helpful _(it may be difficult to tell which operation or operations are having issues)_: [Debugging Fan-Out Operation Failures With Custom Exception Messages Using Durable Functions Extension For Azure Functions On C#](/debugging-fan-out-operation-failures-with-custom-exception-messages-using-durable-functions-extension-for-azure-functions-on-csharp/)
+If you're building a fan-out operation you may find this post helpful *(it may be difficult to tell which operation or operations are having issues)*: [Debugging Fan-Out Operation Failures With Custom Exception Messages Using Durable Functions Extension For Azure Functions On C#](/debugging-fan-out-operation-failures-with-custom-exception-messages-using-durable-functions-extension-for-azure-functions-on-csharp/)

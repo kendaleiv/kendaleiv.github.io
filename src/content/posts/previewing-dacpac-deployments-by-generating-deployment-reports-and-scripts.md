@@ -5,11 +5,11 @@ description: "Preview DACPAC changes by generating deployment reports and SQL sc
 tags: ["dacpac"]
 ---
 
-A DACPAC is a method for deploying a database via code. You specify the desired state of the database and the tooling determines how to modify the target database to match the desired state. _(see [https://learn.microsoft.com/en-us/sql/relational-databases/data-tier-applications/data-tier-applications](https://learn.microsoft.com/en-us/sql/relational-databases/data-tier-applications/data-tier-applications) for more details)_
+A DACPAC is a method for deploying a database via code. You specify the desired state of the database and the tooling determines how to modify the target database to match the desired state. *(see [https://learn.microsoft.com/en-us/sql/relational-databases/data-tier-applications/data-tier-applications](https://learn.microsoft.com/en-us/sql/relational-databases/data-tier-applications/data-tier-applications) for more details)*
 
 **You can preview what would happen if a specific DACPAC would be deployed to a database.**
 
-If you're using `SqlPackage` you can specify `SqlPackage /Action:DeployReport` for an XML report or `SqlPackage /Action:Script` for T-SQL script _(see [https://learn.microsoft.com/en-us/sql/tools/sqlpackage/sqlpackage-deploy-drift-report](https://learn.microsoft.com/en-us/sql/tools/sqlpackage/sqlpackage-deploy-drift-report) / [https://learn.microsoft.com/en-us/sql/tools/sqlpackage/sqlpackage-script](https://learn.microsoft.com/en-us/sql/tools/sqlpackage/sqlpackage-script))_.
+If you're using `SqlPackage` you can specify `SqlPackage /Action:DeployReport` for an XML report or `SqlPackage /Action:Script` for T-SQL script *(see [https://learn.microsoft.com/en-us/sql/tools/sqlpackage/sqlpackage-deploy-drift-report](https://learn.microsoft.com/en-us/sql/tools/sqlpackage/sqlpackage-deploy-drift-report) / [https://learn.microsoft.com/en-us/sql/tools/sqlpackage/sqlpackage-script](https://learn.microsoft.com/en-us/sql/tools/sqlpackage/sqlpackage-script))*.
 
 ## Tests
 
@@ -81,7 +81,7 @@ GO
 /*
 Detect SQLCMD mode and disable script execution if SQLCMD mode is not supported.
 To re-enable the script after enabling SQLCMD mode, execute the following:
-SET NOEXEC OFF;
+SET NOEXEC OFF; 
 */
 :setvar __IsSqlCmdEnabled ""True""
 GO
@@ -98,7 +98,7 @@ IF EXISTS (SELECT 1
            WHERE  [name] = N'$(DatabaseName)')
     BEGIN
         ALTER DATABASE [$(DatabaseName)]
-            SET AUTO_CLOSE OFF
+            SET AUTO_CLOSE OFF 
             WITH ROLLBACK IMMEDIATE;
     END
 
@@ -121,7 +121,7 @@ IF EXISTS (SELECT 1
                 QUOTED_IDENTIFIER ON,
                 ANSI_NULL_DEFAULT ON,
                 CURSOR_DEFAULT LOCAL,
-                RECOVERY FULL
+                RECOVERY FULL 
             WITH ROLLBACK IMMEDIATE;
     END
 
@@ -133,14 +133,14 @@ IF EXISTS (SELECT 1
     BEGIN
         ALTER DATABASE [$(DatabaseName)]
             SET PAGE_VERIFY NONE,
-                DISABLE_BROKER
+                DISABLE_BROKER 
             WITH ROLLBACK IMMEDIATE;
     END
 
 
 GO
 ALTER DATABASE [$(DatabaseName)]
-    SET TARGET_RECOVERY_TIME = 0 SECONDS
+    SET TARGET_RECOVERY_TIME = 0 SECONDS 
     WITH ROLLBACK IMMEDIATE;
 
 
@@ -150,7 +150,7 @@ IF EXISTS (SELECT 1
            WHERE  [name] = N'$(DatabaseName)')
     BEGIN
         ALTER DATABASE [$(DatabaseName)]
-            SET QUERY_STORE (CLEANUP_POLICY = (STALE_QUERY_THRESHOLD_DAYS = 367))
+            SET QUERY_STORE (CLEANUP_POLICY = (STALE_QUERY_THRESHOLD_DAYS = 367)) 
             WITH ROLLBACK IMMEDIATE;
     END
 

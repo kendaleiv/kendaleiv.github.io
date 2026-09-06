@@ -11,6 +11,6 @@ If you're using Angular (version 2 and later), you may be searching for an Angul
 
 ## Recommendation
 
-Include the JavaScript snippet from [Browser-Update.org](https://browser-update.org/) immediately before the `</body>` closing tag, either inline or in a `.js` file _([Content Security Policy (CSP)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP) requirements may require using an external file)_. When using the [Angular CLI](https://cli.angular.io/), the [Browser-Update.org](https://browser-update.org/) script will run immediately before the Angular application's JavaScript.
+Include the JavaScript snippet from [Browser-Update.org](https://browser-update.org/) immediately before the `</body>` closing tag, either inline or in a `.js` file *([Content Security Policy (CSP)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP) requirements may require using an external file)*. When using the [Angular CLI](https://cli.angular.io/), the [Browser-Update.org](https://browser-update.org/) script will run immediately before the Angular application's JavaScript.
 
 **Note:** You may want to adjust the notifications settings for the [Browser-Update.org](https://browser-update.org/) JavaScript snippet.

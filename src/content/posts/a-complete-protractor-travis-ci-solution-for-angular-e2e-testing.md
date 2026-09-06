@@ -21,7 +21,7 @@ Next, assuming `npm run lint` and `npm run test:once` are setup, add `"ci": "npm
 
 ## Add Travis CI configuration
 
-Add the following **.travis.yml** file to your repository root _(this expects Google Chrome to be used for e2e tests)_.
+Add the following **.travis.yml** file to your repository root *(this expects Google Chrome to be used for e2e tests)*.
 
 ```yaml
 sudo: required

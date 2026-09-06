@@ -9,7 +9,7 @@ tags: ["nodejs", "travis-ci", "heroku", "continuous-integration", "deployment"]
 
 If you have an application you wish to use for this exercise already in a GitHub repository, skip ahead to the Travis CI section. You may need to do some adjustments to your code to meet with Heroku expectations (specifically, using the requested port number from `process.env.PORT`).
 
-If you don't have an existing Node.js application, and instead want to deploy a sample one, [there's one on the Heroku documentation you can use](https://devcenter.heroku.com/articles/getting-started-with-nodejs-o#write-your-app). On that page you'll also find that you need to use `npm init` to create a valid `package.json` file, as well as information about _engines_ if you want to control what version of Node.js is deployed _(by default, it will deploy the latest stable version)_.
+If you don't have an existing Node.js application, and instead want to deploy a sample one, [there's one on the Heroku documentation you can use](https://devcenter.heroku.com/articles/getting-started-with-nodejs-o#write-your-app). On that page you'll also find that you need to use `npm init` to create a valid `package.json` file, as well as information about *engines* if you want to control what version of Node.js is deployed *(by default, it will deploy the latest stable version)*.
 
 ## Travis CI
 
@@ -27,7 +27,7 @@ You'll want to install the necessary prerequisites for this section. This includ
 
 Run `heroku login` to setup the Heroku Toolbelt. If you've done this before, you may be able to skip this step.
 
-Next, create a new Heroku application with `heroku create yourappname`. For subsequent `heroku` commands interacting with this application -- if you are outside your repository directory _(or, you don't have the Heroku Toolbelt configured for your local repository)_, you will need to append `--app yourappname` to your `heroku` commands to instruct the Heroku Toolbelt which application you wish to target.
+Next, create a new Heroku application with `heroku create yourappname`. For subsequent `heroku` commands interacting with this application -- if you are outside your repository directory *(or, you don't have the Heroku Toolbelt configured for your local repository)*, you will need to append `--app yourappname` to your `heroku` commands to instruct the Heroku Toolbelt which application you wish to target.
 
 Run `travis setup heroku`. During this process you'll need to provide your Heroku API key. Use the secure API key option. **At no point should you commit or otherwise reveal your non-encrypted Heroku API key.**
 

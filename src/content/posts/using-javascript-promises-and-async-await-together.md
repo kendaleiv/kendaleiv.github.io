@@ -5,7 +5,7 @@ description: "Examples of using JavaScript promises and async/await interchangea
 tags: ["javascript"]
 ---
 
-`async` / `await` in JavaScript are syntactic sugar for `Promise`s. Since it's syntactic sugar, they can be used interchangeably!
+`async` / `await`  in JavaScript are syntactic sugar for `Promise`s. Since it's syntactic sugar, they can be used interchangeably!
 
 Here's an example:
 

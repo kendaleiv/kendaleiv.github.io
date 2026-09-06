@@ -5,7 +5,7 @@ description: "A Windows command script to update Chocolatey, Atom, npm, and Ruby
 tags: ["windows", "update", "packages"]
 ---
 
-Looking for a way to update various packages in your Windows environment? Use the script below running as Administrator _(Administrator is needed for Chocolatey, at least)_, editing as necessary for your needs.
+Looking for a way to update various packages in your Windows environment? Use the script below running as Administrator *(Administrator is needed for Chocolatey, at least)*, editing as necessary for your needs.
 
 **Note:** This cmd script is unprompted with no opportunity for review.
 

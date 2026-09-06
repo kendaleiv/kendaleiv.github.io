@@ -7,7 +7,7 @@ tags: ["dotnet"]
 
 .NET now has a `dotnet` command line interface (CLI). Commands like `dotnet build` and `dotnet test` can be ran directly from the command line.
 
-If you're working with private NuGet packages, that is _packages not available on the public nuget.org registry_, you may encounter some challenges using the dotnet CLI.
+If you're working with private NuGet packages, that is *packages not available on the public nuget.org registry*, you may encounter some challenges using the dotnet CLI.
 
 Here's a few items you may find helpful:
 

@@ -9,7 +9,7 @@ Sometimes it makes sense to lazily initialize something in an application. In th
 
 ## `Lazy<T>`
 
-Per [https://learn.microsoft.com/en-us/dotnet/api/system.lazy-1#thread-safety](https://learn.microsoft.com/en-us/dotnet/api/system.lazy-1#thread-safety) the default is _thread safe_, but can be disabled. **If you don't opt-out it's thread safe.**
+Per [https://learn.microsoft.com/en-us/dotnet/api/system.lazy-1#thread-safety](https://learn.microsoft.com/en-us/dotnet/api/system.lazy-1#thread-safety) the default is *thread safe*, but can be disabled. **If you don't opt-out it's thread safe.**
 
 ```csharp
 using System;

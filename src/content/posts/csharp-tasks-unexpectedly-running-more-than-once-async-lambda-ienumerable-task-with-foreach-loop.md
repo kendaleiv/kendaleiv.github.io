@@ -11,7 +11,7 @@ Consider the following example:
 using System;
 using System.Linq;
 using System.Threading.Tasks;
-
+                    
 public class Program
 {
     public static async Task Main()
@@ -26,9 +26,9 @@ public class Program
         // One method to fix:
         // .ToList()
         ;
-
+            
         await Task.WhenAll(tasks);
-
+            
         foreach (var task in tasks)
         {
             // The Console.WriteLine(item); to print the item runs again

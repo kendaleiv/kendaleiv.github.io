@@ -102,8 +102,8 @@ Intel Core i7-1065G7 CPU 1.30GHz, 1 CPU, 8 logical and 4 physical cores
 Job=InProcess  Toolchain=InProcessEmitToolchain
 ```
 
-| Method       |         Mean |      Error |     StdDev |
-| ------------ | -----------: | ---------: | ---------: |
+|       Method |         Mean |      Error |     StdDev |
+|------------- |-------------:|-----------:|-----------:|
 | FastEndpoint |     2.988 ms |  0.1073 ms |  0.3044 ms |
 | SlowEndpoint | 2,030.517 ms | 10.8453 ms | 10.1447 ms |
 

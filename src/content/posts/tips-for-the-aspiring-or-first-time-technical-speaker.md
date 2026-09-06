@@ -15,21 +15,21 @@ Deliver your talk aloud. Don't simply think about it, **vocalize it**.
 
 If you're learning to play guitar, you need to learn to "keep up" and not stop to orient your fingers. Do the same with speaking. If you make a mistake, recover. Don't simply start over or give yourself too much thinking time. During your out-loud rehearsal proceed as though you have an audience, mistakes and all.
 
-Spot opportunities for improvement while you're rehearsing audibly. Frequent _um's_, accidentally skipping or rushing through content, etc. are items you can work on, if necessary.
+Spot opportunities for improvement while you're rehearsing audibly. Frequent *um's*, accidentally skipping or rushing through content, etc. are items you can work on, if necessary.
 
 **Rehearse aloud until you are speaking comfortably, confidently, and fluently.**
 
 ### Follow your own style
 
-If you're a rockstar, bring a guitar, crank it up, and jump into the audience _(actually, don't do any of those things)_. If you're a natural comedian, tell a joke. If you're a storyteller, perhaps open with a story of personal experience. **Be genuine. Be yourself.**
+If you're a rockstar, bring a guitar, crank it up, and jump into the audience *(actually, don't do any of those things)*. If you're a natural comedian, tell a joke. If you're a storyteller, perhaps open with a story of personal experience. **Be genuine. Be yourself.**
 
 ### Focus on the engaged audience
 
-Try to avoid focusing on _that person_ and derailing your own train of thought. Ignore those who aren't interested and don't let it get you down. Instead, **focus your attention and delivery on those who are fully engaged**.
+Try to avoid focusing on *that person* and derailing your own train of thought. Ignore those who aren't interested and don't let it get you down. Instead, **focus your attention and delivery on those who are fully engaged**.
 
 ### Equipment concerns
 
-Ask about the presenting equipment available to you. If you intend to use a projector, find out what inputs are available _(if you don't already know)_. If it's VGA only, ensure you have A Way To VGA &trade;.
+Ask about the presenting equipment available to you. If you intend to use a projector, find out what inputs are available *(if you don't already know)*. If it's VGA only, ensure you have A Way To VGA &trade;.
 
 ### Demos
 

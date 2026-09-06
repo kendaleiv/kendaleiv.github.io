@@ -7,7 +7,7 @@ tags: ["csharp", "javascript", "typescript"]
 
 Classes are a useful construct typically associated with [object-oriented programming](https://en.wikipedia.org/wiki/Object-oriented_programming).
 
-In C# classes are a first-class construct of the language. Classes were introduced a bit later for JavaScript. Classes in JavaScript are simply _syntactic sugar_.
+In C# classes are a first-class construct of the language. Classes were introduced a bit later for JavaScript. Classes in JavaScript are simply *syntactic sugar*.
 
 ## C# 6
 
@@ -15,15 +15,15 @@ In C# classes are a first-class construct of the language. Classes were introduc
 public class Person
 {
     private readonly SomeDependency _someDependency;
-
+    
     public Person(SomeDependency someDependency)
     {
         _someDependency = someDependency;
     }
-
+    
     public string GivenName { get; set; }
     public string FamilyName { get; set; }
-
+    
     public string Name => $"{GivenName} {FamilyName}";
 }
 

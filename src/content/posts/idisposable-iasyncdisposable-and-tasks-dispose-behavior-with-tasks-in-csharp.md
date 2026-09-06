@@ -16,7 +16,7 @@ Also, [https://devblogs.microsoft.com/pfxteam/do-i-need-to-dispose-of-tasks/](ht
 ```csharp
 using System;
 using System.Threading.Tasks;
-
+                    
 public class Program
 {
     public static async Task Main()
@@ -24,38 +24,38 @@ public class Program
         //
         // IDisposable
         //
-
+        
         var myDisposableTask = Task.FromResult(new MyDisposable());
-
+        
         myDisposableTask.Dispose();
-
+        
         MyDisposable myDisposable;
-
+        
         using (myDisposable = await myDisposableTask)
         {
             Console.WriteLine("myDisposable.IsDisposed inside using: "
                 + myDisposable.IsDisposed /* == False */);
         };
-
+        
         Console.WriteLine("myDisposable.IsDisposed outside using: "
             + myDisposable.IsDisposed /* == True */);
-
+        
         //
         // IAsyncDisposable
         //
-
+        
         var myAsyncDisposableTask = Task.FromResult(new MyAsyncDisposable());
-
+        
         myAsyncDisposableTask.Dispose();
-
+        
         MyAsyncDisposable myAsyncDisposable;
-
+        
         await using (myAsyncDisposable = await myAsyncDisposableTask)
         {
             Console.WriteLine("myAsyncDisposable.IsDisposed inside await using: "
                 + myAsyncDisposable.IsDisposed /* == False */);
         }
-
+        
         Console.WriteLine("myAsyncDisposable.IsDisposed outside await using: "
             + myAsyncDisposable.IsDisposed /* == True */);
     }
@@ -64,7 +64,7 @@ public class Program
 public class MyDisposable : IDisposable
 {
     public bool IsDisposed { get; private set; }
-
+    
     public void Dispose()
     {
         IsDisposed = true;
@@ -78,7 +78,7 @@ public class MyAsyncDisposable : IAsyncDisposable
     public ValueTask DisposeAsync()
     {
         IsDisposed = true;
-
+        
         return ValueTask.CompletedTask;
     }
 }

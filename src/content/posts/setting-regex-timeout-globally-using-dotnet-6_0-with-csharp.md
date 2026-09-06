@@ -18,7 +18,7 @@ This will set the default regex timeout to 2 seconds:
 AppDomain.CurrentDomain.SetData("REGEX_DEFAULT_MATCH_TIMEOUT", TimeSpan.FromSeconds(2));
 ```
 
-**This needs to happen as early as possible _(first statement in `Main` would work)_, prior to any usage of `Regex` that causes this value to be read and cached. Once it's cached it cannot be changed without restarting the application.** _(see **Runtime implementation** below)_
+**This needs to happen as early as possible *(first statement in `Main` would work)*, prior to any usage of `Regex` that causes this value to be read and cached. Once it's cached it cannot be changed without restarting the application.** *(see **Runtime implementation** below)*
 
 We can verify it's working via:
 

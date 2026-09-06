@@ -18,7 +18,7 @@ new URLSearchParams('https://example.com?q=peas&carrots')
 
 ## Resolution
 
-You can make the characters safe for a url by url encoding the query string values _(as well as the keys, if necessary)_. With JavaScript we can do this as follows:
+You can make the characters safe for a url by url encoding the query string values *(as well as the keys, if necessary)*. With JavaScript we can do this as follows:
 
 ```js
 `https://example.com?q=${encodeURIComponent('peas&carrots')}`;

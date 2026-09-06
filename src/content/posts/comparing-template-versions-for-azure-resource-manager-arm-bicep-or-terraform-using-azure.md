@@ -11,7 +11,7 @@ As a start, we can compare the schema of different versions to view the differen
 
 ## Comparing schemas
 
-Using Cosmos DB as an example, we can compare difference versions by opening multiple tabs in Visual Studio Code and using `> File: Compare New Untitled Text Files` in the search bar and pasting the schemas of versions to compare _(or, use another diff tool)_.
+Using Cosmos DB as an example, we can compare difference versions by opening multiple tabs in Visual Studio Code and using `> File: Compare New Untitled Text Files` in the search bar and pasting the schemas of versions to compare *(or, use another diff tool)*.
 
 For example, we can compare the ARM schemas of [Microsoft.DocumentDB databaseAccounts 2023-04-15](https://learn.microsoft.com/en-us/azure/templates/microsoft.documentdb/2023-04-15/databaseaccounts?pivots=deployment-language-arm-template) and [Microsoft.DocumentDB databaseAccounts 2023-11-15](https://learn.microsoft.com/en-us/azure/templates/microsoft.documentdb/2023-11-15/databaseaccounts?pivots=deployment-language-arm-template) and see the apiVersion changed and 2 properties were added.
 

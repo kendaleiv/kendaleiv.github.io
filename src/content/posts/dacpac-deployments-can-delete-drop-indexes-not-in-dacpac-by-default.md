@@ -5,13 +5,13 @@ description: "Understand how DACPAC deployment defaults can drop indexes that ar
 tags: ["dacpac"]
 ---
 
-A DACPAC is a method for deploying a database via code. You specify the desired state of the database and the tooling determines how to modify the target database to match the desired state. _(see [https://learn.microsoft.com/en-us/sql/relational-databases/data-tier-applications/data-tier-applications](https://learn.microsoft.com/en-us/sql/relational-databases/data-tier-applications/data-tier-applications) for more details)_
+A DACPAC is a method for deploying a database via code. You specify the desired state of the database and the tooling determines how to modify the target database to match the desired state. *(see [https://learn.microsoft.com/en-us/sql/relational-databases/data-tier-applications/data-tier-applications](https://learn.microsoft.com/en-us/sql/relational-databases/data-tier-applications/data-tier-applications) for more details)*
 
 **Deploying a DACPAC can result in indexes being deleted/dropped on the target database that do not exist in the DACPAC by default.**
 
 If you want to keep indexes that were created on the target database and don't exist in the DACPAC **the behavior is configuable via `DropIndexesNotInSource`**.
 
-If you're deploying via `SqlPackage /Action:Publish` specify `/p:DropIndexesNotInSource=False` _(see [https://learn.microsoft.com/en-us/sql/tools/sqlpackage/sqlpackage-publish](https://learn.microsoft.com/en-us/sql/tools/sqlpackage/sqlpackage-publish))_.
+If you're deploying via `SqlPackage /Action:Publish` specify `/p:DropIndexesNotInSource=False` *(see [https://learn.microsoft.com/en-us/sql/tools/sqlpackage/sqlpackage-publish](https://learn.microsoft.com/en-us/sql/tools/sqlpackage/sqlpackage-publish))*.
 
 ## Tests
 

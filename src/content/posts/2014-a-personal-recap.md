@@ -7,7 +7,7 @@ tags: ["2014", "recap"]
 
 I've had a great year with some great accomplishments, including:
 
-- Started speaking **in public**! I delivered a talk at NYC Code Camp, two at Harrisburg .Net Code Camp, and one at BarCamp Harrisburg _(the BarCamp is an unconference, but, I had prepared materials. And, attendees.)_.
+- Started speaking **in public**! I delivered a talk at NYC Code Camp, two at Harrisburg .Net Code Camp, and one at BarCamp Harrisburg *(the BarCamp is an unconference, but, I had prepared materials. And, attendees.)*.
 - Started blogging. You're reading it.
 - Initial committer and currently core contributor for two .NET open source projects. Thanks to [Ritter Insurance Marketing](https://www.ritterim.com/) for supporting this work and OSS!
 - Authored my first [Chocolatey](https://chocolatey.org/) package: [keepass-keepasshttp](https://chocolatey.org/packages/keepass-keepasshttp). It's getting downloads too!

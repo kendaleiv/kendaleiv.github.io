@@ -31,6 +31,6 @@ Here's a few options:
 After you've worked through an issue you have an opportunity to potentially make a similar investigation easier next time.
 
 - Would setting a [Custom Status](https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-diagnostics#custom-status) help?
-- If it's a fan-out/fan-in operation would enhancing exception messages with the HTTP verb, url, and information about the response help _(HTTP status code or perhaps even the response body, depending on confidentiality concerns with logging the response content)_? You may find my [Debugging Fan-Out Operation Failures With Custom Exception Messages Using Durable Functions Extension For Azure Functions On C#](/debugging-fan-out-operation-failures-with-custom-exception-messages-using-durable-functions-extension-for-azure-functions-on-csharp/) post useful if that sounds helpful.
+- If it's a fan-out/fan-in operation would enhancing exception messages with the HTTP verb, url, and information about the response help *(HTTP status code or perhaps even the response body, depending on confidentiality concerns with logging the response content)*? You may find my [Debugging Fan-Out Operation Failures With Custom Exception Messages Using Durable Functions Extension For Azure Functions On C#](/debugging-fan-out-operation-failures-with-custom-exception-messages-using-durable-functions-extension-for-azure-functions-on-csharp/) post useful if that sounds helpful.
 
 Hope this helps if you're investigating an issue!

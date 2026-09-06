@@ -5,13 +5,13 @@ description: "Recover an earlier Azure resource configuration using change histo
 tags: ["azure"]
 ---
 
-I made some ARM templates changes and unintentionally removed Access Policy items from an Azure Key Vault in a (thankfully) non-production environment. Since the ARM template doesn't have the _before_ state in the repository, reverting the pull request isn't going to fix it.
+I made some ARM templates changes and unintentionally removed Access Policy items from an Azure Key Vault in a (thankfully) non-production environment. Since the ARM template doesn't have the *before* state in the repository, reverting the pull request isn't going to fix it.
 
 However, we can get the before state of the template using **Change history** on the **Activity log** viewable on the Azure portal.
 
 ## Change history
 
-We can use [Change history](https://learn.microsoft.com/en-us/azure/azure-monitor/platform/activity-log#view-change-history) to see the _before_ state of the ARM template. Copy paste the before state into a code editor. You may find it useful to run a [ARM template deployment what-if operation](https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/template-deploy-what-if?tabs=azure-powershell) to verify the template before proceeding. You may need to work with it a bit to get it in a working state.
+We can use [Change history](https://learn.microsoft.com/en-us/azure/azure-monitor/platform/activity-log#view-change-history) to see the *before* state of the ARM template. Copy paste the before state into a code editor. You may find it useful to run a [ARM template deployment what-if operation](https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/template-deploy-what-if?tabs=azure-powershell) to verify the template before proceeding. You may need to work with it a bit to get it in a working state.
 
 ## Applying ARM template
 

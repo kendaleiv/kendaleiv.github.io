@@ -7,7 +7,7 @@ tags: ["angular", "testing"]
 
 Here's a simple template for testing Angular 2 services.
 
-If the `HttpModule` portions are uncommented and used, it will make _actual_ wire calls. To use mock calls instead, see [Angular 2 MockBackend Service Testing Template Using TestBed](/angular-2-mockbackend-service-testing-template-using-testbed/) instead.
+If the `HttpModule` portions are uncommented and used, it will make *actual* wire calls. To use mock calls instead, see [Angular 2 MockBackend Service Testing Template Using TestBed](/angular-2-mockbackend-service-testing-template-using-testbed/) instead.
 
 ```typescript
 import { async, inject, TestBed } from '@angular/core/testing';

@@ -25,4 +25,4 @@ $req
 $req.access_token
 ```
 
-You can access a PowerShell prompt via `https://your-app-name.scm.azurewebsites.net/DebugConsole/?shell=powershell` _(replace `your-app-name`)_.
+You can access a PowerShell prompt via `https://your-app-name.scm.azurewebsites.net/DebugConsole/?shell=powershell` *(replace `your-app-name`)*.

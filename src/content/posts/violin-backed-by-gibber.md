@@ -5,9 +5,9 @@ description: "Create a live-coded backing track with Gibber for a violin perform
 tags: ["music", "violin", "gibber"]
 ---
 
-As a developer, do you frequently find yourself longing for a backup band to your melodic instrument? If this sounds like you _(or, even if it doesn't)_, check this out:
+As a developer, do you frequently find yourself longing for a backup band to your melodic instrument? If this sounds like you *(or, even if it doesn't)*, check this out:
 
-<iframe title="Violin backed by Gibber" style="max-width: 100%; height: auto; aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/zZLAGBgGQhA" frameborder="0" allowfullscreen></iframe>
+<iframe style="max-width: 100%; height: auto; aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/zZLAGBgGQhA" frameborder="0" allowfullscreen></iframe>
 
 ## The Gibber code
 

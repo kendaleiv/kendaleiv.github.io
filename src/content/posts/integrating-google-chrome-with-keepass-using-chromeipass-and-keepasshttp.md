@@ -16,7 +16,7 @@ You can install [KeePassHttp](https://github.com/pfn/keepasshttp) on Windows usi
 
 If you had [KeePass](https://keepass.info/) open during the installation, you'll want to restart it to begin using the [KeePassHttp](https://github.com/pfn/keepasshttp) plugin.
 
-_If you're running OS X or Linux, or prefer to not use [Chocolatey](https://chocolatey.org/) on Windows, refer to the directions at [https://github.com/pfn/keepasshttp](https://github.com/pfn/keepasshttp)._
+*If you're running OS X or Linux, or prefer to not use [Chocolatey](https://chocolatey.org/) on Windows, refer to the directions at [https://github.com/pfn/keepasshttp](https://github.com/pfn/keepasshttp).*
 
 ## Install chromeIPass
 

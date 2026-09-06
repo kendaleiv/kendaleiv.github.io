@@ -67,7 +67,7 @@ const person: Person = {
 
 Note that the previous code example requires that `givenName` and `familyName` **must** be implemented. If that's exactly what you want, this works OK.
 
-But, if `Person` is a `class` instead and you need _getters_ or other functionality to work, and you're able to modify this `class`, it might make sense to use the constructor:
+But, if `Person` is a `class` instead and you need *getters* or other functionality to work, and you're able to modify this `class`, it might make sense to use the constructor:
 
 ```typescript
 // Attribution: This idea is from https://stackoverflow.com/a/14226836/941536

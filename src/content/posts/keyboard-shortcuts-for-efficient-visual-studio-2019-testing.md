@@ -11,7 +11,7 @@ You may find the experience of clicking around the UI taxing. **Keyboard shortcu
 
 ## Testing Related Keyboard Shortcuts
 
-**Note:** Some of the following are chords. For example, after pressing <kbd>Ctrl</kbd>+<kbd>r</kbd> you'll see "(Ctrl+R) was pressed. Waiting for second key of chord..." on the status bar at the bottom _(unless you hid the status bar, of course)_.
+**Note:** Some of the following are chords. For example, after pressing <kbd>Ctrl</kbd>+<kbd>r</kbd> you'll see "(Ctrl+R) was pressed. Waiting for second key of chord..." on the status bar at the bottom *(unless you hid the status bar, of course)*.
 
 - <kbd>Ctrl</kbd>+<kbd>e</kbd> <kbd>t</kbd>: Open Test Explorer
 - <kbd>Ctrl</kbd>+<kbd>r</kbd> <kbd>a</kbd>: Run all tests

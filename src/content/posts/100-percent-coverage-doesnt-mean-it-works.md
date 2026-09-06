@@ -7,7 +7,7 @@ tags: ["tests", "coverage"]
 
 Tests are great. I like testing, tests, and talking about testing and tests.
 
-I think code coverage is useful. It can identify gaps in testing, providing a "hey, maybe you should test _over here_" notion. But, 100% coverage doesn't mean everything works perfectly. **100% test coverage doesn't mean anything works properly.** It means all the code was executed in some fashion. All statements were visited. Basically, the only thing it shows is the code didn't unexpectedly throw an unhandled error.
+I think code coverage is useful. It can identify gaps in testing, providing a "hey, maybe you should test *over here*" notion. But, 100% coverage doesn't mean everything works perfectly. **100% test coverage doesn't mean anything works properly.** It means all the code was executed in some fashion. All statements were visited. Basically, the only thing it shows is the code didn't unexpectedly throw an unhandled error.
 
 ## No assertions, 100% coverage
 
@@ -53,4 +53,4 @@ describe('isNumberSeven tests', () => {
 
 ## Use code coverage, not because you "have to"
 
-Code coverage can be a useful tool to show trends and identify potential gaps in testing. But, using it as a blind metric could be harmful. If you're mandated to abide by a certain percentage of coverage, you can _technically_ achieve the goal without getting the value you'd expect out of good, well-authored tests.
+Code coverage can be a useful tool to show trends and identify potential gaps in testing. But, using it as a blind metric could be harmful. If you're mandated to abide by a certain percentage of coverage, you can *technically* achieve the goal without getting the value you'd expect out of good, well-authored tests.

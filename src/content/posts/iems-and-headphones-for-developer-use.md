@@ -19,11 +19,11 @@ Some important factors I see for developers choosing IEMs (in-ears monitors) or 
 
 If your primary goal is blocking outside noise, you'll want to examine the isolation capabilities of your device. **A 3dB decrease of ambient noise is a halving of volume!**
 
-This might be obvious, but too much isolation _could_ be a problem, if you want to hear certain things _(teammates chatting, alarms, etc.)_.
+This might be obvious, but too much isolation *could* be a problem, if you want to hear certain things *(teammates chatting, alarms, etc.)*.
 
 ## Comfort
 
-If you're wearing something for many hours, comfort is important. Comfort is an individual thing. Some many find IEMs more comfortable then headphones, while others may loathe the idea of having _something_ in their ear for an extended period. The mass and clamping force of headphones may be a bother to some.
+If you're wearing something for many hours, comfort is important. Comfort is an individual thing. Some many find IEMs more comfortable then headphones, while others may loathe the idea of having *something* in their ear for an extended period. The mass and clamping force of headphones may be a bother to some.
 
 You'll need to make your own determination here.
 
@@ -39,11 +39,11 @@ Also, foreign bodies in your ear can also cause health problems, ranging from an
 
 ## Sound quality
 
-This _might_ be a lesser concern if music is background to your work. I'm not suggesting it doesn't matter, but, it's ideally _good enough_ that it isn't bothersome. If you might do some critical listening, though, keep that in mind.
+This *might* be a lesser concern if music is background to your work. I'm not suggesting it doesn't matter, but, it's ideally *good enough* that it isn't bothersome. If you might do some critical listening, though, keep that in mind.
 
 ## Bonus: Built-in microphones
 
-If your device microphone(s) aren't _good enough_, a microphone built into a headphone cable or similar is probably a poor substitute for a better microphone. It might be useful for a smartphone scenario, but, I can't really speak to that personally.
+If your device microphone(s) aren't *good enough*, a microphone built into a headphone cable or similar is probably a poor substitute for a better microphone. It might be useful for a smartphone scenario, but, I can't really speak to that personally.
 
 ## It's up to you
 

@@ -47,7 +47,7 @@ namespace MyLibrary
 
 You can get as creative with this technique as you'd like, including constructor parameters. You can wrap entire files with `#if NET462` / `#endif` even!
 
-## Different dependencies _(NuGet packages)_
+## Different dependencies *(NuGet packages)*
 
 Sometimes you may need different NuGet packages to handle a specific target framework only. We can use a `Condition` to scope `PackageReference` items to specific target frameworks.
 

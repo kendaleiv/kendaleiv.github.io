@@ -5,7 +5,7 @@ description: "Send transactional email using the Silverpop Transact XML API from
 tags: ["silverpop", "transact", "email", "csharp"]
 ---
 
-[Silverpop](https://www.silverpop.com/) is an marketing service that includes email marketing -- both for sending _normal_ email campaign messages, as well as sending transactional emails. This transactional emailing is referred to as [Silverpop Transact](https://www.silverpop.com/Software/Engage-Apps/Apps/Transact/), which has an XML API available. These transactional messages could be sent as the result of a web application action, such as a new user registration.
+[Silverpop](https://www.silverpop.com/) is an marketing service that includes email marketing -- both for sending *normal* email campaign messages, as well as sending transactional emails. This transactional emailing is referred to as [Silverpop Transact](https://www.silverpop.com/Software/Engage-Apps/Apps/Transact/), which has an XML API available. These transactional messages could be sent as the result of a web application action, such as a new user registration.
 
 You can communicate directly with the XML API yourself. Alternatively, you can use the open source [Silverpop .NET API](https://github.com/ritterim/silverpop-dotnet-api) wrapper, which is demonstrated below.
 

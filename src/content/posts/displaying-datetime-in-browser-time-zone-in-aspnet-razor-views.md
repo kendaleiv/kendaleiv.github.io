@@ -11,7 +11,7 @@ If you're using ASP.NET, this can be done via Razor views using [RimDev.AspNetBr
 
 First, install the [RimDev.AspNetBrowserLocale](https://www.nuget.org/packages/RimDev.AspNetBrowserLocale/) NuGet package.
 
-Next, assuming you're using the Razor view engine, initialize as follows in **\_Layout.cshtml** or another file:
+Next, assuming you're using the Razor view engine, initialize as follows in **_Layout.cshtml** or another file:
 
 ```
 @Html.InitializeLocaleDateTime()
