@@ -35,6 +35,12 @@ export default defineAstroPaperConfig({
     { name: "bluesky", url: "https://bsky.app/profile/kendaleiv.com" },
   ],
   shareLinks: [
+    { name: "bluesky", url: "https://bsky.app/intent/compose?text=" },
+    { name: "mastodon", url: "https://mastodon.social/share?text=" },
+    {
+      name: "linkedin",
+      url: "https://www.linkedin.com/sharing/share-offsite/?url=",
+    },
     { name: "whatsapp", url: "https://wa.me/?text=" },
     { name: "facebook", url: "https://www.facebook.com/sharer.php?u=" },
     { name: "telegram", url: "https://t.me/share/url?url=" },
