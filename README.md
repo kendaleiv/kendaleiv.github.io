@@ -31,7 +31,7 @@ The only post-routing changes from AstroPaper are moving its post detail/image r
 
 Original article media and downloads live under `/content/` as static public files; legacy static asset redirects are intentionally not retained. The site retains the original KD favicon and, without upstream's demo social image, uses AstroPaper's generated `/og.png`.
 
-Astro and related integrations, Sharp, pnpm, and vulnerable transitive dependencies have security updates beyond the template's dependency pins; the template remains v6.1.0. Compatibility fixes resolve public assets as URLs, encode sharing URLs, and reload the preserved Twitter embed after client-side navigation.
+Astro and related integrations, Sharp, pnpm, and vulnerable transitive dependencies have security updates beyond the template's dependency pins; the template remains v6.1.0. Compatibility fixes resolve public assets as URLs and encode sharing URLs.
 
 ## Deployment
 
