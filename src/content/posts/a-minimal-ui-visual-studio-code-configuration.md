@@ -7,11 +7,11 @@ tags: ["vscode"]
 
 How would you like to go from this:
 
-[![](/assets/content/2017-07-23-a-minimal-ui-visual-studio-code-configuration/1.png)](/assets/content/2017-07-23-a-minimal-ui-visual-studio-code-configuration/1.png)
+[![](/content/2017-07-23-a-minimal-ui-visual-studio-code-configuration/1.png)](/content/2017-07-23-a-minimal-ui-visual-studio-code-configuration/1.png)
 
 to this:
 
-[![](/assets/content/2017-07-23-a-minimal-ui-visual-studio-code-configuration/2.png)](/assets/content/2017-07-23-a-minimal-ui-visual-studio-code-configuration/2.png)
+[![](/content/2017-07-23-a-minimal-ui-visual-studio-code-configuration/2.png)](/content/2017-07-23-a-minimal-ui-visual-studio-code-configuration/2.png)
 
 Add the following to your settings, accessible by **File &rarr; Preferences &rarr; Settings**.
 
