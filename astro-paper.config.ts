@@ -36,7 +36,7 @@ export default defineAstroPaperConfig({
   ],
   shareLinks: [
     { name: "bluesky", url: "https://bsky.app/intent/compose?text=" },
-    { name: "mastodon", url: "https://mastodon.social/share?text=" },
+    { name: "mastodon", url: "https://share.joinmastodon.org/?text=" },
     {
       name: "linkedin",
       url: "https://www.linkedin.com/sharing/share-offsite/?url=",
