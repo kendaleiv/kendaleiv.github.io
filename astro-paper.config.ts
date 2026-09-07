@@ -41,7 +41,6 @@ export default defineAstroPaperConfig({
       name: "linkedin",
       url: "https://www.linkedin.com/sharing/share-offsite/?url=",
     },
-    { name: "threads", url: "https://www.threads.com/intent/post?url=" },
     { name: "mail", url: "mailto:?subject=See%20this%20post&body=" },
   ],
 });
