@@ -13,8 +13,6 @@ export default {
     publishedAt: "Published at",
     updatedAt: "Updated",
     sharePostIntro: "Share this post:",
-    sharePostNative: "Share or copy this post",
-    sharePostCopied: "Post link copied",
     sharePostOn: "Share this post on {{platform}}",
     sharePostViaEmail: "Share this post via email",
     tagLabel: "Tags",

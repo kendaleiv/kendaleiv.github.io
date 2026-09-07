@@ -2,7 +2,6 @@
 import LinkButton from "@/components/LinkButton.astro";
 import { tplStr, useTranslations } from "@/i18n";
 import config from "@/config";
-import ShareIcon from "@/assets/icons/socials/share.svg";
 
 const { shareLinks } = config;
 const t = useTranslations(Astro.currentLocale);
@@ -35,20 +34,6 @@ const items = await Promise.all(
     <div class="flex flex-none flex-col items-center justify-center gap-1 md:items-start">
       <span class="italic">{t.post.sharePostIntro}</span>
       <div class="text-center">
-        <button
-          type="button"
-          class="group hover:text-accent inline-flex scale-90 items-center gap-1 p-2 hover:rotate-6 sm:p-1"
-          title={t.post.sharePostNative}
-          data-share-button
-          data-share-url={pageUrl.href}
-          data-share-title={t.post.sharePostNative}
-          data-copied-title={t.post.sharePostCopied}
-        >
-          <ShareIcon class="inline-block size-6 scale-125 fill-transparent stroke-current stroke-2 opacity-90 group-hover:fill-transparent sm:scale-110" />
-          <span class="sr-only" data-share-label>
-            {t.post.sharePostNative}
-          </span>
-        </button>
         {items.map(({ url, title, Icon }) =>
           Icon ? (
             <LinkButton
@@ -67,41 +52,3 @@ const items = await Promise.all(
     </div>
   )
 }
-
-<script>
-  function attachShareButton() {
-    const button = document.querySelector<HTMLButtonElement>(
-      "[data-share-button]:not([data-share-ready])"
-    );
-    if (!button) return;
-
-    button.dataset.shareReady = "true";
-    button.addEventListener("click", async () => {
-      const url = button.dataset.shareUrl ?? window.location.href;
-
-      if (navigator.share) {
-        try {
-          await navigator.share({ url });
-        } catch {
-          // The user may have cancelled the share dialog.
-        }
-        return;
-      }
-
-      await navigator.clipboard.writeText(url);
-      const copiedTitle = button.dataset.copiedTitle ?? "";
-      const label = button.querySelector("[data-share-label]");
-      button.title = copiedTitle;
-      if (label) label.textContent = copiedTitle;
-
-      setTimeout(() => {
-        const shareTitle = button.dataset.shareTitle ?? "";
-        button.title = shareTitle;
-        if (label) label.textContent = shareTitle;
-      }, 1500);
-    });
-  }
-
-  attachShareButton();
-  document.addEventListener("astro:page-load", attachShareButton);
-</script>
