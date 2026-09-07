@@ -16,8 +16,7 @@
     "format:check": "prettier --check .",
     "format": "prettier --write .",
     "lint": "eslint .",
-    "check": "astro check",
-    "validate": "node scripts/validate-output.mjs"
+    "check": "astro check"
   },
   "dependencies": {
     "@astrojs/mdx": "^8.0.0",

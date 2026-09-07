@@ -14,7 +14,6 @@
 !.vscode
 !astro-paper.config.ts
 !pnpm-workspace.yaml
-!/scripts
 
 # Ignore MDX files
 *.mdx
