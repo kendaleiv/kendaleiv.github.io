@@ -19,5 +19,5 @@
 *.mdx
 
 src/content/posts/
-public/assets/
+public/content/
 public/pagefind/
