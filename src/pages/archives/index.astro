@@ -33,6 +33,14 @@ const monthFormatter = new Intl.DateTimeFormat(locale, { month: "long" });
   <Breadcrumb />
 
   <Main pageTitle={t.pages.archivesTitle} pageDesc={t.pages.archivesDesc}>
+    <p class="mb-8 text-sm">
+      <a
+        href={getRelativeLocaleUrl(locale, "rimdev")}
+        class="text-accent underline decoration-dashed underline-offset-4"
+      >
+        Articles published on RIMDev
+      </a>
+    </p>
     {
       Object.entries(
         getPostsByGroupCondition(filteredPosts, post =>
