@@ -11,6 +11,8 @@ export interface UIStrings {
     publishedAt: string;
     updatedAt: string;
     sharePostIntro: string;
+    sharePostNative: string;
+    sharePostCopied: string;
     sharePostOn: string;
     sharePostViaEmail: string;
     tagLabel: string;
