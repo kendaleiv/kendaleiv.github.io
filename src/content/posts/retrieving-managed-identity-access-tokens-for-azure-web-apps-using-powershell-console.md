@@ -1,7 +1,7 @@
 ---
 title: "Retrieving Managed Identity Access Tokens For Azure Web Apps Using PowerShell Console"
 pubDatetime: 2021-01-29T00:00:00-05:00
-description: "Retrieve a managed identity access token from an Azure Web App's PowerShell console."
+description: "Use `MSI_ENDPOINT` and `MSI_SECRET` in Kudu’s PowerShell console to request a token for an Azure resource."
 tags: ["azure", "powershell"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Previewing DACPAC Deployments By Generating Deployment Reports And Scripts"
 pubDatetime: 2023-06-19T00:00:00-04:00
-description: "Preview DACPAC changes by generating deployment reports and SQL scripts before deploying."
+description: "Use SqlPackage or DacServices to inspect proposed database changes as XML or T-SQL before deployment."
 tags: ["dacpac"]
 ---
 

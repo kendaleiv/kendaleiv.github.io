@@ -1,7 +1,7 @@
 ---
 title: "Retrieving All Managed Identity ObjectIds In Resource Group For Azure App Services And Azure Functions Using Azure CLI"
 pubDatetime: 2021-04-20T00:00:00-04:00
-description: "List managed identity object IDs for Azure App Services and Functions in a resource group using Azure CLI."
+description: "Query resources with non-null identities and format their principal IDs as a table or comma-separated list."
 tags: ["azure", "azure-cli"]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Using JavaScript Promises And async/await Together"
 pubDatetime: 2017-09-16T00:00:00-04:00
-description: "Examples of using JavaScript promises and async/await interchangeably."
+description: "See how promises and async-function results can both be consumed with either `.then()` or `await`."
 tags: ["javascript"]
 ---
 

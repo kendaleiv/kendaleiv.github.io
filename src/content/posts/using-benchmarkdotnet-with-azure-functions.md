@@ -1,7 +1,7 @@
 ---
 title: "Using BenchmarkDotNet with Azure Functions"
 pubDatetime: 2020-10-20T00:00:00-04:00
-description: "Set up BenchmarkDotNet to benchmark an Azure Functions application."
+description: "Launch the local Functions host during benchmark setup, exercise endpoints with HttpClient, and stop it during cleanup."
 tags: ["dotnet"]
 ---
 

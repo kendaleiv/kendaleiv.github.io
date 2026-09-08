@@ -1,7 +1,7 @@
 ---
 title: "Comparing Classes: C# 6, ES6/ES2015 JavaScript, and TypeScript"
 pubDatetime: 2016-07-05T00:00:00-04:00
-description: "Compare class syntax and behavior in C# 6, ES6 JavaScript, and TypeScript."
+description: "See equivalent `Person` classes in C# 6, JavaScript, and TypeScript, including constructors, properties, and computed names."
 tags: ["csharp", "javascript", "typescript"]
 ---
 

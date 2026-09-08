@@ -1,7 +1,7 @@
 ---
 title: "Sending Silverpop Transact XML Messages with C#"
 pubDatetime: 2015-05-06T00:00:00-04:00
-description: "Send transactional email using the Silverpop Transact XML API from C#."
+description: "Use the Silverpop .NET API wrapper to send personalized transactional messages asynchronously without handling raw XML."
 tags: ["silverpop", "transact", "email", "csharp"]
 ---
 
