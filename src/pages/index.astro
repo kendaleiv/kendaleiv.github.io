@@ -34,35 +34,23 @@ const homePath = getRelativeLocaleUrl(locale, "");
     class="app-layout"
   >
     <section id="hero" class="border-border border-b pt-8 pb-6">
-      <div class="my-4 flex items-center gap-3 sm:my-8 sm:gap-4">
-        <img
-          src="https://www.gravatar.com/avatar/19c1d76389b58d1b972fc2be013bcc73?s=96"
-          alt=""
-          width="48"
-          height="48"
-          class="size-10 shrink-0 rounded-full object-cover sm:size-12"
-          loading="eager"
+      <h1 class="my-4 inline-block text-4xl font-bold sm:my-8 sm:text-5xl">
+        Hi, I&apos;m Ken
+      </h1>
+      <a
+        target="_blank"
+        href={`${import.meta.env.BASE_URL.replace(/\/?$/, "/")}rss.xml`}
+        class="ms-2 inline-block"
+        aria-label="RSS Feed"
+        title="RSS Feed"
+      >
+        <IconRss
+          width={20}
+          height={20}
+          class="stroke-accent scale-125 stroke-3 rtl:-rotate-90"
         />
-        <div>
-          <h1 class="inline-block text-4xl font-bold sm:text-5xl">
-            Hi, I&apos;m Ken
-          </h1>
-          <a
-            target="_blank"
-            href={`${import.meta.env.BASE_URL.replace(/\/?$/, "/")}rss.xml`}
-            class="ms-2 inline-block"
-            aria-label="RSS Feed"
-            title="RSS Feed"
-          >
-            <IconRss
-              width={20}
-              height={20}
-              class="stroke-accent scale-125 stroke-3 rtl:-rotate-90"
-            />
-            <span class="sr-only">RSS Feed</span>
-          </a>
-        </div>
-      </div>
+        <span class="sr-only">RSS Feed</span>
+      </a>
 
       <p>Jesus follower, husband, father, software engineer.</p>
       <p class="mt-2">
