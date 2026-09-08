@@ -1,7 +1,7 @@
 ---
 title: "Retrieving ObjectIds In An Azure Active Directory Group Using Azure CLI"
 pubDatetime: 2021-07-02T00:00:00-04:00
-description: "Retrieve the object IDs of Azure Active Directory group members using Azure CLI."
+description: "Use `az ad group member list` and JMESPath queries to return member details as a table or comma-separated object IDs."
 tags: ["azure", "azure-cli"]
 ---
 

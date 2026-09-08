@@ -1,7 +1,7 @@
 ---
 title: "Return 408 Request Timeout For a Regex Timeout Using ASP.NET Core Middleware"
 pubDatetime: 2025-03-13T00:00:00-04:00
-description: "Return HTTP 408 for regular expression timeouts using ASP.NET Core middleware."
+description: "Catch `RegexMatchTimeoutException` in ASP.NET Core middleware and convert an otherwise unhandled failure into HTTP 408."
 tags: ["aspnetcore"]
 ---
 

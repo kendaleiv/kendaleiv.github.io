@@ -1,7 +1,7 @@
 ---
 title: "Naming Durable Functions With Prefixes For Application Insights Filtering"
 pubDatetime: 2021-04-23T00:00:00-04:00
-description: "Prefix Durable Functions names to filter orchestration telemetry in Application Insights."
+description: "Prevent orchestration telemetry from skewing user-facing performance metrics by filtering prefixed operation names in Application Insights."
 tags: ["azure-functions", "durable-functions"]
 ---
 

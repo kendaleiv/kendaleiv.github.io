@@ -1,7 +1,7 @@
 ---
 title: "Run Custom Functionality When Angular Http Errors Occur"
 pubDatetime: 2017-01-31T00:00:00-05:00
-description: "Extend Angular Http to run custom functionality when HTTP requests fail."
+description: "Subclass Angular Http and register a factory provider to intercept failed requests while preserving observable errors."
 tags: ["angular"]
 ---
 
