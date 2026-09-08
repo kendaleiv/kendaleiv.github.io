@@ -54,7 +54,14 @@ const homePath = getRelativeLocaleUrl(locale, "");
 
       <p>Jesus follower, husband, father, software engineer.</p>
       <p class="mt-2">
-        Read the blog posts or learn more{" "}
+        Read the blog posts, browse my{" "}
+        <LinkButton
+          class="hover:text-accent underline decoration-dashed underline-offset-4"
+          href={getRelativeLocaleUrl(locale, "speaking")}
+        >
+          speaking engagements
+        </LinkButton>
+        , or learn more{" "}
         <LinkButton
           class="hover:text-accent underline decoration-dashed underline-offset-4"
           href={getRelativeLocaleUrl(locale, "about")}
