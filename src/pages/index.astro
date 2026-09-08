@@ -1,10 +1,8 @@
 ---
 import { getCollection } from "astro:content";
 import { getRelativeLocaleUrl } from "astro:i18n";
-import { Image } from "astro:assets";
 import IconRss from "@/assets/icons/IconRss.svg";
 import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
-import kenDale from "@/assets/images/ken-dale.jpg";
 import Layout from "@/layouts/Layout.astro";
 import Header from "@/components/Header.astro";
 import Footer from "@/components/Footer.astro";
@@ -37,9 +35,11 @@ const homePath = getRelativeLocaleUrl(locale, "");
   >
     <section id="hero" class="border-border border-b pt-8 pb-6">
       <div class="my-4 flex items-center gap-3 sm:my-8 sm:gap-4">
-        <Image
-          src={kenDale}
+        <img
+          src="https://www.gravatar.com/avatar/19c1d76389b58d1b972fc2be013bcc73?s=96"
           alt=""
+          width="48"
+          height="48"
           class="size-10 shrink-0 rounded-full object-cover sm:size-12"
           loading="eager"
         />
