@@ -1,0 +1,401 @@
+---
+import { getRelativeLocaleUrl } from "astro:i18n";
+import Breadcrumb from "@/components/Breadcrumb.astro";
+import Footer from "@/components/Footer.astro";
+import Header from "@/components/Header.astro";
+import Layout from "@/layouts/Layout.astro";
+import Main from "@/components/Main.astro";
+import config from "@/config";
+
+type Delivery = {
+  date: string;
+  venue: string;
+  location: string;
+};
+
+type Recording = {
+  embedUrl: string;
+  title: string;
+  url: string;
+};
+
+type Talk = {
+  title: string;
+  deliveries: Delivery[];
+  recording?: Recording;
+  summaryPath?: string;
+};
+
+const talks: Talk[] = [
+  {
+    title: "Making Friends with Reviews: Providing Great Feedback",
+    summaryPath: "making-friends-with-reviews-providing-great-feedback",
+    deliveries: [
+      {
+        date: "2024-11-19",
+        venue: "Solution2: A C# Community Conference",
+        location: "Online",
+      },
+    ],
+    recording: {
+      embedUrl: "https://www.youtube.com/embed/9s5Mr73hc3Q",
+      title: "Making Friends with Reviews: Providing Great Feedback",
+      url: "https://www.youtube.com/watch?v=9s5Mr73hc3Q",
+    },
+  },
+  {
+    title: "Busy Developer's Guide to Upgrading to .NET Core",
+    deliveries: [
+      {
+        date: "2019-04-13",
+        venue: "philly.NET Code Camp 2019.1",
+        location: "Malvern, PA",
+      },
+    ],
+    recording: {
+      embedUrl: "https://www.youtube.com/embed/aLN_YbmwJcA",
+      title: "Busy Developer's Guide to Upgrading to .NET Core",
+      url: "https://www.youtube.com/watch?v=aLN_YbmwJcA",
+    },
+  },
+  {
+    title: "Creating and Distributing Custom Web Components",
+    deliveries: [
+      {
+        date: "2018-03-08",
+        venue: "ConFoo",
+        location: "Montreal, Canada",
+      },
+      {
+        date: "2018-03-24",
+        venue: "philly.NET Code Camp 2018.1",
+        location: "Malvern, PA",
+      },
+    ],
+  },
+  {
+    title: "Object-Oriented JavaScript: Sugar for Maximum Productivity",
+    deliveries: [
+      {
+        date: "2017-10-06",
+        venue: "TechBash",
+        location: "Pocono Manor, PA",
+      },
+      {
+        date: "2019-04-13",
+        venue: "philly.NET Code Camp 2019.1",
+        location: "Malvern, PA",
+      },
+    ],
+  },
+  {
+    title: "Modern jQuery: Refactoring and Testing the Way Forward",
+    deliveries: [
+      {
+        date: "2016-10-01",
+        venue: "LibertyJS",
+        location: "Philadelphia, PA",
+      },
+      {
+        date: "2016-10-22",
+        venue: "philly.NET Code Camp 2016.2",
+        location: "Malvern, PA",
+      },
+      {
+        date: "2016-11-12",
+        venue: "2016 Harrisburg .NET Code Camp",
+        location: "Harrisburg, PA",
+      },
+      {
+        date: "2018-03-07",
+        venue: "ConFoo",
+        location: "Montreal, Canada",
+      },
+    ],
+  },
+  {
+    title: "Components and More: Effective Angular Testing Strategies",
+    deliveries: [
+      {
+        date: "2016-08-12",
+        venue: "Midwest JS",
+        location: "Minneapolis, MN",
+      },
+      {
+        date: "2016-10-22",
+        venue: "philly.NET Code Camp 2016.2",
+        location: "Malvern, PA",
+      },
+      {
+        date: "2017-01-12",
+        venue: "CodeMash",
+        location: "Sandusky, OH",
+      },
+      {
+        date: "2017-04-18",
+        venue: "Central Penn .NET User Group",
+        location: "Harrisburg, PA",
+      },
+    ],
+  },
+  {
+    title: "We Replaced a Multi-Application Home-Grown Authentication System",
+    deliveries: [
+      {
+        date: "2016-06-09",
+        venue: "NDC Oslo",
+        location: "Oslo, Norway",
+      },
+      {
+        date: "2016-11-12",
+        venue: "2016 Harrisburg .NET Code Camp",
+        location: "Harrisburg, PA",
+      },
+    ],
+    recording: {
+      embedUrl: "https://av.tib.eu/player/51855",
+      title: "We Replaced a Multi-Application Home-Grown Authentication System",
+      url: "https://av.tib.eu/media/51855",
+    },
+  },
+  {
+    title:
+      "All About the Packaging: Navigating the Windows 10 Package Management Landscape",
+    deliveries: [
+      {
+        date: "2015-11-14",
+        venue: "2015 Harrisburg .NET Code Camp",
+        location: "Harrisburg, PA",
+      },
+    ],
+  },
+  {
+    title: "Writing Better jQuery Infused JavaScript",
+    deliveries: [
+      {
+        date: "2015-08-13",
+        venue: "Midwest JS",
+        location: "Minneapolis, MN",
+      },
+      {
+        date: "2015-11-03",
+        venue: "Thunder Plains",
+        location: "Oklahoma City, OK",
+      },
+    ],
+    recording: {
+      embedUrl: "https://www.youtube.com/embed/5Vpdyk9Hpng",
+      title: "Writing Better jQuery Infused JavaScript",
+      url: "https://www.youtube.com/watch?v=5Vpdyk9Hpng",
+    },
+  },
+  {
+    title: "Can Doesn't Mean Should: The Power of Simplicity",
+    deliveries: [
+      {
+        date: "2015-07-11",
+        venue: "CodeStock",
+        location: "Knoxville, TN",
+      },
+    ],
+  },
+  {
+    title:
+      "DevOps Yourself: Fast-Track Your Windows Development Environment Setup",
+    deliveries: [
+      {
+        date: "2015-04-28",
+        venue: "Code PaLOUsa",
+        location: "Louisville, KY",
+      },
+      {
+        date: "2015-07-10",
+        venue: "CodeStock",
+        location: "Knoxville, TN",
+      },
+      {
+        date: "2015-11-14",
+        venue: "2015 Harrisburg .NET Code Camp",
+        location: "Harrisburg, PA",
+      },
+      {
+        date: "2017-02-25",
+        venue: "philly.NET Code Camp 2017.1",
+        location: "Malvern, PA",
+      },
+    ],
+  },
+  {
+    title: "Introduction to Git and GitHub",
+    deliveries: [
+      {
+        date: "2015-01-20",
+        venue: "Central Penn .NET User Group",
+        location: "Harrisburg, PA",
+      },
+    ],
+  },
+  {
+    title: "Refactor and Test jQuery/JS Code",
+    deliveries: [
+      {
+        date: "2014-11-15",
+        venue: "2014 Harrisburg .NET Code Camp",
+        location: "Harrisburg, PA",
+      },
+      {
+        date: "2015-01-21",
+        venue: "Philadelphia JavaScript Developers",
+        location: "Philadelphia, PA",
+      },
+    ],
+  },
+  {
+    title: "Bring the Rain: Cloud Powered Continuous Delivery",
+    deliveries: [
+      {
+        date: "2014-09-13",
+        venue: "NYC Code Camp",
+        location: "New York, NY",
+      },
+      {
+        date: "2014-11-15",
+        venue: "2014 Harrisburg .NET Code Camp",
+        location: "Harrisburg, PA",
+      },
+      {
+        date: "2015-04-29",
+        venue: "Code PaLOUsa",
+        location: "Louisville, KY",
+      },
+      {
+        date: "2015-06-20",
+        venue: "LibertyJS",
+        location: "Philadelphia, PA",
+      },
+      {
+        date: "2015-08-09",
+        venue: "Code on the Beach",
+        location: "Atlantic Beach, FL",
+      },
+      {
+        date: "2015-10-08",
+        venue: "Dog Food Conference",
+        location: "Columbus, OH",
+      },
+      {
+        date: "2016-08-09",
+        venue: "The Iron Yard",
+        location: "Minneapolis, MN",
+      },
+    ],
+    recording: {
+      embedUrl: "https://www.youtube.com/embed/LHgM18vFRGQ",
+      title: "Bring the Rain: Cloud Powered Continuous Delivery",
+      url: "https://www.youtube.com/watch?v=LHgM18vFRGQ",
+    },
+  },
+].sort(
+  (a, b) =>
+    Math.min(...b.deliveries.map(({ date }) => Date.parse(date))) -
+    Math.min(...a.deliveries.map(({ date }) => Date.parse(date)))
+);
+
+const dateFormatter = new Intl.DateTimeFormat("en-US", {
+  dateStyle: "long",
+  timeZone: "UTC",
+});
+
+const formatDate = (date: string) =>
+  dateFormatter.format(new Date(`${date}T00:00:00Z`));
+
+const locale = Astro.currentLocale ?? config.site.lang;
+---
+
+<Layout
+  title={`Speaking | ${config.site.title}`}
+  description="Conference talks and presentations delivered by Ken Dale."
+>
+  <Header />
+
+  <Breadcrumb />
+
+  <Main
+    pageTitle="Speaking"
+    pageDesc="Conference talks and presentations I've delivered."
+  >
+    <p class="mb-8">
+      If you&apos;d like me to speak at an event, contact me! I&apos;m currently
+      only interested in virtual events.
+    </p>
+
+    <ol class="space-y-8">
+      {
+        talks.map(talk => (
+          <li>
+            <article class="border-border overflow-hidden rounded-lg border">
+              <div class="p-5 sm:p-6">
+                <h2 class="text-xl font-semibold">{talk.title}</h2>
+
+                {talk.summaryPath && (
+                  <p class="mt-2">
+                    <a
+                      class="text-accent decoration-dashed underline-offset-4 hover:underline"
+                      href={getRelativeLocaleUrl(locale, talk.summaryPath)}
+                      aria-label={`Read the summary of ${talk.title}`}
+                    >
+                      Read the talk summary
+                    </a>
+                  </p>
+                )}
+
+                <h3 class="mt-5 font-semibold">Delivered at</h3>
+                <ul class="mt-2 space-y-3">
+                  {talk.deliveries.map(delivery => (
+                    <li class="border-border border-s-2 ps-3">
+                      <div class="font-medium">{delivery.venue}</div>
+                      <div class="text-sm">
+                        <time datetime={delivery.date}>
+                          {formatDate(delivery.date)}
+                        </time>
+                        <span aria-hidden="true"> · </span>
+                        {delivery.location}
+                      </div>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              {talk.recording && (
+                <div class="border-border border-t">
+                  <div class="aspect-video">
+                    <iframe
+                      class="size-full"
+                      src={talk.recording.embedUrl}
+                      title={`${talk.recording.title} recording`}
+                      loading="lazy"
+                      referrerpolicy="strict-origin-when-cross-origin"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowfullscreen
+                    />
+                  </div>
+                  <p class="px-5 py-3 text-sm sm:px-6">
+                    <a
+                      class="text-accent decoration-dashed underline-offset-4 hover:underline"
+                      href={talk.recording.url}
+                      aria-label={`Watch the recording of ${talk.title}`}
+                    >
+                      Watch the recording
+                    </a>
+                  </p>
+                </div>
+              )}
+            </article>
+          </li>
+        ))
+      }
+    </ol>
+  </Main>
+
+  <Footer />
+</Layout>
