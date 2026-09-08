@@ -6,15 +6,3 @@ description: Ken Dale is a Senior Software Engineer at Microsoft.
 <p>
   Ken Dale is a Senior Software Engineer at Microsoft. For more details see <a href="https://www.linkedin.com/in/kendaleiv/">https://www.linkedin.com/in/kendaleiv/</a>.
 </p>
-
-<hr />
-
-<p>
-  If you'd like me to speak at an event, contact me! Currently only interested in virtual events.
-</p>
-
-<hr />
-
-<iframe style="max-width: 100%; height: auto; aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/9s5Mr73hc3Q?si=ikOGpjij0ea7jxBp" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
-<iframe style="max-width: 100%; height: auto; aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/aLN_YbmwJcA" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
-<iframe style="max-width: 100%; height: auto; aspect-ratio: 16 / 9;" src="https://av.tib.eu/player/51855" frameborder="0" allowfullscreen></iframe>
