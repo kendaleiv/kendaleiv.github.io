@@ -2,7 +2,7 @@
 title: "Displaying DateTime in Browser Time Zone in ASP.NET Razor Views"
 pubDatetime: 2015-09-03T00:00:00-04:00
 description: "Display dates in the browser's time zone in ASP.NET Razor views using RimDev.AspNetBrowserLocale."
-tags: ["aspnet", "razor", "datetime", "browser", "time", "zone"]
+tags: ["aspnet", "razor", "datetime", "browser", "timezone"]
 ---
 
 In some applications, it's important to display date and time information in the user's expected time zone. One option is storing time zone preference information as part of a user's account information. If this is not possible or you choose not to do so, if it's a web application you can rely on the current time zone information from the user's web browser.
