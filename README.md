@@ -35,7 +35,7 @@ Astro and related integrations, Sharp, pnpm, and vulnerable transitive dependenc
 
 ## Deployment
 
-GitHub Actions validates pull requests and deploys `main` to GitHub Pages using the frozen pnpm lockfile. In repository **Settings → Pages**, select **GitHub Actions** as the source and retain the custom domain `kendaleiv.com` with HTTPS enabled. `public/CNAME` preserves the domain in the artifact. DNS remains managed outside this repository.
+GitHub Actions validates pull requests and deploys `main` to GitHub Pages using the frozen pnpm lockfile. In repository **Settings → Pages**, select **GitHub Actions** as the source and retain the custom domain `kendaleiv.com` with HTTPS enabled. GitHub stores the custom domain in the repository settings; DNS remains managed outside this repository.
 
 ## Copyright / License
 
