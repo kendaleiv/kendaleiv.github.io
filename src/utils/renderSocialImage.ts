@@ -40,16 +40,9 @@ function getTitleSize(title: string, description?: string): number {
 }
 
 export async function renderSocialImage(
-  {
-    title,
-    label,
-    description,
-    author,
-    siteName,
-    hostname,
-  }: SocialImageOptions,
+  { title, label, description, author, siteName, hostname }: SocialImageOptions,
   fonts: SocialImageFonts
-): Promise<Uint8Array> {
+): Promise<Uint8Array<ArrayBuffer>> {
   const svg = await satori(
     {
       type: "div",
@@ -230,5 +223,5 @@ export async function renderSocialImage(
   );
 
   const pngBuffer = await sharp(Buffer.from(svg)).png().toBuffer();
-  return new Uint8Array(pngBuffer);
+  return Uint8Array.from(pngBuffer);
 }
