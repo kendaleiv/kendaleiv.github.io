@@ -3,7 +3,7 @@ import { defineAstroPaperConfig } from "./src/types/config";
 export default defineAstroPaperConfig({
   site: {
     url: "https://kendaleiv.com/",
-    title: "Ken Dale",
+    title: "kendaleiv.com",
     description: "Jesus follower, husband, father, software engineer.",
     author: "Ken Dale",
     profile: "https://www.linkedin.com/in/kendaleiv/",
