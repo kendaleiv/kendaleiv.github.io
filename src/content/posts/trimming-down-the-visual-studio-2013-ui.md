@@ -7,11 +7,11 @@ tags: ["visual-studio", "ui"]
 
 Here's Visual Studio Community 2013 General settings defaults:
 
-![Visual Studio Community 2013 General settings](../../assets/images/2015-04-21-trimming-down-the-visual-studio-2013-ui/VS2013-Community-General.png)
+![Visual Studio Community 2013 General settings](@/assets/images/2015-04-21-trimming-down-the-visual-studio-2013-ui/VS2013-Community-General.png)
 
 If you want to simplify the UI, it's possible to turn it into this:
 
-![Modified Visual Studio Community 2013 Web Development settings](<../../assets/images/2015-04-21-trimming-down-the-visual-studio-2013-ui/VS2013-Community-Web_Developer_(Code_Only)-Modified.png>)
+![Modified Visual Studio Community 2013 Web Development settings](<@/assets/images/2015-04-21-trimming-down-the-visual-studio-2013-ui/VS2013-Community-Web_Developer_(Code_Only)-Modified.png>)
 
 ## Instructions
 

@@ -7,11 +7,11 @@ tags: ["vscode"]
 
 How would you like to go from this:
 
-![Visual Studio Code default interface](../../assets/images/2017-07-23-a-minimal-ui-visual-studio-code-configuration/1.png)
+![Visual Studio Code default interface](@/assets/images/2017-07-23-a-minimal-ui-visual-studio-code-configuration/1.png)
 
 to this:
 
-![Visual Studio Code minimal interface](../../assets/images/2017-07-23-a-minimal-ui-visual-studio-code-configuration/2.png)
+![Visual Studio Code minimal interface](@/assets/images/2017-07-23-a-minimal-ui-visual-studio-code-configuration/2.png)
 
 Add the following to your settings, accessible by **File &rarr; Preferences &rarr; Settings**.
 
