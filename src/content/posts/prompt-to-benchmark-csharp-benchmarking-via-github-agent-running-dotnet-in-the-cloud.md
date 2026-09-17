@@ -1,6 +1,7 @@
 ---
 title: "Prompt To Benchmark: C# Benchmarking Via GitHub Agent Running .NET In The Cloud"
 pubDatetime: 2026-03-20T00:00:00-04:00
+featured: true
 description: "A reusable prompt for a GitHub coding agent to create and run C# BenchmarkDotNet benchmarks in the cloud."
 tags: ["ai-generated", "csharp", "dotnet", "github"]
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Making Friends with Reviews: Providing Great Feedback"
 pubDatetime: 2026-03-02T00:00:00-05:00
+featured: true
 description: "A conference talk and summary on providing kind, useful code reviews and actionable feedback."
 tags: ["ai-generated", "code-review"]
 ---
