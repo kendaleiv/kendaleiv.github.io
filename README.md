@@ -29,7 +29,7 @@ Posts live in `src/content/posts/`; standalone content lives in `src/content/pag
 
 The only post-routing changes from AstroPaper are moving its post detail/image routes to `src/pages/[...slug]/` and removing the `posts/` prefix in `getPostUrl`. Existing post URLs remain `/:title/`, including underscores. Listings, tags, archives, pagination, search, sharing, RSS, styles, typography, and social-card rendering follow upstream conventions.
 
-Article images live in `src/assets/images/<post-filename>/` and use Markdown image syntax with `@/assets/` paths so Astro optimizes them. Other post assets live in `public/post-assets/<post-filename>/` and use `/post-assets/` links. Legacy static asset redirects are intentionally not retained. The site retains the original KD favicon and, without upstream's demo social image, uses AstroPaper's generated `/og.png`.
+Post assets live in `public/post-assets/<post-filename>/` and use `/post-assets/` links. Full-resolution images may have smaller thumbnails that link to them. Legacy static asset redirects are intentionally not retained. The site retains the original KD favicon and, without upstream's demo social image, uses AstroPaper's generated `/og.png`.
 
 Astro and related integrations, Sharp, pnpm, and vulnerable transitive dependencies have security updates beyond the template's dependency pins; the template remains v6.1.0. Compatibility fixes resolve public assets as URLs and encode sharing URLs.
 

@@ -5,23 +5,13 @@ description: "Simplify the Visual Studio 2013 interface with settings changes an
 tags: ["visual-studio", "ui"]
 ---
 
-import LinkedImage from "@/components/LinkedImage.astro";
-import generalSettings from "@/assets/images/trimming-down-the-visual-studio-2013-ui/VS2013-Community-General.png";
-import webDevelopmentSettings from "@/assets/images/trimming-down-the-visual-studio-2013-ui/VS2013-Community-Web_Development_(Code_Only)-Modified.png";
-
 Here's Visual Studio Community 2013 General settings defaults:
 
-<LinkedImage
-  src={generalSettings}
-  alt="Visual Studio Community 2013 General settings"
-/>
+[![Visual Studio Community 2013 General settings](/post-assets/trimming-down-the-visual-studio-2013-ui/VS2013-Community-General-700x394px.png)](/post-assets/trimming-down-the-visual-studio-2013-ui/VS2013-Community-General.png)
 
 If you want to simplify the UI, it's possible to turn it into this:
 
-<LinkedImage
-  src={webDevelopmentSettings}
-  alt="Modified Visual Studio Community 2013 Web Development (Code Only) settings"
-/>
+[![Modified Visual Studio Community 2013 Web Development (Code Only) settings](</post-assets/trimming-down-the-visual-studio-2013-ui/VS2013-Community-Web_Development_(Code_Only)-Modified-700x394px.png>)](</post-assets/trimming-down-the-visual-studio-2013-ui/VS2013-Community-Web_Development_(Code_Only)-Modified.png>)
 
 ## Instructions
 

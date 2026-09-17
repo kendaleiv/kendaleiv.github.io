@@ -5,17 +5,13 @@ description: "Reduce Visual Studio Code interface distractions with a minimal se
 tags: ["vscode"]
 ---
 
-import LinkedImage from "@/components/LinkedImage.astro";
-import defaultInterface from "@/assets/images/a-minimal-ui-visual-studio-code-configuration/1.png";
-import minimalInterface from "@/assets/images/a-minimal-ui-visual-studio-code-configuration/2.png";
-
 How would you like to go from this:
 
-<LinkedImage src={defaultInterface} alt="Visual Studio Code default interface" />
+[![Visual Studio Code default interface](/post-assets/a-minimal-ui-visual-studio-code-configuration/1.png)](/post-assets/a-minimal-ui-visual-studio-code-configuration/1.png)
 
 to this:
 
-<LinkedImage src={minimalInterface} alt="Visual Studio Code minimal interface" />
+[![Visual Studio Code minimal interface](/post-assets/a-minimal-ui-visual-studio-code-configuration/2.png)](/post-assets/a-minimal-ui-visual-studio-code-configuration/2.png)
 
 Add the following to your settings, accessible by **File &rarr; Preferences &rarr; Settings**.
 
