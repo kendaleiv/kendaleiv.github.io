@@ -7,11 +7,11 @@ tags: ["visual-studio", "ui"]
 
 Here's Visual Studio Community 2013 General settings defaults:
 
-![Visual Studio Community 2013 General settings](@/assets/images/2015-04-21-trimming-down-the-visual-studio-2013-ui/VS2013-Community-General.png)
+![Visual Studio Community 2013 General settings](@/assets/images/trimming-down-the-visual-studio-2013-ui/VS2013-Community-General.png)
 
 If you want to simplify the UI, it's possible to turn it into this:
 
-![Modified Visual Studio Community 2013 Web Development settings](<@/assets/images/2015-04-21-trimming-down-the-visual-studio-2013-ui/VS2013-Community-Web_Developer_(Code_Only)-Modified.png>)
+![Modified Visual Studio Community 2013 Web Development settings](<@/assets/images/trimming-down-the-visual-studio-2013-ui/VS2013-Community-Web_Developer_(Code_Only)-Modified.png>)
 
 ## Instructions
 
@@ -22,7 +22,7 @@ Here's how to achieve the trimmed down screenshot above:
 - If you prefer having **Solution Explorer** always visible, now is an OK time to Un-Auto Hide it.
 - Next, hide the menu bar.
     - Install the **Hide Main Menu** Visual Studio extension. You can press <kbd>Alt</kbd> to reveal the menu bar when necessary.
-- Now, you can download and import this [settings file](/content/2015-04-21-trimming-down-the-visual-studio-2013-ui/Text-Editor-settings.vssettings) with Tools -> Import and Export Settings..., or you can do the following:
+- Now, you can download and import this [settings file](/post-assets/trimming-down-the-visual-studio-2013-ui/Text-Editor-settings.vssettings) with Tools -> Import and Export Settings..., or you can do the following:
     - <small>Tools -> Options -> Environment -> General -> **Deselect "Show status bar"**</small>
 	    - <small>You'll lose the ability to see the build status indicator on the status bar. You can view the build progress in the **Output window**, which you can open quickly with <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>o</kbd>.</small>
     - <small>Tools -> Options -> Text Editor -> General -> **Deselect "Selector margin"**</small>
