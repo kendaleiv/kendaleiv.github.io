@@ -11,14 +11,14 @@ Here's Visual Studio Community 2013 General settings defaults:
 
 If you want to simplify the UI, it's possible to turn it into this:
 
-![Modified Visual Studio Community 2013 Web Developer (Code Only) settings](<@/assets/images/trimming-down-the-visual-studio-2013-ui/VS2013-Community-Web_Developer_(Code_Only)-Modified.png>)
+![Modified Visual Studio Community 2013 Web Development (Code Only) settings](<@/assets/images/trimming-down-the-visual-studio-2013-ui/VS2013-Community-Web_Development_(Code_Only)-Modified.png>)
 
 ## Instructions
 
 Here's how to achieve the trimmed down screenshot above:
 
-- First, reset your settings with the **Web Developer (Code Only)** settings.
-    - Tools -> Import and Export Settings... -> Reset all settings -> No, just reset settings, overwriting my current settings *(or, save your existing settings if you'd like...)* -> **Web Developer (Code Only)**
+- First, reset your settings with the **Web Development (Code Only)** settings.
+    - Tools -> Import and Export Settings... -> Reset all settings -> No, just reset settings, overwriting my current settings *(or, save your existing settings if you'd like...)* -> **Web Development (Code Only)**
 - If you prefer having **Solution Explorer** always visible, now is an OK time to Un-Auto Hide it.
 - Next, hide the menu bar.
     - Install the **Hide Main Menu** Visual Studio extension. You can press <kbd>Alt</kbd> to reveal the menu bar when necessary.
