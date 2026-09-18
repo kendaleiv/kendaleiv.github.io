@@ -331,10 +331,10 @@ const locale = Astro.currentLocale ?? config.site.lang;
         talks.map(talk => (
           <li>
             <article class="border-border overflow-hidden rounded-lg border">
-              <div class="flex flex-col gap-4 p-4 sm:flex-row sm:items-center">
+              <div class="grid grid-cols-[4rem_minmax(0,1fr)] items-center gap-4 p-4 sm:grid-cols-[5rem_minmax(0,1fr)_auto]">
                 {talk.recording ? (
                   <a
-                    class="bg-accent text-accent-foreground flex h-16 items-center justify-center rounded-md sm:w-20 sm:shrink-0"
+                    class="bg-accent text-accent-foreground flex h-16 items-center justify-center rounded-md"
                     href={talk.recording.url}
                     aria-label={`Watch the recording of ${talk.title}`}
                   >
@@ -348,7 +348,7 @@ const locale = Astro.currentLocale ?? config.site.lang;
                     </svg>
                   </a>
                 ) : (
-                  <div class="bg-muted text-muted-foreground flex h-16 items-center justify-center rounded-md text-xs font-semibold sm:w-20 sm:shrink-0">
+                  <div class="bg-muted text-muted-foreground flex h-16 items-center justify-center rounded-md text-xs font-semibold">
                     No video
                   </div>
                 )}
@@ -373,7 +373,7 @@ const locale = Astro.currentLocale ?? config.site.lang;
 
                 {talk.recording && (
                   <a
-                    class="text-accent shrink-0 text-sm font-medium decoration-dashed underline-offset-4 hover:underline"
+                    class="text-accent col-start-2 text-sm font-medium decoration-dashed underline-offset-4 hover:underline sm:col-start-auto"
                     href={talk.recording.url}
                     aria-label={`Watch the recording of ${talk.title}`}
                   >
