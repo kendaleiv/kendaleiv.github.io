@@ -331,34 +331,30 @@ const locale = Astro.currentLocale ?? config.site.lang;
         talks.map(talk => (
           <li>
             <article class="border-border overflow-hidden rounded-lg border">
-              <div class="grid grid-cols-[4rem_minmax(0,1fr)] items-center gap-4 p-4 sm:grid-cols-[5rem_minmax(0,1fr)_auto]">
+              <div
+                class:list={[
+                  "grid items-center gap-4 p-4 sm:p-6",
+                  {
+                    "sm:grid-cols-[16rem_minmax(0,1fr)]": talk.recording,
+                  },
+                ]}
+              >
                 {talk.recording ? (
-                  <a
-                    class="bg-accent text-accent-foreground flex h-16 items-center justify-center rounded-md"
-                    href={talk.recording.url}
-                    aria-label={`Watch the recording of ${talk.title}`}
-                  >
-                    <svg
-                      class="size-6"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      aria-hidden="true"
-                    >
-                      <path d="M8 5v14l11-7z" />
-                    </svg>
-                  </a>
-                ) : (
-                  <div class="bg-muted text-muted-foreground flex h-16 items-center justify-center rounded-md text-xs font-semibold">
-                    No video
+                  <div class="aspect-video overflow-hidden rounded-md">
+                    <iframe
+                      class="size-full"
+                      src={talk.recording.embedUrl}
+                      title={`${talk.recording.title} recording`}
+                      loading="lazy"
+                      referrerpolicy="strict-origin-when-cross-origin"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowfullscreen
+                    />
                   </div>
-                )}
+                ) : null}
 
                 <div class="min-w-0 flex-1">
                   <h2 class="text-lg font-semibold">{talk.title}</h2>
-                  <p class="text-muted-foreground mt-1 text-sm">
-                    {talk.deliveries.length}{" "}
-                    {talk.deliveries.length === 1 ? "delivery" : "deliveries"}
-                  </p>
 
                   {talk.summaryPath && (
                     <a
@@ -369,20 +365,20 @@ const locale = Astro.currentLocale ?? config.site.lang;
                       Read the talk summary
                     </a>
                   )}
-                </div>
 
-                {talk.recording && (
-                  <a
-                    class="text-accent col-start-2 text-sm font-medium decoration-dashed underline-offset-4 hover:underline sm:col-start-auto"
-                    href={talk.recording.url}
-                    aria-label={`Watch the recording of ${talk.title}`}
-                  >
-                    Watch recording
-                  </a>
-                )}
+                  {talk.recording && (
+                    <a
+                      class="text-accent mt-2 block text-sm font-medium decoration-dashed underline-offset-4 hover:underline"
+                      href={talk.recording.url}
+                      aria-label={`Watch the recording of ${talk.title}`}
+                    >
+                      Watch recording
+                    </a>
+                  )}
+                </div>
               </div>
 
-              <div class="border-border bg-muted/20 border-t p-4 sm:ps-28">
+              <div class="border-border bg-muted/20 border-t p-4 sm:p-6">
                 <h3 class="mb-3 text-sm font-semibold">Delivered at</h3>
                 <ul class="grid gap-x-6 gap-y-3 sm:grid-cols-2">
                   {[...talk.deliveries].reverse().map(delivery => (
