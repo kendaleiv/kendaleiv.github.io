@@ -16,7 +16,6 @@ type Delivery = {
 type Recording = {
   embedUrl: string;
   title: string;
-  url: string;
 };
 
 type Talk = {
@@ -40,7 +39,6 @@ const talks: Talk[] = [
     recording: {
       embedUrl: "https://www.youtube.com/embed/9s5Mr73hc3Q",
       title: "Making Friends with Reviews: Providing Great Feedback",
-      url: "https://www.youtube.com/watch?v=9s5Mr73hc3Q",
     },
   },
   {
@@ -55,7 +53,6 @@ const talks: Talk[] = [
     recording: {
       embedUrl: "https://www.youtube.com/embed/aLN_YbmwJcA",
       title: "Busy Developer's Guide to Upgrading to .NET Core",
-      url: "https://www.youtube.com/watch?v=aLN_YbmwJcA",
     },
   },
   {
@@ -155,7 +152,6 @@ const talks: Talk[] = [
     recording: {
       embedUrl: "https://av.tib.eu/player/51855",
       title: "We Replaced a Multi-Application Home-Grown Authentication System",
-      url: "https://av.tib.eu/media/51855",
     },
   },
   {
@@ -186,7 +182,6 @@ const talks: Talk[] = [
     recording: {
       embedUrl: "https://www.youtube.com/embed/5Vpdyk9Hpng",
       title: "Writing Better jQuery Infused JavaScript",
-      url: "https://www.youtube.com/watch?v=5Vpdyk9Hpng",
     },
   },
   {
@@ -292,7 +287,6 @@ const talks: Talk[] = [
     recording: {
       embedUrl: "https://www.youtube.com/embed/LHgM18vFRGQ",
       title: "Bring the Rain: Cloud Powered Continuous Delivery",
-      url: "https://www.youtube.com/watch?v=LHgM18vFRGQ",
     },
   },
 ].sort(
@@ -363,16 +357,6 @@ const locale = Astro.currentLocale ?? config.site.lang;
                       aria-label={`Read the summary of ${talk.title}`}
                     >
                       Read the talk summary
-                    </a>
-                  )}
-
-                  {talk.recording && (
-                    <a
-                      class="text-accent mt-2 block text-sm font-medium decoration-dashed underline-offset-4 hover:underline"
-                      href={talk.recording.url}
-                      aria-label={`Watch the recording of ${talk.title}`}
-                    >
-                      Watch recording
                     </a>
                   )}
                 </div>
