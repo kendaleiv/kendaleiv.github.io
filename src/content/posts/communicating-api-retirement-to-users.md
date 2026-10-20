@@ -1,5 +1,7 @@
 ---
-title: "Communicating API Retirement to Users" pubDatetime: 2026-xx-xxT00:00:00-05:00 featured: true
+title: "Communicating API Retirement to Users"
+pubDatetime: 2026-10-20T00:00:00-04:00
+featured: true
 description: "Strategies for communicating API retirement to users, including web messaging, API response updates, and implementation concerns."
 tags: ["api", "retirement", "deprecation", "communication"]
 ---
