@@ -1,10 +1,10 @@
 # Ken Dale
 
-[kendaleiv.com](https://kendaleiv.com/) uses [AstroPaper v6.1.0](https://github.com/satnaing/astro-paper/releases/tag/v6.1.0), the latest stable upstream release as of September 6, 2026 (commit `4c33a60529f9c443145a89fe526ff231c009272d`).
+[kendaleiv.com](https://kendaleiv.com/) uses [AstroPaper v7.0.0](https://github.com/satnaing/astro-paper/releases/tag/v7.0.0), released October 29, 2026 (commit `74edd257819b2f09778012dff8d8bd745b5e3de2`).
 
 ## Development
 
-Use Node.js 24 LTS and pnpm 11.11.0 (pinned in `package.json`):
+Use Node.js 24 LTS (minimum 22.23.4) and pnpm 11.11.0 (pinned in `package.json`):
 
 ```sh
 npm install --global pnpm@11.11.0
@@ -30,8 +30,6 @@ Posts live in `src/content/posts/`; standalone content lives in `src/content/pag
 The only post-routing changes from AstroPaper are moving its post detail/image routes to `src/pages/[...slug]/` and removing the `posts/` prefix in `getPostUrl`. Existing post URLs remain `/:title/`, including underscores. Listings, tags, archives, pagination, search, sharing, RSS, styles, typography, and social-card rendering follow upstream conventions.
 
 Post assets live in `public/post-assets/<post-filename>/` and use `/post-assets/` links. Full-resolution images may have smaller thumbnails that link to them. Legacy static asset redirects are intentionally not retained. The site retains the original KD favicon and, without upstream's demo social image, uses AstroPaper's generated `/og.png`.
-
-Astro and related integrations, Sharp, pnpm, and vulnerable transitive dependencies have security updates beyond the template's dependency pins; the template remains v6.1.0. Compatibility fixes resolve public assets as URLs and encode sharing URLs.
 
 ## Deployment
 
