@@ -70,7 +70,7 @@ if (breadcrumbList[0] === "tags" && !isNaN(Number(breadcrumbList[2]))) {
     {
       breadcrumbList.map((breadcrumb, index) =>
         index + 1 === breadcrumbList.length ? (
-          <li class="flex items-center gap-x-1">
+          <li>
             <span
               class:list={["capitalize opacity-75", { lowercase: index > 0 }]}
               aria-current="page"
@@ -80,7 +80,7 @@ if (breadcrumbList[0] === "tags" && !isNaN(Number(breadcrumbList[2]))) {
             </span>
           </li>
         ) : (
-          <li>
+          <li class="flex items-center gap-x-1">
             <a
               href={getRelativeLocaleUrl(locale, breadcrumb)}
               class="capitalize opacity-70"
