@@ -2,7 +2,7 @@
 title: "Retrieving ObjectIds In An Azure Active Directory Group Using Azure CLI"
 pubDatetime: 2021-07-02T00:00:00-04:00
 description: "Use `az ad group member list` and JMESPath queries to return member details as a table or comma-separated object IDs."
-tags: ["azure", "azure-cli"]
+tags: ["azure", "azure-cli", "microsoft-entra-id"]
 ---
 
 Using [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/) we can retrieve a list of objectIds in a Azure Active Directory group.

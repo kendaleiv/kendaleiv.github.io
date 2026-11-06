@@ -2,7 +2,7 @@
 title: "Retrieving All Managed Identity ObjectIds In Resource Group For Azure App Services And Azure Functions Using Azure CLI"
 pubDatetime: 2021-04-20T00:00:00-04:00
 description: "Query resources with non-null identities and format their principal IDs as a table or comma-separated list."
-tags: ["azure", "azure-cli"]
+tags: ["azure", "azure-cli", "managed-identity"]
 ---
 
 If you're working with Azure App Services, Azure Functions, or perhaps another Azure service that implements [managed identity](https://learn.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/) in the same way it can be useful to get a list of the object ids for an entire resource group. **One way we can accomplish this is using the [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/).**

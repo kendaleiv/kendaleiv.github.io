@@ -2,7 +2,7 @@
 title: "GitHub Issues: Let's Take Action"
 pubDatetime: 2016-01-18T00:00:00-05:00
 description: "Take action on accumulated issues to keep your team's work tracking useful and manageable."
-tags: ["issues"]
+tags: ["github"]
 ---
 
 As a development team, you're probably tracking your work somehow -- whether it's GitHub issues or some other application or system. Which is great! Things are being documented, worked on, and completed.

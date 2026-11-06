@@ -2,7 +2,7 @@
 title: "Using SQL Server LocalDB with Travis CI Windows Builds"
 pubDatetime: 2019-01-05T00:00:00-05:00
 description: "Install SQL Server LocalDB with Chocolatey for Travis CI Windows builds."
-tags: ["travis-ci", "continuous-integration"]
+tags: ["ci-cd"]
 ---
 
 [Travis CI](https://travis-ci.org/) now includes support for Windows builds. It doesn't have SQL Server LocalDB installed by default currently, but it's easy to install. Here's an example Travis CI configuration that installs it using [Chocolatey](https://chocolatey.org/):

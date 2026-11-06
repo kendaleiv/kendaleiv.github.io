@@ -3,7 +3,7 @@ title: "Communicating API Retirement to Users"
 pubDatetime: 2026-10-20T00:00:00-04:00
 featured: true
 description: "Strategies for communicating API retirement to users, including web messaging, API response updates, and implementation concerns."
-tags: ["api", "retirement", "deprecation", "communication"]
+tags: ["api-lifecycle"]
 ---
 
 If you own one or more APIs, eventually you may want to retire them. If others depend on it, you'll likely want a retirement strategy to minimize the impact. Whether that means pointing users to a new API, or simply breaking the news, there are ways to communicate about upcoming retirement.

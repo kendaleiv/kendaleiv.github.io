@@ -2,7 +2,7 @@
 title: "2016: Personal Highlights"
 pubDatetime: 2016-12-31T00:00:00-05:00
 description: "Highlights from 2016, including a Microsoft MVP award and speaking at NDC Oslo."
-tags: ["2016", "highlights"]
+tags: ["year-in-review"]
 ---
 
 I posted a personal recap [last year](/2015-a-personal-recap/), and the [year before that](/2014-a-personal-recap/). For this year, I'm calling it "2016: Personal Highlights":

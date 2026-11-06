@@ -2,7 +2,7 @@
 title: "Creating A User Readable Timestamp From Cosmos DB _ts Using SQL Query"
 pubDatetime: 2026-05-06T00:00:00-04:00
 description: "Convert Cosmos DB's Unix _ts timestamp into a readable date and time using a SQL query."
-tags: ["ai-generated", "azure", "cosmosdb"]
+tags: ["ai-generated", "azure", "azure-cosmos-db"]
 ---
 
 Azure Cosmos DB documents include a `_ts` property representing the last modified time as a [Unix timestamp](https://en.wikipedia.org/wiki/Unix_time) in seconds. While useful for machines, a value like `1714000000` isn't easily human readable.

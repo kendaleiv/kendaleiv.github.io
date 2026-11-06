@@ -2,7 +2,7 @@
 title: "Keyboard Shortcuts For Efficient Visual Studio 2019 Testing"
 pubDatetime: 2020-11-03T00:00:00-05:00
 description: "Use Visual Studio 2019 keyboard shortcuts to run and debug tests more efficiently."
-tags: ["visual-studio"]
+tags: ["visual-studio", "testing", "developer-experience"]
 ---
 
 When authoring tests using Visual Studio 2019 you may find yourself running tests continually. Whether you're running tests on a fresh clone to make sure tooling is working or running them while making changes to code, you may find yourself running tests frequently.

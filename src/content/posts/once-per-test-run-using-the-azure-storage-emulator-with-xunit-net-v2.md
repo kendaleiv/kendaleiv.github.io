@@ -2,7 +2,7 @@
 title: "Once Per Test Run: Using the Azure Storage Emulator with xUnit.net v2"
 pubDatetime: 2015-10-07T00:00:00-04:00
 description: "Use xUnit.net v2 collection fixtures to start and stop the Azure Storage Emulator once per test run."
-tags: ["csharp", "xunit", "azure", "storage", "emulator"]
+tags: ["csharp", "xunit", "azure", "azure-storage"]
 ---
 
 If you're using the Azure Storage Emulator as part of a suite of integration tests using xUnit.net v2, **ideally you start and stop the emulator only once per test run**. With xUnit.net v2, you can accomplish this using `ICollectionFixture<TFixture>` and decorating your test classes with `CollectionAttribute`.
