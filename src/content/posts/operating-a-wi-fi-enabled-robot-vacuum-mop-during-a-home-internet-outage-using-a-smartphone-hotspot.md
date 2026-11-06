@@ -2,7 +2,7 @@
 title: "Operating A Wi-Fi Enabled Robot Vacuum / Mop During A Home Internet Outage Using A Smartphone Hotspot"
 pubDatetime: 2023-07-22T00:00:00-04:00
 description: "Clone your home Wi-Fi’s SSID, password, and band on a phone hotspot so the cleaner reconnects during an outage."
-tags: []
+tags: ["smart-home"]
 ---
 
 Robot vacuums / mops are a convenient way to clean your home. If they are typically operated using Wi-Fi functionality may be limited during an internet outage.

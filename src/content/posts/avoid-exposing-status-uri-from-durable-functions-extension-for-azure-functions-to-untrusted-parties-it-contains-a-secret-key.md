@@ -2,7 +2,7 @@
 title: "Avoid Exposing Status Uri From Durable Functions Extension For Azure Functions To Untrusted Parties (It Contains A Secret Key!)"
 pubDatetime: 2021-03-15T00:00:00-04:00
 description: "Avoid exposing Durable Functions status URLs containing secret keys, and rotate keys if they are exposed."
-tags: ["azure-functions", "durable-functions"]
+tags: ["azure-functions", "durable-functions", "security"]
 ---
 
 [Durable Functions](https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-overview) is an extension for [Azure Functions](https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview) to help write stateful services in a stateless environment. **It can return helpful information, including a status uri, but this contains a secret key by default! Be careful not to expose this to untrusted parties.**

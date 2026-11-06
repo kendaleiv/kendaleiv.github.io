@@ -2,7 +2,7 @@
 title: "2014: A Personal Recap"
 pubDatetime: 2014-12-31T00:00:00-05:00
 description: "Personal highlights from 2014, including public speaking, blogging, and open source contributions."
-tags: ["2014", "recap"]
+tags: ["year-in-review"]
 ---
 
 I've had a great year with some great accomplishments, including:

@@ -2,7 +2,7 @@
 title: "SQL ADO.NET Scaler And Reader Sync vs Async Benchmarks Using BenchmarkDotNet, LocalDB, And C#"
 pubDatetime: 2020-12-18T00:00:00-05:00
 description: "Compare synchronous and asynchronous ADO.NET scalar and reader operations with BenchmarkDotNet and LocalDB."
-tags: ["dotnet"]
+tags: ["dotnet", "benchmarking"]
 ---
 
 I wrote some benchmarks using [BenchmarkDotNet](https://benchmarkdotnet.org/) for ADO.NET C# code targeting LocalDB. Here's what I found:

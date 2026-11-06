@@ -2,7 +2,7 @@
 title: "Starting, Stopping, and Clearing the Azure Storage Emulator in C#"
 pubDatetime: 2015-10-01T00:00:00-04:00
 description: "Control the Azure Storage Emulator from C# for local development with blobs, tables, and queues."
-tags: ["csharp", "integration", "tests", "azure", "storage", "emulator"]
+tags: ["csharp", "testing", "azure", "azure-storage"]
 ---
 
 If you're writing code that uses Microsoft Azure Storage blobs, tables, or queues, you can use the storage emulator on Windows for local development -- rather than relying on the cloud while developing. And, using the [RimDev.Automation.StorageEmulator](https://www.nuget.org/packages/RimDev.Automation.StorageEmulator/) NuGet package, you can interact with it in C#!

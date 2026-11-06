@@ -2,7 +2,7 @@
 title: "We Replaced a Multi-Application Home-Grown Authentication System"
 pubDatetime: 2016-06-27T00:00:00-04:00
 description: "Lessons from replacing a home-grown authentication system, with an NDC Oslo talk recording."
-tags: ["authentication"]
+tags: ["authentication", "security"]
 ---
 
 On June 9, 2016 I had an amazing opportunity to deliver a talk bearing the name of this post title at [NDC Oslo](https://ndcoslo.com/). An embed of the video is at the end of this post.

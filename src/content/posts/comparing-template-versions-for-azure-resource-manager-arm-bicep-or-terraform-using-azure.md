@@ -2,7 +2,7 @@
 title: "Comparing Template Versions For Azure Resource Manager (ARM), Bicep, or Terraform Using Azure"
 pubDatetime: 2024-04-04T00:00:00-04:00
 description: "Compare Azure resource schemas when updating API versions in ARM, Bicep, or Terraform configurations."
-tags: ["azure", "arm", "bicep", "terraform"]
+tags: ["azure", "infrastructure-as-code"]
 ---
 
 When deployed resources to Azure the recommended Azure Resource Manager (ARM) guidance is to hardcode the latest version when creating a resource and only updating it if needed per [https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/best-practices#api-version](https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/best-practices#api-version). **However, if you need functionality only offered by a newer version, it's time to update to a newer apiVersion.**

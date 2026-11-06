@@ -3,7 +3,7 @@ title: "Reviewing Infrastructure as Code Changes"
 pubDatetime: 2026-11-05T00:00:00-05:00
 featured: true
 description: "When creating new resources or modifying existing ones, validating changes can keep efforts moving and confidence high."
-tags: ["code-review", "iac"]
+tags: ["code-review", "infrastructure-as-code"]
 ---
 
 AI can accelerate the authoring of code, and this extends to infrastructure as code (IaC) too. Whether you're using Azure specific ARM or Bicep, or a platform agnostic tool like Terraform, **validation is important to keep velocity, confidence, and reliability high**.

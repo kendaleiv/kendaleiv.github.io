@@ -2,7 +2,7 @@
 title: "Trimming Down the Visual Studio 2013 UI"
 pubDatetime: 2015-04-21T00:00:00-04:00
 description: "Simplify the Visual Studio 2013 interface with settings changes and a downloadable editor configuration."
-tags: ["visual-studio", "ui"]
+tags: ["visual-studio", "developer-experience"]
 ---
 
 Here's Visual Studio Community 2013 General settings defaults:

@@ -2,7 +2,7 @@
 title: "A Complete Protractor Travis CI Solution for Angular E2E Testing"
 pubDatetime: 2017-04-17T00:00:00-04:00
 description: "Configure Protractor and Travis CI for Angular end-to-end testing and continuous integration."
-tags: ["angular"]
+tags: ["angular", "testing", "ci-cd"]
 ---
 
 **TL;DR:** Example at [https://github.com/kendaleiv/angular-testing](https://github.com/kendaleiv/angular-testing).

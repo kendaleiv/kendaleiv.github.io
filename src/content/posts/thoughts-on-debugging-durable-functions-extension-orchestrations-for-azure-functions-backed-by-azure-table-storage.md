@@ -2,7 +2,7 @@
 title: "Thoughts On Debugging Durable Functions Extension Orchestrations For Azure Functions Backed By Azure Table Storage"
 pubDatetime: 2021-03-31T00:00:00-04:00
 description: "Debug Durable Functions orchestrations backed by Azure Table Storage using instance IDs, tooling, and logging."
-tags: ["azure-functions", "durable-functions"]
+tags: ["azure-functions", "durable-functions", "observability"]
 ---
 
 [Durable Functions](https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-overview) is an extension for [Azure Functions](https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview) to help write stateful services in a stateless environment. **Here's a few thoughts I've compiled for debugging Durable Functions orchestrations.**

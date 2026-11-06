@@ -2,7 +2,7 @@
 title: 'Azure Key Vault: Certificate "Download in PFX/PEM format" Not Available'
 pubDatetime: 2023-05-25T00:00:00-04:00
 description: "Enable Azure Key Vault certificate downloads in PFX/PEM format with the necessary secret permissions."
-tags: ["azure"]
+tags: ["azure", "security"]
 ---
 
 One piece of functionality [Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/) provides is certificates. Sometimes you may want to download the certificate. There's an open to **Download in CER Format** that retrieves the public key only. If you're looking for the private key use the **Download in PFX/PEM format** option.

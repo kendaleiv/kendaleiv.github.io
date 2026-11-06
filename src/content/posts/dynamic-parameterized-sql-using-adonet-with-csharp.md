@@ -2,7 +2,7 @@
 title: "Dynamic Parameterized SQL Using ADO.NET With C#"
 pubDatetime: 2020-12-15T00:00:00-05:00
 description: "Build dynamic parameterized SQL queries using ADO.NET and C#, including a complete SQLite example."
-tags: ["dotnet"]
+tags: ["csharp", "dotnet"]
 ---
 
 Here's a C# solution for dynamic parameters inside a SQL string:

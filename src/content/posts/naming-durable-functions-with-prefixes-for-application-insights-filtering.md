@@ -2,7 +2,7 @@
 title: "Naming Durable Functions With Prefixes For Application Insights Filtering"
 pubDatetime: 2021-04-23T00:00:00-04:00
 description: "Prevent orchestration telemetry from skewing user-facing performance metrics by filtering prefixed operation names in Application Insights."
-tags: ["azure-functions", "durable-functions"]
+tags: ["azure-functions", "durable-functions", "observability"]
 ---
 
 [Durable Functions](https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-overview) is an extension for [Azure Functions](https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview) to help write stateful services in a stateless environment. After deploying Durable Functions functionality to an existing Azure Functions application you may find the average response time in Application Insights appears degraded. **If you want to verify performance metrics haven't degraded in a user-facing manner it may be helpful to filter out Durable Functions items from Application Insights.**

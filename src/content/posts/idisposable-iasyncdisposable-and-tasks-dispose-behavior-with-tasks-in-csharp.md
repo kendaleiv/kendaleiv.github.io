@@ -2,7 +2,7 @@
 title: "IDisposable, IAsyncDisposable, and Tasks: Dispose Behavior With Tasks In C#"
 pubDatetime: 2021-02-10T00:00:00-05:00
 description: "Explore IDisposable and IAsyncDisposable behavior when working with tasks in C#."
-tags: ["dotnet"]
+tags: ["csharp", "dotnet"]
 ---
 
 While working with HTTP calls that return a `Stream` via `HttpClient`'s `var response = await SendAsync(request, HttpCompletionOption.ResponseHeadersRead);` -> `var stream = await response.Content.ReadAsStreamAsync();` method for efficient handling of streamed data [Brian Dunnington](https://twitter.com/briandunnington) identified the response should be disposed and pointed me to [https://www.stevejgordon.co.uk/using-httpcompletionoption-responseheadersread-to-improve-httpclient-performance-dotnet](https://www.stevejgordon.co.uk/using-httpcompletionoption-responseheadersread-to-improve-httpclient-performance-dotnet).

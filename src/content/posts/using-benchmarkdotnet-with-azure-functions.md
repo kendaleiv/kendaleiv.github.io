@@ -2,7 +2,7 @@
 title: "Using BenchmarkDotNet with Azure Functions"
 pubDatetime: 2020-10-20T00:00:00-04:00
 description: "Launch the local Functions host during benchmark setup, exercise endpoints with HttpClient, and stop it during cleanup."
-tags: ["dotnet"]
+tags: ["dotnet", "azure-functions", "benchmarking"]
 ---
 
 [BenchmarkDotNet](https://benchmarkdotnet.org/) is a tool for benchmarking .NET applications. [Azure Functions](https://azure.microsoft.com/en-us/services/functions/) is a serverless web application offering. You can put these together to benchmark your Azure Functions applications.

@@ -2,7 +2,7 @@
 title: "Integrating Google Chrome With KeePass Using chromeIPass and KeePassHttp"
 pubDatetime: 2015-10-14T00:00:00-04:00
 description: "Install KeePassHttp and chromeIPass, then pair the Chrome extension with KeePass for browser credential access."
-tags: ["chrome", "keepass", "chromeipass", "keepasshttp"]
+tags: ["keepass", "password-management"]
 ---
 
 Having browser integration with [KeePass](https://keepass.info/) can be helpful, and can be accomplished with Google Chrome using [KeePassHttp](https://github.com/pfn/keepasshttp) and **chromeIPass**.

@@ -2,7 +2,7 @@
 title: "Build and Deploy Node.js With Travis CI and Heroku"
 pubDatetime: 2014-09-19T00:00:00-04:00
 description: "Configure Travis CI to build a Node.js application and deploy successful builds to Heroku."
-tags: ["nodejs", "travis-ci", "heroku", "continuous-integration", "deployment"]
+tags: ["nodejs", "heroku", "ci-cd"]
 ---
 
 [Travis CI](https://travis-ci.org/) is a cloud hosted continuous integration service that works with GitHub repositories for [supported languages](https://docs.travis-ci.com/user/getting-started/#Travis-CI-Overview). [Heroku](https://www.heroku.com/) is a cloud hosted platform as a service, enabling you to deploy applications without creating or maintaining server infrastructure for [supported languages](https://devcenter.heroku.com/categories/language-support).

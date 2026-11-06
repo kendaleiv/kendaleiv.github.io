@@ -2,7 +2,7 @@
 title: "Get Basic Information For Azure AD Object Ids Using PowerShell"
 pubDatetime: 2021-01-07T00:00:00-05:00
 description: "Use `Get-AzureADObjectByObjectId` to identify one or several objects without first knowing their entity types."
-tags: ["azure", "powershell"]
+tags: ["azure", "powershell", "microsoft-entra-id"]
 ---
 
 ## Quick summary

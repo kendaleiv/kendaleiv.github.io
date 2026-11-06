@@ -2,7 +2,7 @@
 title: "Thread Safe Lazy Initialization Using C# Notes"
 pubDatetime: 2020-11-23T00:00:00-05:00
 description: "Notes on Lazy<T>, thread-safety modes, and exception behavior in C#."
-tags: ["dotnet"]
+tags: ["csharp", "dotnet", "concurrency"]
 ---
 
 Sometimes it makes sense to lazily initialize something in an application. In the case of an application internal cache waiting until the first access of data to prime the cache could improve startup times. One way of lazy initialization with C# is [`Lazy<T>`](https://learn.microsoft.com/en-us/dotnet/api/system.lazy-1).

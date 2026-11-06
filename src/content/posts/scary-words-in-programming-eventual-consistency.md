@@ -2,7 +2,7 @@
 title: "Scary Words in Programming: Eventual Consistency"
 pubDatetime: 2014-10-31T00:00:00-04:00
 description: "An introduction to eventual consistency and what it means for distributed applications."
-tags: ["eventual", "consistency"]
+tags: ["eventual-consistency"]
 ---
 
 [Pam Selle](https://twitter.com/pamasaur) has been writing blog posts on [Scary Words in Programming](https://thewebivore.com/tag/scary-words/). This is my contribution on **eventual consistency**.

@@ -2,7 +2,7 @@
 title: "Resolving Blacklisted RxJS Import TSLint Error"
 pubDatetime: 2017-02-14T00:00:00-05:00
 description: "Resolve blacklisted RxJS imports in TSLint by importing individual submodules and operators."
-tags: []
+tags: ["angular", "typescript"]
 ---
 
 When working with Angular and the Angular CLI, one might `import` an RxJS `Observable` as:

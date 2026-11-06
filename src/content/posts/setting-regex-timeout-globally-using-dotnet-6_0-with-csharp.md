@@ -2,7 +2,7 @@
 title: "Setting Regex Timeout Globally Using .NET 6.0 With C#"
 pubDatetime: 2022-04-22T00:00:00-04:00
 description: "Set a global regular expression timeout in .NET 6.0 and understand its scope and behavior."
-tags: ["dotnet"]
+tags: ["csharp", "dotnet"]
 ---
 
 .NET 6.0 allows the global regular expression (regex) timeout to be configured. By default, the global timeout is [`Regex.InfiniteMatchTimeout`](https://learn.microsoft.com/en-us/dotnet/api/system.text.regularexpressions.regex.infinitematchtimeout?view=net-6.0) and regex operations will run until completion.

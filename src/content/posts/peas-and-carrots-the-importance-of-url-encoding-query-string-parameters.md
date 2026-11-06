@@ -2,7 +2,7 @@
 title: "Peas&Carrots: The Importance Of Url Encoding Query String Parameters"
 pubDatetime: 2020-05-26T00:00:00-04:00
 description: "Avoid broken query strings by URL-encoding parameter values containing characters such as ampersands."
-tags: ["web"]
+tags: ["http"]
 ---
 
 When creating web applications it's common to create links. Sometimes, links contain query string parameters. Google uses the `?q=` query string parameter for search queries. **An issue can arise when query string values contain characters that have special meanings.**

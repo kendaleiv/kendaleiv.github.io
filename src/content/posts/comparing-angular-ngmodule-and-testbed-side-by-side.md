@@ -2,7 +2,7 @@
 title: "Comparing Angular NgModule and TestBed Side by Side"
 pubDatetime: 2017-01-17T00:00:00-05:00
 description: "Compare Angular NgModule configuration with TestBed.configureTestingModule side by side."
-tags: ["angular"]
+tags: ["angular", "testing"]
 ---
 
 `TestBed`'s `configureTestingModule` method looks similar to `NgModule` in usage. Check out this side by side example:
