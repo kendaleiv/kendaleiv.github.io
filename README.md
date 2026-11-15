@@ -1,6 +1,6 @@
 # Ken Dale
 
-[kendaleiv.com](https://kendaleiv.com/) uses [AstroPaper v7.0.0](https://github.com/satnaing/astro-paper/releases/tag/v7.0.0), released October 29, 2026 (commit `74edd257819b2f09778012dff8d8bd745b5e3de2`).
+[kendaleiv.com](https://kendaleiv.com/) uses [AstroPaper v7.1.0](https://github.com/satnaing/astro-paper/releases/tag/v7.1.0), released November 6, 2026 (commit `2e8bcbe61d85d52cb3420e876e2c308f37322d0d`).
 
 ## Development
 
@@ -16,7 +16,6 @@ pnpm dev
 pnpm format
 pnpm format:check
 pnpm lint
-pnpm check
 pnpm build
 pnpm preview
 ```

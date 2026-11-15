@@ -60,8 +60,6 @@
     }
 
     table {
-      @apply block w-max max-w-full min-w-full overflow-x-auto;
-
       th,
       td {
         @apply border-border border p-2;
@@ -84,6 +82,14 @@
       th[align="left"],
       td[align="left"] {
         text-align: left;
+      }
+    }
+
+    .table-wrapper {
+      @apply outline-accent my-7 overflow-x-auto focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-dashed;
+
+      table {
+        @apply my-0;
       }
     }
 

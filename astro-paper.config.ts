@@ -15,7 +15,6 @@ export default defineAstroPaperConfig({
   posts: {
     perPage: 4,
     perIndex: 4,
-    scheduledPostMargin: 15 * 60 * 1000,
   },
   features: {
     lightAndDarkMode: true,
@@ -24,6 +23,7 @@ export default defineAstroPaperConfig({
     showBackButton: true,
     editPost: { enabled: false },
     search: "pagefind",
+    toc: true,
   },
   socials: [
     { name: "github", url: "https://github.com/kendaleiv" },
