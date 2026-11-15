@@ -1,7 +1,6 @@
 ---
 import { Font } from "astro:assets";
 import { ClientRouter } from "astro:transitions";
-import { getRelativeLocaleUrl } from "astro:i18n";
 import { resolveDefaultOgImagePath } from "@/utils/resolveDefaultOgImagePath";
 import { getAssetPath } from "@/utils/withBase";
 import config from "@/config";
@@ -25,12 +24,7 @@ const {
 } = Astro.props;
 
 const socialImageURL = new URL(ogImage, Astro.site ?? Astro.url);
-// `trailingSlash: "always"` would turn this into `/rss.xml/`, which 404s on a
-// static host because the feed is a file, not a directory.
-const rssHref = getRelativeLocaleUrl(
-  Astro.currentLocale ?? config.site.lang,
-  "rss.xml"
-).replace(/\/$/, "");
+const rssHref = getAssetPath("rss.xml");
 ---
 
 <!doctype html>
