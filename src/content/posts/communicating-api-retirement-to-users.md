@@ -25,8 +25,8 @@ You could add these response headers to all API responses:
 ```
 Deprecation: @1798761599
 Sunset: Wed, 30 Jun 2027 23:59:59 GMT
-Link: https://api.example.com/deprecations/v1; rel="deprecation”
-Link: https://api.example.com/deprecations/v1; rel="sunset”
+Link: <https://api.example.com/deprecations/v1>; rel="deprecation"
+Link: <https://api.example.com/deprecations/v1>; rel="sunset"
 ```
 
 Deprecation can signal the beginning of brownouts, while sunset is the final retirement. In this case, deprecation is 2026-12-31 23:59:59 UTC with sunset at 2027-06-30 23:59:59 UTC.
