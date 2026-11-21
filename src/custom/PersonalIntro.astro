@@ -1,0 +1,52 @@
+---
+import { getRelativeLocaleUrl } from "astro:i18n";
+import LinkButton from "@/components/LinkButton.astro";
+import config from "@/config";
+
+type Props = {
+  headingTag?: "h1" | "h2";
+  headingId?: string;
+};
+
+const { headingTag: Heading = "h2", headingId } = Astro.props;
+const locale = Astro.currentLocale ?? config.site.lang;
+---
+
+<Heading
+  id={headingId}
+  class={Heading === "h1"
+    ? "my-4 inline-block text-4xl font-bold sm:my-8 sm:text-5xl"
+    : "mb-4 text-2xl font-semibold"}
+>
+  Hi, I&apos;m Ken
+</Heading>{" "}
+<slot name="after-heading" />
+
+<p>Jesus follower, husband, father, software engineer.</p>
+<p class="mt-2">
+  I share things I&apos;ve learned, problems I&apos;ve worked through, and notes
+  worth keeping &mdash; mostly about software, sometimes about other things.
+</p>
+<p class="mt-2">
+  Browse my{" "}
+  <LinkButton
+    class="hover:text-accent underline decoration-dashed underline-offset-4"
+    href={getRelativeLocaleUrl(locale, "posts")}
+  >
+    {"posts"}
+  </LinkButton>
+  , explore my{" "}
+  <LinkButton
+    class="hover:text-accent underline decoration-dashed underline-offset-4"
+    href={getRelativeLocaleUrl(locale, "speaking")}
+  >
+    {"speaking engagements"}
+  </LinkButton>
+  , or learn more{" "}
+  <LinkButton
+    class="hover:text-accent underline decoration-dashed underline-offset-4"
+    href={getRelativeLocaleUrl(locale, "about")}
+  >
+    {"about me"}
+  </LinkButton>.
+</p>
