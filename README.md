@@ -1,6 +1,6 @@
 # Ken Dale
 
-[kendaleiv.com](https://kendaleiv.com/) uses [AstroPaper v7.1.0](https://github.com/satnaing/astro-paper/releases/tag/v7.1.0), released November 6, 2026 (commit `2e8bcbe61d85d52cb3420e876e2c308f37322d0d`).
+[kendaleiv.com](https://kendaleiv.com/) uses [AstroPaper v7.2.0](https://github.com/satnaing/astro-paper/releases/tag/v7.2.0), released November 15, 2026 (commit `ffd0260a2947eea93a2f5bb80029edf5654c0e8a`).
 
 ## Development
 
@@ -21,6 +21,8 @@ pnpm preview
 ```
 
 `build` checks Astro/TypeScript, builds static pages and default dynamic social images, then runs Pagefind. Build once before using search locally. AstroPaper's default Google Sans Code font uses its stock Google font provider. Google Analytics runs only in production and records client-side page navigation.
+
+Site-specific code belongs in `src/custom/Head.astro`, `BodyEnd.astro`, or `PostEnd.astro`, which render at the end of the head, body, or post's share links respectively. AstroPaper leaves these files unchanged in future releases. Production-only Google Analytics is included through `Head.astro`.
 
 ## Content and routes
 
