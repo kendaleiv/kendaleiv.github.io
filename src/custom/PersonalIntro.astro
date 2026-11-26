@@ -10,14 +10,24 @@ type Props = {
 
 const { headingTag: Heading = "h2", headingId } = Astro.props;
 const locale = Astro.currentLocale ?? config.site.lang;
+const avatarSize = Heading === "h1" ? 64 : 48;
 ---
 
 <Heading
   id={headingId}
   class={Heading === "h1"
-    ? "my-4 inline-block text-4xl font-bold sm:my-8 sm:text-5xl"
-    : "mb-4 text-2xl font-semibold"}
+    ? "my-4 inline-flex items-center gap-3 align-middle text-4xl font-bold sm:my-8 sm:text-5xl"
+    : "mb-4 inline-flex items-center gap-3 align-middle text-2xl font-semibold"}
 >
+  <img
+    src={`https://www.gravatar.com/avatar/19c1d76389b58d1b972fc2be013bcc73.png?s=${avatarSize * 2}`}
+    alt=""
+    width={avatarSize}
+    height={avatarSize}
+    class="shrink-0 rounded-full"
+    loading={Heading === "h1" ? "eager" : "lazy"}
+    decoding="async"
+  />
   Hi, I&apos;m Ken
 </Heading>{" "}
 <slot name="after-heading" />
