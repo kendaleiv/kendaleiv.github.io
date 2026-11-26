@@ -24,6 +24,8 @@ pnpm preview
 
 Site-specific code belongs in `src/custom/Head.astro`, `BodyEnd.astro`, or `PostEnd.astro`, which render at the end of the head, body, or post's share links respectively. AstroPaper leaves these files unchanged in future releases. Production-only Google Analytics is included through `Head.astro`.
 
+The homepage and post footer share `src/custom/PersonalIntro.astro`. Its profile image links directly to the original Gravatar URL from repository history, requesting twice the displayed size via `s` for high-density screens (64px on the homepage, 48px in post footers).
+
 ## Content and routes
 
 Posts live in `src/content/posts/`; standalone content lives in `src/content/pages/`. Posts require `title`, `description`, `pubDatetime`, and a tags array. A post's filename determines its public URL, so preserve the filename to keep the URL stable. Publication timestamps retain midnight in `America/New_York`, including the historical daylight-saving offset.
