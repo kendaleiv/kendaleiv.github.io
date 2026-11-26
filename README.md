@@ -1,6 +1,6 @@
 # Ken Dale
 
-[kendaleiv.com](https://kendaleiv.com/) uses [AstroPaper v7.2.0](https://github.com/satnaing/astro-paper/releases/tag/v7.2.0), released November 15, 2026 (commit `ffd0260a2947eea93a2f5bb80029edf5654c0e8a`).
+[kendaleiv.com](https://kendaleiv.com/) uses [AstroPaper v7.2.1](https://github.com/satnaing/astro-paper/releases/tag/v7.2.1), released November 21, 2026 (commit `217c4e3362aa481951a6e1cc8ebde4a468f1074c`).
 
 ## Development
 
